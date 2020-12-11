@@ -27,11 +27,6 @@ Retrieve giithub branch information without any prefix
 
 * Free software: [MIT license](LICENSE)
 
-Features
---------
-
-* TODO
-
 
 Credits
 -------
