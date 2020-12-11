@@ -29,6 +29,15 @@ Get branch information without the `/ref/*` prefix
 ### Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
 
 ```yaml
+on:
+  pull_request:
+    branches:
+      - develop
+    
+ jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
       - name: Get branch names.
         id: branch-names
         uses: tj-actions/branch-names@v1
