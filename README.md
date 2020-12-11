@@ -26,6 +26,18 @@ Get branch information without the `/ref/*` prefix
 ```
 
 
+### Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
+
+```yaml
+      - name: Get branch names.
+        id: branch-names
+        uses: tj-actions/branch-names@v1
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ steps.branch-names.outputs.base_ref_branch }}
+```
+
+
 ## Inputs
 
 |   Input       |    type    |  required     |  default             | 
@@ -43,17 +55,6 @@ Get branch information without the `/ref/*` prefix
 |  head_ref_branch     |  `string`   |    `feature/test` |  The source branch of a pull request             |
 |  ref_branch          |  `string`   |    `1/merge`      |  The branch that triggered the workflow run      |
 
-
-Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
-
-```yaml
-      - name: Get branch names.
-        id: branch-names
-        uses: tj-actions/branch-names@v1
-      - uses: actions/checkout@v2
-        with:
-          ref: ${{ steps.branch-names.outputs.base_ref_branch }}
-```
 
 
 * Free software: [MIT license](LICENSE)
