@@ -1,5 +1,5 @@
-branch-name
------------
+branch-names
+------------
 
 Get branch information without the `/ref/*` prefix
 
