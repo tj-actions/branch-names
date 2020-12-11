@@ -7,9 +7,9 @@ Get branch information without the `/ref/*` prefix
 ...
     steps:
       - uses: actions/checkout@v2
-      - name: Get branch name
+      - name: Get branch names
         uses: tj-actions/branch-names@v1
-        id: branch-name
+        id: branch-names
       - name: Get Ref brach name
         run: |
           echo "${{ steps.branch-name.outputs.ref_branch }}"  #  Outputs: "main"
