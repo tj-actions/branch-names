@@ -6,7 +6,18 @@ inputs:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: true
     default: ${{ github.token }}
-
+  base_ref:
+    description: 'The target branch of a pull request'
+    default: ${{ github.base_ref }}
+    required: false
+  head_ref:
+    description: 'The source branch of a pull request'
+    default: ${{ github.head_ref }}
+    required: false
+  ref:
+    description: 'The branch that triggered the workflow run.'
+    default: ${{ github.ref }}
+    required: false
 
 outputs:
   base_ref_branch:
@@ -19,6 +30,10 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ inputs.base_ref }}
+    - ${{ inputs.head_ref }}
+    - ${{ inputs.ref }}
 branding:
   icon: git-branch
   color: white
