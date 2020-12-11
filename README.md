@@ -10,11 +10,19 @@ Get branch information without the `/ref/heads` prefix
       - name: Get branch name
         uses: tj-actions/branch-name@v1
         id: branch-name
-      - name: Get brach Names
+      - name: Get Ref brach name
+        run: |
+          echo "${{ steps.branch-name.outputs.ref_branch }}"  #  Outputs: "main"
+
+      - name: Get Head Ref branch name
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "${{ steps.branch-name.outputs.head_ref_branch }}"
+
+      - name: Get Base Ref branch name
+        if: github.event_name == 'pull_request'
         run: |
           echo "${{ steps.branch-name.outputs.base_ref_branch }}"
-          echo "${{ steps.branch-name.outputs.head_ref_branch }}"
-          echo "${{ steps.branch-name.outputs.ref_branch }}"
 ```
 
 
