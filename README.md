@@ -58,7 +58,7 @@ This package was created with [Cookiecutter](https://github.com/cookiecutter/coo
 Report Bugs
 -----------
 
-Report bugs at https://github.com/tj-actions/branch-name/issues.
+Report bugs at https://github.com/tj-actions/branch-names/issues.
 
 If you are reporting a bug, please include:
 
