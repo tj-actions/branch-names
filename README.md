@@ -8,7 +8,7 @@ Get branch information without the `/ref/*` prefix
     steps:
       - uses: actions/checkout@v2
       - name: Get branch name
-        uses: tj-actions/branch-name@v1
+        uses: tj-actions/branch-names@v1
         id: branch-name
       - name: Get Ref brach name
         run: |
