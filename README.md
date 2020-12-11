@@ -34,6 +34,17 @@ Get branch information without the `/ref/heads` prefix
 
 
 
+
+## Outputs
+
+|   Output             |    type     |  Example          | 
+|:--------------------:|:-----------:|:-----------------:|
+|  ref_branch          |  `string`   |    `main`         |
+|  head_ref_branch     |  `string`   |    `feature/test` |
+|  base_ref_branch     |  `string`   |    `1/merge`      |
+
+
+
 * Free software: [MIT license](LICENSE)
 
 
