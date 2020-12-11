@@ -17,12 +17,12 @@ Get branch information without the `/ref/heads` prefix
       - name: Get Head Ref branch name
         if: github.event_name == 'pull_request'
         run: |
-          echo "${{ steps.branch-name.outputs.head_ref_branch }}"
+          echo "${{ steps.branch-name.outputs.head_ref_branch }}"  # Outputs: "feature/test"
 
       - name: Get Base Ref branch name
         if: github.event_name == 'pull_request'
         run: |
-          echo "${{ steps.branch-name.outputs.base_ref_branch }}"
+          echo "${{ steps.branch-name.outputs.base_ref_branch }}"  # Outputs: "1/merge"
 ```
 
 
