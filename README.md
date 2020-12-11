@@ -12,7 +12,7 @@ Get branch information without the `/ref/*` prefix
         id: branch-names
       - name: Get Ref brach name
         run: |
-          echo "${{ steps.branch-name.outputs.ref_branch }}"  #  Outputs: "main" for a non PR branch | "1/merge" for a PR branch
+          echo "${{ steps.branch-name.outputs.ref_branch }}"  #  Outputs: "main" for non PR branches | "1/merge" for a PR branch
 
       - name: Get Head Ref branch name
         if: github.event_name == 'pull_request'
