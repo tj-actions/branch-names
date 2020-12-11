@@ -23,13 +23,18 @@ jobs:
           echo "${{ steps.branch-name.outputs.base_ref_branch }}"
           echo "${{ steps.branch-name.outputs.head_ref_branch }}"
           echo "${{ steps.branch-name.outputs.ref_branch }}"
-#      - name: Test base ref output
-#        if: steps.branch-name.outputs.base_ref_branch
-#        run: |
-#          exit 1
-#      - name: Test head ref output
-#        run: |
-#          exit 1
-#      - name: Test ref output
-#        run: |
-#          exit 1
+      - name: Test base ref output
+        if: github.event_name == 'pull_request' && !steps.branch-name.outputs.base_ref_branch
+        run: |
+          echo "Base ref unset: ${{ steps.branch-name.outputs.base_ref_branch }}"
+          exit 1
+      - name: Test head ref output
+        if: github.event_name == 'pull_request' && !steps.branch-name.outputs.head_ref_branch
+        run: |
+          echo "Head ref unset: ${{ steps.branch-name.outputs.head_ref_branch }}"
+          exit 1
+      - name: Test ref output
+        if: "!steps.branch-name.outputs.ref_branch"
+        run: |
+          echo "Ref unset: ${{ steps.branch-name.outputs.ref_branch }}"
+          exit 1
