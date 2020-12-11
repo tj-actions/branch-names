@@ -9,6 +9,11 @@ Retrieve giithub branch information without any prefix
       - uses: actions/checkout@v2
       - name: Get branch name
         uses: tj-actions/branch-name@v1
+      - name: Get brach Names
+        run: |
+          echo "${{ steps.branch-name.outputs.base_ref_branch }}"
+          echo "${{ steps.branch-name.outputs.head_ref_branch }}"
+          echo "${{ steps.branch-name.outputs.ref_branch }}"
 ```
 
 
