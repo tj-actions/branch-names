@@ -19,7 +19,7 @@ jobs:
         id: branch-name
         uses: ./
       - name: Show output
-        run:
+        run: |
           echo "${{ steps.branch-name.outputs.base_ref_branch }}"
           echo "${{ steps.branch-name.outputs.head_ref_branch }}"
           echo "${{ steps.branch-name.outputs.ref_branch }}"
