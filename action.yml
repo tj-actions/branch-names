@@ -40,7 +40,7 @@ runs:
         export REF=${{ inputs.ref }}
         echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
         echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
-        echo "::set-output name=ref_branch::${REF/refs\/heads\//}"
+        echo "::set-output name=ref_branch::${REF/refs\/pull\//}"
       shell: bash
 branding:
   icon: git-branch
