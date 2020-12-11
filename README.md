@@ -9,6 +9,7 @@ Get branch information without the `/ref/heads` prefix
       - uses: actions/checkout@v2
       - name: Get branch name
         uses: tj-actions/branch-name@v1
+        id: branch-name
       - name: Get brach Names
         run: |
           echo "${{ steps.branch-name.outputs.base_ref_branch }}"
