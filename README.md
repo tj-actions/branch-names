@@ -1,7 +1,7 @@
 branch-name
 -----------
 
-Get branch information without the `/ref/heads` prefix
+Get branch information without the `/ref/*` prefix
 
 ```yaml
 ...
