@@ -1,4 +1,4 @@
-name: branch-name
+name: get-branch-name
 description: Retrieve giithub branch information without `/ref/heads` prefix
 author: tj-actions
 inputs:
