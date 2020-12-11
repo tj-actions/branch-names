@@ -37,11 +37,11 @@ Get branch information without the `/ref/*` prefix
 
 ## Outputs
 
-|   Output             |    type     |  Example          | 
-|:--------------------:|:-----------:|:-----------------:|
-|  ref_branch          |  `string`   |    `main`         |
-|  head_ref_branch     |  `string`   |    `feature/test` |
-|  base_ref_branch     |  `string`   |    `1/merge`      |
+|   Output             |    type     |  Example          |  Description                                     |
+|:--------------------:|:-----------:|:-----------------:|:------------------------------------------------:|
+|  ref_branch          |  `string`   |    `main`         |  The target branch of a pull request             |
+|  head_ref_branch     |  `string`   |    `feature/test` |  The source branch of a pull request             |
+|  base_ref_branch     |  `string`   |    `1/merge`      |  The branch that triggered the workflow run      |
 
 
 
