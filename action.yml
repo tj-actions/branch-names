@@ -7,6 +7,7 @@ inputs:
     required: true
     default: ${{ github.token }}
 
+
 outputs:
   base_ref_branch:
     description: 'The target branch of a pull request'
@@ -18,10 +19,6 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ github.base_ref }}
-    - ${{ github.head_ref }}
-    - ${{ github.ref }}
 branding:
   icon: git-branch
   color: white
