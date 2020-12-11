@@ -1,7 +1,7 @@
 branch-name
 -----------
 
-Retrieve giithub branch information without any prefix
+Get branch information without the `/ref/heads` prefix
 
 ```yaml
 ...
