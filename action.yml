@@ -35,9 +35,12 @@ runs:
   steps:
     - id: branch
       run: |
-        echo "::set-output name=base_ref_branch::${INPUT_BASE_REF/refs\/heads\//}"
-        echo "::set-output name=head_ref_branch::${INPUT_HEAD_REF/refs\/heads\//}"
-        echo "::set-output name=ref_branch::${INPUT_REF/refs\/heads\//}"
+        export BASE_REF=${{ inputs.base_ref }}
+        export HEAD_REF=${{ inputs.head_ref }}
+        export REF=${{ inputs.ref }}
+        echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
+        echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
+        echo "::set-output name=ref_branch::${REF/refs\/heads\//}"
       shell: bash
 branding:
   icon: git-branch
