@@ -40,7 +40,6 @@ runs:
         export REF=${{ inputs.ref }}
         echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
         echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
-        // For pull requests
         REF_BRANCH=${REF/refs\/pull\//}
         echo "::set-output name=ref_branch::${REF_BRANCH/refs\/heads\//}"
       shell: bash
