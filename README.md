@@ -61,11 +61,11 @@ on:
 
 ## Outputs
 
-|   Output             |    type     |  Example          |  Description                                     |
-|:--------------------:|:-----------:|:-----------------:|:------------------------------------------------:|
-|  base_ref_branch     |  `string`   |    `main`         |  The target branch of a pull request             |
-|  head_ref_branch     |  `string`   |    `feature/test` |  The source branch of a pull request             |
-|  ref_branch          |  `string`   |    `1/merge`      |  The branch that triggered the workflow run      |
+|   Output             |    type     |  Example              |  Description                                     |
+|:--------------------:|:-----------:|:---------------------:|:------------------------------------------------:|
+|  base_ref_branch     |  `string`   |    `main`             |  The target branch of a pull request             |
+|  head_ref_branch     |  `string`   |    `feature/test`     |  The source branch of a pull request             |
+|  ref_branch          |  `string`   |    `1/merge` | `main` |  The branch that triggered the workflow run      |
 
 
 
