@@ -1,6 +1,8 @@
 branch-names
 ------------
 
+[![CI](https://github.com/tj-actions/branch-names/workflows/CI/badge.svg)](https://github.com/tj-actions/branch-names/actions?query=workflow%3ACI)
+
 Get branch information without the `/ref/*` prefix
 
 ```yaml
