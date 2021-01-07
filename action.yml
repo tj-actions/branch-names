@@ -1,5 +1,5 @@
 name: branch-names
-description: Retrieve giithub branch information without `/ref/heads` prefix
+description: Retrieve giithub branch information without `/ref/*` prefix
 author: tj-actions
 inputs:
   token:
