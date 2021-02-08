@@ -1,0 +1,27 @@
+name: Update release version.
+on:
+  release:
+    types: [published]
+
+
+jobs:
+  update-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Bumpversion release version.
+        uses: tj-actions/bumpversion@v7.1
+        id: bumpversion
+        with:
+          pattern: 'tj-actions/branch-names@'
+          paths: |
+            README.md
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          base: "master"
+          title: "Upgraded to ${{ steps.bumpversion.outputs.new_version }}"
+          branch: "upgrade-to-${{ steps.bumpversion.outputs.new_version }}"
+          commit-message: "Upgraded from ${{ steps.bumpversion.outputs.old_version }} -> ${{ steps.bumpversion.outputs.new_version }}"
+          body: "View [CHANGES](https://github.com/${{ github.repository }}/compare/${{ steps.bumpversion.outputs.old_version }}...${{ steps.bumpversion.outputs.new_version }})"
+          token: ${{ secrets.PAT_TOKEN }}
