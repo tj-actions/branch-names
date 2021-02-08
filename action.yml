@@ -2,10 +2,6 @@ name: branch-names
 description: Retrieve giithub branch information without `/ref/*` prefix
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
   base_ref:
     description: 'The target branch of a pull request'
     default: ${{ github.base_ref }}
