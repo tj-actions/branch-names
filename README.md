@@ -22,8 +22,8 @@ Get branch information without the `/ref/*` prefix
     steps:
       - uses: actions/checkout@v2
       - name: Get branch names
-        uses: tj-actions/branch-names@v2.1
         id: branch-names
+        uses: tj-actions/branch-names@v2.1
       
       - name: Current branch name
         if: github.event_name == 'pull_request'
