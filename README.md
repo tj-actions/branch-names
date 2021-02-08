@@ -5,6 +5,17 @@ branch-names
 
 Get branch information without the `/ref/*` prefix
 
+## Outputs
+
+|   Output             |    type     |  Example                    |  Description                                                |
+|:--------------------:|:-----------:|:---------------------------:|:-----------------------------------------------------------:|
+|  current_branch      |  `string`   |    `main` or `feature/test` |  Always returns the branch that triggered the workflow run. |
+|  base_ref_branch     |  `string`   |    `main`                   |  The target branch of a pull request                        |
+|  head_ref_branch     |  `string`   |    `feature/test`           |  The source branch of a pull request                        |
+|  ref_branch          |  `string`   |    `1/merge` OR `main`      |  The branch that triggered the workflow run                 |
+
+
+
 ```yaml
 ...
     steps:
@@ -64,25 +75,6 @@ on:
         with:
           ref: ${{ steps.branch-names.outputs.base_ref_branch }}
 ```
-
-
-## Inputs
-
-|   Input       |    type    |  required     |  default             | 
-|:-------------:|:-----------:|:-------------:|:---------------------:|
-| token         |  `string`   |    `false`    | `${{ github.token }}` |
-
-
-
-
-## Outputs
-
-|   Output             |    type     |  Example              |  Description                                     |
-|:--------------------:|:-----------:|:---------------------:|:------------------------------------------------:|
-|  current_branch      |  `string`   |    `main`             |  Always returns the branch that triggered the workflow run. |
-|  base_ref_branch     |  `string`   |    `main`             |  The target branch of a pull request             |
-|  head_ref_branch     |  `string`   |    `feature/test`     |  The source branch of a pull request             |
-|  ref_branch          |  `string`   |    `1/merge` OR `main` |  The branch that triggered the workflow run      |
 
 
 
