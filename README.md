@@ -15,6 +15,7 @@ Get branch information without the `/ref/*` prefix
 |  ref_branch          |  `string`   |    `1/merge` OR `main`      |  The branch that triggered the workflow run                 |
 
 
+## Usage 
 
 ```yaml
 ...
