@@ -53,6 +53,8 @@ runs:
         else
           echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
         fi
+      shell: bash
+
 branding:
   icon: git-branch
   color: white
