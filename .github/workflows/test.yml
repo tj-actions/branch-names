@@ -38,3 +38,14 @@ jobs:
         run: |
           echo "Ref unset: ${{ steps.branch-name.outputs.ref_branch }}"
           exit 1
+      - name: Test current branch output for pull_request event.
+        if: github.event_name == 'pull_request' && !steps.branch-name.outputs.current_branch
+        run: |
+          echo "Current branch unset: ${{ steps.branch-name.outputs.current_branch }}"
+          exit 1
+      - name: Test current branch output for push event.
+        if: github.event_name == 'push' && !steps.branch-name.outputs.current_branch
+        run: |
+          echo "Current branch unset: ${{ steps.branch-name.outputs.current_branch }}"
+          exit 1
+      
