@@ -12,6 +12,19 @@ Get branch information without the `/ref/*` prefix
       - name: Get branch names
         uses: tj-actions/branch-names@v2
         id: branch-names
+      
+      - name: Current branch name
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "feature/test" current PR branch.
+      
+      - name: Current branch name
+        if: github.event_name == 'push'
+        run: |
+          echo "${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "main" the current branch that triggered the action.
+      
       - name: Get Ref brach name
         run: |
           echo "${{ steps.branch-name.outputs.ref_branch }}"
@@ -28,6 +41,7 @@ Get branch information without the `/ref/*` prefix
         run: |
           echo "${{ steps.branch-name.outputs.base_ref_branch }}"
         # Outputs: "main" for main <- PR branch.
+      
 ```
 
 
@@ -65,6 +79,7 @@ on:
 
 |   Output             |    type     |  Example              |  Description                                     |
 |:--------------------:|:-----------:|:---------------------:|:------------------------------------------------:|
+|  current_branch      |  `string`   |    `main`             |  Always returns the branch that triggered the workflow run. |
 |  base_ref_branch     |  `string`   |    `main`             |  The target branch of a pull request             |
 |  head_ref_branch     |  `string`   |    `feature/test`     |  The source branch of a pull request             |
 |  ref_branch          |  `string`   |    `1/merge` OR `main` |  The branch that triggered the workflow run      |
