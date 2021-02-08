@@ -17,7 +17,7 @@ Get branch information without the `/ref/*` prefix
         if: github.event_name == 'pull_request'
         run: |
           echo "${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "feature/test" current PR branch.
+        # Outputs: "feature/test" current PR branch or "main" the default branch that triggered the push event.
       
       - name: Current branch name
         if: github.event_name == 'push'
