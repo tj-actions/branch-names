@@ -17,7 +17,7 @@ inputs:
 
 outputs:
   is_default:
-    value: ${{ steps.current_branch.outputs.is_default }}
+    value: ${{ steps.default.outputs.is_default }}
     description: 'Returns "true" if the current branch is the default else "false".'
   current_branch:
     value: ${{ steps.current_branch.outputs.current_branch }}
@@ -53,7 +53,7 @@ runs:
           echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
         fi
       shell: bash
-    - id: is_default
+    - id: default
       run: |
         if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.current_branch.outputs.base_ref_branch }}" ]]; then
           echo "::set-output name=is_default::true"
