@@ -60,6 +60,7 @@ runs:
         else
           echo "::set-output name=is_default::false"
         fi
+      shell: bash  
 
 branding:
   icon: git-branch
