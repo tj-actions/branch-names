@@ -24,7 +24,7 @@ jobs:
           echo "Base Ref: ${{ steps.branch-name.outputs.base_ref_branch }}"
           echo "Head Ref: ${{ steps.branch-name.outputs.head_ref_branch }}"
           echo "Ref: ${{ steps.branch-name.outputs.ref_branch }}"
-          echo "Is Default: ${{ steps.branch-name.outputs.is_default }} or $default_branch"
+          echo "Is Default: ${{ steps.branch-name.outputs.is_default }}"
       - name: Check is_default for pull request
         if: github.event_name == 'pull_request' && steps.branch-name.outputs.is_default != 'false'
         run: |
