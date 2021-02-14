@@ -55,10 +55,8 @@ runs:
       shell: bash
     - id: default
       run: |
-        if [[ -z "${{ steps.branch.outputs.head_ref_branch }}" ]]; then
-          if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.current_branch.outputs.ref_branch }}" ]]; then
-            echo "::set-output name=is_default::true"
-          fi
+        if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.branch.outputs.ref_branch }}" ]]; then
+          echo "::set-output name=is_default::true"
         else
           echo "::set-output name=is_default::false"
         fi
