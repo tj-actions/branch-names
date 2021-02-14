@@ -25,6 +25,18 @@ Get branch information without the `/ref/*` prefix
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v2.2
+        
+      - name: Running on the default branch.
+        if: ${{ steps.branch-name.outputs.is_default }}
+        run: |
+          echo "Running on default: ${{ steps.branch-name.outputs.is_default }}"
+        # Outputs: "Running on default: true".
+      
+      - name: Running on a pull request branch.
+        if: "!${{ steps.branch-name.outputs.is_default }}"
+        run: |
+          echo "Running on default: ${{ steps.branch-name.outputs.is_default }}"
+        # Outputs: "Running on default: false".
       
       - name: Current branch name
         if: github.event_name == 'pull_request'
