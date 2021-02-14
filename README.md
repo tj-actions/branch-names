@@ -24,7 +24,7 @@ Get branch information without the `/ref/*` prefix
       - uses: actions/checkout@v2
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v2.1
+        uses: tj-actions/branch-names@v2.2
       
       - name: Current branch name
         if: github.event_name == 'pull_request'
@@ -72,7 +72,7 @@ on:
     steps:
       - name: Get branch names.
         id: branch-names
-        uses: tj-actions/branch-names@v2.1
+        uses: tj-actions/branch-names@v2.2
       - uses: actions/checkout@v2
         with:
           ref: ${{ steps.branch-names.outputs.base_ref_branch }}
