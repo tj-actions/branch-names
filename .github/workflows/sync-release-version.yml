@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Bumpversion release version.
-        uses: tj-actions/bumpversion@v7.1
+        uses: tj-actions/bumpversion@v7.2
         id: bumpversion
         with:
           pattern: 'tj-actions/branch-names@'
