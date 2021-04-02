@@ -9,19 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Bumpversion release version.
-        uses: tj-actions/bumpversion@v7.1
-        id: bumpversion
+      - name: Sync release version.
+        uses: tj-actions/sync-release-version@v8
+        id: sync-release-version
         with:
-          pattern: 'tj-actions/branch-names@'
+          pattern: '${{ github.repository }}@'
           paths: |
             README.md
+      - name: Generate CHANGELOG
+        uses: tj-actions/github-changelog-generator@v1.3
+        with:
+          output: 'HISTORY.md'
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           base: "main"
-          title: "Upgraded to ${{ steps.bumpversion.outputs.new_version }}"
-          branch: "upgrade-to-${{ steps.bumpversion.outputs.new_version }}"
-          commit-message: "Upgraded from ${{ steps.bumpversion.outputs.old_version }} -> ${{ steps.bumpversion.outputs.new_version }}"
-          body: "View [CHANGES](https://github.com/${{ github.repository }}/compare/${{ steps.bumpversion.outputs.old_version }}...${{ steps.bumpversion.outputs.new_version }})"
+          title: "Upgraded to ${{ steps.sync-release-version.outputs.new_version }}"
+          branch: "upgrade-to-${{ steps.sync-release-version.outputs.new_version }}"
+          commit-message: "Upgraded from ${{ steps.sync-release-version.outputs.old_version }} -> ${{ steps.sync-release-version.outputs.new_version }}"
+          body: "View [CHANGES](https://github.com/${{ github.repository }}/compare/${{ steps.sync-release-version.outputs.old_version }}...${{ steps.sync-release-version.outputs.new_version }})"
           token: ${{ secrets.PAT_TOKEN }}
