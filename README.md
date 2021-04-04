@@ -25,6 +25,17 @@ Get branch information without the `/ref/*` prefix
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v2.2
+```
+
+## Examples
+
+```yaml
+...
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v2.2
         
       - name: Running on the default branch.
         if: steps.branch-name.outputs.is_default == 'true'
