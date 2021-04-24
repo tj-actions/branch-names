@@ -1,5 +1,21 @@
 # Changelog
 
+## [Unreleased](https://github.com/tj-actions/branch-names/tree/HEAD)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.1...HEAD)
+
+**Merged pull requests:**
+
+- Upgraded to v3 [\#22](https://github.com/tj-actions/branch-names/pull/22) ([jackton1](https://github.com/jackton1))
+
+## [v3.1](https://github.com/tj-actions/branch-names/tree/v3.1) (2021-04-24)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v3...v3.1)
+
+**Merged pull requests:**
+
+- Fixed bug with tag [\#23](https://github.com/tj-actions/branch-names/pull/23) ([jackton1](https://github.com/jackton1))
+
 ## [v3](https://github.com/tj-actions/branch-names/tree/v3) (2021-04-24)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v2.2...v3)
@@ -27,6 +43,7 @@
 - Added support for detecting the default branch [\#11](https://github.com/tj-actions/branch-names/pull/11) ([jackton1](https://github.com/jackton1))
 - Update README.md [\#9](https://github.com/tj-actions/branch-names/pull/9) ([jackton1](https://github.com/jackton1))
 - Upgraded to v2.1 [\#8](https://github.com/tj-actions/branch-names/pull/8) ([jackton1](https://github.com/jackton1))
+- Update README.md [\#1](https://github.com/tj-actions/branch-names/pull/1) ([jackton1](https://github.com/jackton1))
 
 ## [v2.1](https://github.com/tj-actions/branch-names/tree/v2.1) (2021-02-08)
 
@@ -60,10 +77,6 @@
 ## [v1](https://github.com/tj-actions/branch-names/tree/v1) (2020-12-11)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/c5308c6d98ef23ee7f672f6fc3aa92acd7ad611d...v1)
-
-**Merged pull requests:**
-
-- Update README.md [\#1](https://github.com/tj-actions/branch-names/pull/1) ([jackton1](https://github.com/jackton1))
 
 
 
