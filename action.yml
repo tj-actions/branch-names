@@ -32,7 +32,7 @@ outputs:
     value: ${{ steps.branch.outputs.ref_branch }}
     description: 'The branch that triggered the workflow run.'
   tag:
-    value: ${{ steps.branch.outputs.tag }}
+    value: ${{ steps.tag.outputs.tag }}
     description: 'The tag that triggered the workflow run.'
 
 runs:
