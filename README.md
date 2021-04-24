@@ -14,6 +14,7 @@ Get branch information without the `/ref/*` prefix
 |  base_ref_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
 |  head_ref_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
 |  ref_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
+|  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`        |  The tag that triggered the workflow run                          |
 
 
 ## Usage 
@@ -77,7 +78,12 @@ Get branch information without the `/ref/*` prefix
         run: |
           echo "${{ steps.branch-name.outputs.base_ref_branch }}"
         # Outputs: "main" for main <- PR branch.
-      
+        
+      - name: Get the current tag
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          echo "${{ steps.branch-name.outputs.tag }}"
+        # Outputs: "v0.0.1" OR "0.0.1"
 ```
 
 
