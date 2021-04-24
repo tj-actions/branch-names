@@ -31,19 +31,24 @@ outputs:
   ref_branch:
     value: ${{ steps.branch.outputs.ref_branch }}
     description: 'The branch that triggered the workflow run.'
+  tag:
+    value: ${{ steps.branch.outputs.tag }}
+    description: 'The tag that triggered the workflow run.'
 
 runs:
   using: "composite"
   steps:
     - id: branch
       run: |
-        export BASE_REF=${{ inputs.base_ref }}
-        export HEAD_REF=${{ inputs.head_ref }}
-        export REF=${{ inputs.ref }}
-        echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
-        echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
-        REF_BRANCH=${REF/refs\/pull\//}
-        echo "::set-output name=ref_branch::${REF_BRANCH/refs\/heads\//}"
+        if [[ !${{ startsWith(inputs.ref, 'refs/tags/') }} ]]; then
+          export BASE_REF=${{ inputs.base_ref }}
+          export HEAD_REF=${{ inputs.head_ref }}
+          export REF=${{ inputs.ref }}
+          echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
+          echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
+          REF_BRANCH=${REF/refs\/pull\//}
+          echo "::set-output name=ref_branch::${REF_BRANCH/refs\/heads\//}"
+        fi
       shell: bash
     - id: current_branch
       run: |
@@ -60,7 +65,15 @@ runs:
         else
           echo "::set-output name=is_default::false"
         fi
-      shell: bash  
+      shell: bash
+    - id: tag
+      run: |
+        if [[ ${{ startsWith(inputs.ref, 'refs/tags/') }} ]]; then
+          export REF=${{ inputs.ref }}
+          TAG=${REF/refs\/tags\//}
+          echo "::set-output name=tag::$TAG"
+        fi
+      shell: bash
 
 branding:
   icon: git-branch
