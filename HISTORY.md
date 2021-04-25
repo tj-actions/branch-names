@@ -1,5 +1,14 @@
 # Changelog
 
+## [v3.4](https://github.com/tj-actions/branch-names/tree/v3.4) (2021-04-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.3...v3.4)
+
+**Merged pull requests:**
+
+- Fixed bug with is\_default [\#29](https://github.com/tj-actions/branch-names/pull/29) ([jackton1](https://github.com/jackton1))
+- Upgraded to v3.3 [\#28](https://github.com/tj-actions/branch-names/pull/28) ([jackton1](https://github.com/jackton1))
+
 ## [v3.3](https://github.com/tj-actions/branch-names/tree/v3.3) (2021-04-25)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.2...v3.3)
