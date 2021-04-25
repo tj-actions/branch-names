@@ -2,18 +2,6 @@ name: branch-names
 description: Retrieve giithub branch information without `/ref/*` prefix
 author: tj-actions
 inputs:
-  base_ref:
-    description: 'The target branch of a pull request'
-    default: ${{ github.base_ref }}
-    required: false
-  head_ref:
-    description: 'The source branch of a pull request'
-    default: ${{ github.head_ref }}
-    required: false
-  ref:
-    description: 'The branch that triggered the workflow run.'
-    default: ${{ github.ref }}
-    required: false
   strip_tag_prefix:
     description: 'The tag prefix to strip i.e v0.0.1 -> (strip v) -> 0.0.1'
     default: ''
@@ -44,10 +32,10 @@ runs:
   steps:
     - id: branch
       run: |
-        if [[ !${{ startsWith(inputs.ref, 'refs/tags/') }} ]]; then
-          export BASE_REF=${{ inputs.base_ref }}
-          export HEAD_REF=${{ inputs.head_ref }}
-          export REF=${{ inputs.ref }}
+        if [[ !${{ startsWith(github.ref, 'refs/tags/') }} ]]; then
+          export BASE_REF=${{ github.base_ref }}
+          export HEAD_REF=${{ github.head_ref }}
+          export REF=${{ github.ref }}
           echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
           echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
           REF_BRANCH=${REF/refs\/pull\//}
@@ -72,8 +60,8 @@ runs:
       shell: bash
     - id: tag
       run: |
-        if [[ ${{ startsWith(inputs.ref, 'refs/tags/') }} ]]; then
-          export REF=${{ inputs.ref }}
+        if [[ ${{ startsWith(github.ref, 'refs/tags/') }} ]]; then
+          export REF=${{ github.ref }}
           TAG=${REF/refs\/tags\${{ inputs.strip_tag_prefix }}//}
           echo "::set-output name=tag::$TAG"
         fi
