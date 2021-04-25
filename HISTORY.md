@@ -1,5 +1,14 @@
 # Changelog
 
+## [v3.3](https://github.com/tj-actions/branch-names/tree/v3.3) (2021-04-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.2...v3.3)
+
+**Merged pull requests:**
+
+- Remove unused inputs [\#27](https://github.com/tj-actions/branch-names/pull/27) ([jackton1](https://github.com/jackton1))
+- Upgraded to v3.2 [\#26](https://github.com/tj-actions/branch-names/pull/26) ([jackton1](https://github.com/jackton1))
+
 ## [v3.2](https://github.com/tj-actions/branch-names/tree/v3.2) (2021-04-25)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.1...v3.2)
