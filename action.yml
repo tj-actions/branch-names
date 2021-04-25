@@ -52,7 +52,7 @@ runs:
       shell: bash
     - id: default
       run: |
-        if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.branch.outputs.ref_branch }}" &&  ${{ !startsWith(github.ref, 'refs/tags/') }} ]]; then
+        if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.branch.outputs.ref_branch }}" && !${{ startsWith(github.ref, 'refs/tags/') }} ]]; then
           echo "::set-output name=is_default::true"
         else
           echo "::set-output name=is_default::false"
