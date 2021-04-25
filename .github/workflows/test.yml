@@ -21,13 +21,13 @@ jobs:
         id: branch-name
         uses: ./
       - name: Show output
-        if: "!startsWith(github.ref, 'refs/tags/')"
         run: |
           echo "Current Branch: ${{ steps.branch-name.outputs.current_branch }}"
           echo "Base Ref: ${{ steps.branch-name.outputs.base_ref_branch }}"
           echo "Head Ref: ${{ steps.branch-name.outputs.head_ref_branch }}"
           echo "Ref: ${{ steps.branch-name.outputs.ref_branch }}"
           echo "Is Default: ${{ steps.branch-name.outputs.is_default }}"
+          echo "Current tag: ${{ steps.branch-name.outputs.tag }}"
       - name: Check is_default for pull request
         if: github.event_name == 'pull_request' && !startsWith(github.ref, 'refs/tags/') && steps.branch-name.outputs.is_default != 'false'
         run: |
