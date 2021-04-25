@@ -74,7 +74,7 @@ runs:
       run: |
         if [[ ${{ startsWith(inputs.ref, 'refs/tags/') }} ]]; then
           export REF=${{ inputs.ref }}
-          TAG=$(echo "${REF/refs\/tags\//}" | sed "s/${{ inputs.strip_tag_prefix }}//")
+          TAG=${REF/refs\/tags\${{ inputs.strip_tag_prefix }}//}
           echo "::set-output name=tag::$TAG"
         fi
       shell: bash
