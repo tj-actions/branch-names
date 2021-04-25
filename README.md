@@ -17,6 +17,12 @@ Get branch or tag information without the `/ref/*` prefix
 |  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`        |  The tag that triggered the workflow run                          |
 
 
+## Inputs
+
+| Input             |   type    |  default | Description             |
+|:-----------------:|:---------:|:--------:|:-----------------------:|
+| strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
+
 ## Usage 
 
 ```yaml
