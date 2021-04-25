@@ -31,7 +31,7 @@ Get branch or tag information without the `/ref/*` prefix
       - uses: actions/checkout@v2
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v3.4
+        uses: tj-actions/branch-names@v3.5
 ```
 
 ## Examples
@@ -42,7 +42,7 @@ Get branch or tag information without the `/ref/*` prefix
       - uses: actions/checkout@v2
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v3.4
+        uses: tj-actions/branch-names@v3.5
         
       - name: Running on the default branch.
         if: steps.branch-name.outputs.is_default == 'true'
@@ -107,7 +107,7 @@ on:
     steps:
       - name: Get branch names.
         id: branch-names
-        uses: tj-actions/branch-names@v3.4
+        uses: tj-actions/branch-names@v3.5
       - uses: actions/checkout@v2
         with:
           ref: ${{ steps.branch-names.outputs.base_ref_branch }}
