@@ -1,5 +1,28 @@
 # Changelog
 
+## [v4.1](https://github.com/tj-actions/branch-names/tree/v4.1) (2021-05-24)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.1)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Exclude current branch output for tag branches [\#48](https://github.com/tj-actions/branch-names/pull/48) ([jackton1](https://github.com/jackton1))
+- Bump peter-evans/create-pull-request from 3.9.2 to 3.10.0 [\#47](https://github.com/tj-actions/branch-names/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update cirrus-actions/rebase action to v1.5 [\#46](https://github.com/tj-actions/branch-names/pull/46) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump peter-evans/create-pull-request from 3.9.1 to 3.9.2 [\#45](https://github.com/tj-actions/branch-names/pull/45) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump peter-evans/create-pull-request from 3 to 3.9.1 [\#42](https://github.com/tj-actions/branch-names/pull/42) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 2 to 2.3.4 [\#41](https://github.com/tj-actions/branch-names/pull/41) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/sync-release-version action to v8.6 [\#40](https://github.com/tj-actions/branch-names/pull/40) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.8 [\#39](https://github.com/tj-actions/branch-names/pull/39) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/sync-release-version from v8 to v8.5 [\#38](https://github.com/tj-actions/branch-names/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Upgrade to GitHub-native Dependabot [\#37](https://github.com/tj-actions/branch-names/pull/37) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Update tj-actions/github-changelog-generator action to v1.6 [\#35](https://github.com/tj-actions/branch-names/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v4 [\#34](https://github.com/tj-actions/branch-names/pull/34) ([jackton1](https://github.com/jackton1))
+
 ## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-04-25)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.6...v4)
