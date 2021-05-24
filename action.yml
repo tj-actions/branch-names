@@ -32,7 +32,7 @@ runs:
   steps:
     - id: branch
       run: |
-        if [[ ! "${{ github.ref }}" == "refs/tags/"* ]]; then
+        if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
           export BASE_REF=${{ github.base_ref }}
           export HEAD_REF=${{ github.head_ref }}
           export REF=${{ github.ref }}
@@ -44,7 +44,7 @@ runs:
       shell: bash
     - id: current_branch
       run: |
-        if [[ ${{ github.event_name }} == 'pull_request' ]]; then
+        if [[ ${{ github.event_name }} == 'pull_request' && "${{ github.ref }}" != "refs/tags/"* ]]; then
           echo "::set-output name=current_branch::${{ steps.branch.outputs.head_ref_branch }}"
         else
           echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
@@ -52,7 +52,7 @@ runs:
       shell: bash
     - id: default
       run: |
-        if [[ ! "${{ github.ref }}" == "refs/tags/"* ]]; then
+        if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
           if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.branch.outputs.ref_branch }}" ]]; then
             echo "::set-output name=is_default::true"
           else
