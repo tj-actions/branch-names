@@ -1,5 +1,19 @@
 # Changelog
 
+## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2)
+
+**Fixed bugs:**
+
+- \[BUG\] No current\_branch on release. [\#50](https://github.com/tj-actions/branch-names/issues/50)
+
+**Merged pull requests:**
+
+- Added test for current\_branch on release actions [\#52](https://github.com/tj-actions/branch-names/pull/52) ([jackton1](https://github.com/jackton1))
+- Set the current\_branch for release actions [\#51](https://github.com/tj-actions/branch-names/pull/51) ([jackton1](https://github.com/jackton1))
+- Upgraded to v4.1 [\#49](https://github.com/tj-actions/branch-names/pull/49) ([jackton1](https://github.com/jackton1))
+
 ## [v4.1](https://github.com/tj-actions/branch-names/tree/v4.1) (2021-05-24)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.1)
