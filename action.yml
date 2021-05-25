@@ -33,9 +33,9 @@ runs:
     - id: branch
       run: |
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          export BASE_REF=${{ github.base_ref }}
-          export HEAD_REF=${{ github.head_ref }}
-          export REF=${{ github.ref }}
+          BASE_REF=${{ github.base_ref }}
+          HEAD_REF=${{ github.head_ref }}
+          REF=${{ github.ref }}
           echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
           echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
           REF_BRANCH=${REF/refs\/pull\//}
@@ -44,10 +44,16 @@ runs:
       shell: bash
     - id: current_branch
       run: |
-        if [[ ${{ github.event_name }} == 'pull_request' && "${{ github.ref }}" != "refs/tags/"* ]]; then
-          echo "::set-output name=current_branch::${{ steps.branch.outputs.head_ref_branch }}"
+        if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
+          if [[ ${{ github.event_name }} == 'pull_request' ]]; then
+            echo "::set-output name=current_branch::${{ steps.branch.outputs.head_ref_branch }}"
+          else
+            echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
+          fi
         else
-          echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
+          REF=${{ github.ref }}
+          REF_BRANCH=${REF/refs\/tags\//}
+          echo "::set-output name=current_branch::$REF_BRANCH"
         fi
       shell: bash
     - id: default
@@ -63,7 +69,7 @@ runs:
     - id: tag
       run: |
         if [[ "${{ github.ref }}" == "refs/tags/"* ]]; then
-          export REF=${{ github.ref }}
+          REF=${{ github.ref }}
           TAG=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
           echo "::set-output name=tag::$TAG"
         fi
