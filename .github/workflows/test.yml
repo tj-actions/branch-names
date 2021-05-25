@@ -63,6 +63,11 @@ jobs:
         run: |
           echo "Current branch unset: ${{ steps.branch-name.outputs.current_branch }}"
           exit 1
+      - name: Test current branch output for tag based push event.
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') && !steps.branch-name.outputs.current_branch
+        run: |
+          echo "Current branch unset: ${{ steps.branch-name.outputs.current_branch }}"
+          exit 1
       - name: Test current tag for push events.
         if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') && !steps.branch-name.outputs.tag
         run: |
