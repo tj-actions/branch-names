@@ -1,5 +1,4 @@
-branch-names
-------------
+## branch-names
 
 [![CI](https://github.com/tj-actions/branch-names/workflows/CI/badge.svg)](https://github.com/tj-actions/branch-names/actions?query=workflow%3ACI) [![Update release version.](https://github.com/tj-actions/branch-names/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/branch-names/actions/workflows/sync-release-version.yml) <a href="https://github.com/search?q=tj-actions+branch-names+path%3A.github%2Fworkflows+language%3AYAML&type=code" target="_blank" title="Public workflows that use this action."><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fbranch-names%26badge%3Dtrue" alt="Public workflows that use this action."></a>
 
@@ -17,14 +16,13 @@ Get branch or tag information without the `/ref/*` prefix
 |  ref_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
 |  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`      |  The tag that triggered the workflow run                          |
 
-
 ## Inputs
 
 | Input             |   type    |  default | Description             |
 |:-----------------:|:---------:|:--------:|:-----------------------:|
 | strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
 
-## Usage 
+## Usage
 
 ```yaml
 ...
@@ -109,7 +107,6 @@ Get branch or tag information without the `/ref/*` prefix
         # Outputs: "v0.0.1" OR "0.0.1"
 ```
 
-
 ### Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
 
 ```yaml
@@ -130,26 +127,18 @@ on:
           ref: ${{ steps.branch-names.outputs.base_ref_branch }}
 ```
 
+*   Free software: [MIT license](LICENSE)
 
-
-
-* Free software: [MIT license](LICENSE)
-
-
-Credits
--------
+## Credits
 
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
-
-
-Report Bugs
------------
+## Report Bugs
 
 Report bugs at https://github.com/tj-actions/branch-names/issues.
 
 If you are reporting a bug, please include:
 
-* Your operating system name and version.
-* Any details about your workflow that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+*   Your operating system name and version.
+*   Any details about your workflow that might be helpful in troubleshooting.
+*   Detailed steps to reproduce the bug.
