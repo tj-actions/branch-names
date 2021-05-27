@@ -1,5 +1,25 @@
 # Changelog
 
+## [v4.3](https://github.com/tj-actions/branch-names/tree/v4.3) (2021-05-27)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.3)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Updated README.md [\#57](https://github.com/tj-actions/branch-names/pull/57) ([jackton1](https://github.com/jackton1))
+- Create update-readme.yml [\#56](https://github.com/tj-actions/branch-names/pull/56) ([jackton1](https://github.com/jackton1))
+- Add support for detecting tag branches [\#55](https://github.com/tj-actions/branch-names/pull/55) ([jackton1](https://github.com/jackton1))
+- Update pascalgn/automerge-action action to v0.14.2 [\#54](https://github.com/tj-actions/branch-names/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v4.2 [\#53](https://github.com/tj-actions/branch-names/pull/53) ([jackton1](https://github.com/jackton1))
+
+## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4)
+
 ## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2)
@@ -16,11 +36,7 @@
 
 ## [v4.1](https://github.com/tj-actions/branch-names/tree/v4.1) (2021-05-24)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.1)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.6...v4.1)
 
 **Merged pull requests:**
 
@@ -36,13 +52,6 @@
 - Upgrade to GitHub-native Dependabot [\#37](https://github.com/tj-actions/branch-names/pull/37) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Update tj-actions/github-changelog-generator action to v1.6 [\#35](https://github.com/tj-actions/branch-names/pull/35) ([renovate[bot]](https://github.com/apps/renovate))
 - Upgraded to v4 [\#34](https://github.com/tj-actions/branch-names/pull/34) ([jackton1](https://github.com/jackton1))
-
-## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-04-25)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v3.6...v4)
-
-**Merged pull requests:**
-
 - Upgraded to v3.6 [\#33](https://github.com/tj-actions/branch-names/pull/33) ([jackton1](https://github.com/jackton1))
 
 ## [v3.6](https://github.com/tj-actions/branch-names/tree/v3.6) (2021-04-25)
