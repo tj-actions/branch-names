@@ -10,11 +10,12 @@ Get branch or tag information without the `/ref/*` prefix
 |   Output             |    type      |  Example                    |  Description                                                      |
 |:--------------------:|:------------:|:---------------------------:|:-----------------------------------------------------------------:|
 |  is_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the action is running on a default branch         |
+|  is_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the action is running on a tag branch             |
 |  current_branch      |  `string`    |  `main` *OR* `feature/test` |  Always returns a valid branch name for a triggered workflow run. |
 |  base_ref_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
 |  head_ref_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
 |  ref_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
-|  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`        |  The tag that triggered the workflow run                          |
+|  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`      |  The tag that triggered the workflow run                          |
 
 
 ## Inputs
@@ -28,7 +29,6 @@ Get branch or tag information without the `/ref/*` prefix
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v4.2
@@ -39,11 +39,10 @@ Get branch or tag information without the `/ref/*` prefix
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v4.2
-        
+
       - name: Running on the default branch.
         if: steps.branch-name.outputs.is_default == 'true'
         run: |
@@ -55,6 +54,24 @@ Get branch or tag information without the `/ref/*` prefix
         run: |
           echo "Running on pr: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on pr: feature/test".
+     
+      - name: Running on a tag branch.
+        if: steps.branch-name.outputs.is_tag == 'true'
+        run: |
+          echo "Running on tag: ${{ steps.branch-name.outputs.tag }}"
+        # Outputs: "Running on tag: v0.0.1".
+      
+      - name: Running on a non tag based branch and the default branch.
+        if: steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default == 'true'
+        run: |
+          echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "Running on branch: main".
+        
+      - name: Running on a non tag based branch and a PR branch.
+        if: steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default == 'false'
+        run: |
+          echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "Running on branch: feature/test".
       
       - name: Current branch name
         if: github.event_name == 'pull_request'
@@ -112,6 +129,8 @@ on:
         with:
           ref: ${{ steps.branch-names.outputs.base_ref_branch }}
 ```
+
+
 
 
 * Free software: [MIT license](LICENSE)
