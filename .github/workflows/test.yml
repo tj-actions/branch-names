@@ -27,6 +27,7 @@ jobs:
           echo "Head Ref: ${{ steps.branch-name.outputs.head_ref_branch }}"
           echo "Ref: ${{ steps.branch-name.outputs.ref_branch }}"
           echo "Is Default: ${{ steps.branch-name.outputs.is_default }}"
+          echo "Is Tag: ${{ steps.branch-name.outputs.is_tag }}"
           echo "Current tag: ${{ steps.branch-name.outputs.tag }}"
       - name: Test is_default output for pull request
         if: github.event_name == 'pull_request' && steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default != 'false'
