@@ -11,6 +11,9 @@ outputs:
   is_default:
     value: ${{ steps.default.outputs.is_default }}
     description: 'Returns "true" if the current branch is the default else "false".'
+  is_tag:
+    value: ${{ steps.tag.outputs.is_tag }}
+    description: 'Returns "true" if the current branch is a tag else "false".'
   current_branch:
     value: ${{ steps.current_branch.outputs.current_branch }}
     description: 'Returns the value of the current branch which is consistent regardless of event_type: i.e (push, pull_requests).'
@@ -72,6 +75,9 @@ runs:
           REF=${{ github.ref }}
           TAG=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
           echo "::set-output name=tag::$TAG"
+          echo "::set-output name=is_tag::true"
+        else
+          echo "::set-output name=is_tag::false"
         fi
       shell: bash
 
