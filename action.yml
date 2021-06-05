@@ -1,5 +1,5 @@
 name: branch-names
-description: Retrieve giithub branch information without `/ref/*` prefix
+description: Retrieve giithub branch or tag information without the /ref/* prefix
 author: tj-actions
 inputs:
   strip_tag_prefix:
