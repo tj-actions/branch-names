@@ -25,23 +25,31 @@ Get branch or tag information without the `/ref/*` prefix
 ## Usage
 
 ```yaml
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+      
 ...
     steps:
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v4.3
-      
-      - name: Current branch name
-        if: github.event_name == 'pull_request'
-        run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "feature/test" current PR branch.
-
+        
       - name: Current branch name
         if: github.event_name == 'push'
         run: |
           echo "${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "main" the branch that triggered the push event.
+
+      - name: Current branch name
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "feature/test" the current PR branch.
 ```
 
 ## Examples
