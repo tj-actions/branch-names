@@ -8,8 +8,8 @@ Get branch or tag information without the `/ref/*` prefix
 
 |   Output             |    type      |  Example                    |  Description                                                      |
 |:--------------------:|:------------:|:---------------------------:|:-----------------------------------------------------------------:|
-|  is_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the action is running on a default branch         |
-|  is_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the action is running on a tag branch             |
+|  is_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a default branch         |
+|  is_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a tag branch             |
 |  current_branch      |  `string`    |  `main` *OR* `feature/test` |  Always returns a valid branch name for a triggered workflow run. |
 |  base_ref_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
 |  head_ref_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
