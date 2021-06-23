@@ -150,7 +150,7 @@ on:
         uses: tj-actions/branch-names@v4.3
       - uses: actions/checkout@v2
         with:
-          ref: ${{ steps.branch-names.outputs.base_ref_branch }}
+          ref: ${{ steps.branch-names.outputs.head_ref_branch }}
 ```
 
 *   Free software: [MIT license](LICENSE)
