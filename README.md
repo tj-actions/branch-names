@@ -45,17 +45,17 @@ on:
         id: branch-name
         uses: tj-actions/branch-names@v4.3
         
-      - name: Current branch name
-        if: github.event_name == 'push'
+      - name: Running on the default branch.
+        if: steps.branch-name.outputs.is_default == 'true'
         run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "main" the branch that triggered the push event.
-
-      - name: Current branch name
-        if: github.event_name == 'pull_request'
+          echo "Running on default: ${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "Running on default: main".
+      
+      - name: Running on a pull request branch.
+        if: steps.branch-name.outputs.is_default == 'false'
         run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "feature/test" the current PR branch.
+          echo "Running on pr: ${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "Running on pr: feature/test".
 ```
 
 ## Examples
