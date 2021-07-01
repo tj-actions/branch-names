@@ -1,12 +1,26 @@
 # Changelog
 
-## [v4.3](https://github.com/tj-actions/branch-names/tree/v4.3) (2021-05-27)
+## [v4.4](https://github.com/tj-actions/branch-names/tree/v4.4) (2021-07-01)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.3)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.3...v4.4)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Update tj-actions/verify-changed-files action to v7 [\#64](https://github.com/tj-actions/branch-names/pull/64) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#63](https://github.com/tj-actions/branch-names/pull/63) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#62](https://github.com/tj-actions/branch-names/pull/62) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#61](https://github.com/tj-actions/branch-names/pull/61) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#60](https://github.com/tj-actions/branch-names/pull/60) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/sync-release-version action to v8.7 [\#59](https://github.com/tj-actions/branch-names/pull/59) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v4.3 [\#58](https://github.com/tj-actions/branch-names/pull/58) ([jackton1](https://github.com/jackton1))
+
+## [v4.3](https://github.com/tj-actions/branch-names/tree/v4.3) (2021-05-27)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4.3)
 
 **Merged pull requests:**
 
@@ -16,13 +30,13 @@
 - Update pascalgn/automerge-action action to v0.14.2 [\#54](https://github.com/tj-actions/branch-names/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
 - Upgraded to v4.2 [\#53](https://github.com/tj-actions/branch-names/pull/53) ([jackton1](https://github.com/jackton1))
 
-## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4)
-
 ## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.2)
+
+## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4)
 
 **Fixed bugs:**
 
