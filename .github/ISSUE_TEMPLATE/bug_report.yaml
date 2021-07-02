@@ -47,6 +47,8 @@ body:
         - macos-11
         - windows-latest or windows-2019
         - windows-2016
+    validations:
+      required: true
   - type: textarea
     id: expected
     attributes:
