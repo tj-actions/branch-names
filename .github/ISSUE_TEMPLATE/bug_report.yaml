@@ -4,6 +4,10 @@ title: "[BUG] <title>"
 labels: [bug, needs triage]
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
@@ -11,10 +15,6 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: what-happened
     attributes:
@@ -35,6 +35,18 @@ body:
         4. See error...
     validations:
       required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: What OS are you seeing the problem on?
+      multiple: true
+      options:
+        - ubuntu-latest or ubuntu-20.04
+        - ubuntu-18.04
+        - macos-latest or macos-10.15
+        - macos-11
+        - windows-latest or windows-2019
+        - windows-2016
   - type: textarea
     id: expected
     attributes:
@@ -44,32 +56,22 @@ body:
     validations:
       required: true 
   - type: textarea
-    attributes:
-      label: Anything else?
-      description: |
-          Links? 
-          References? 
-          
-          Anything that will give us more context about the issue you are encountering!
-          
-          Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
-    validations:
-        required: false
-  - type: dropdown
-    id: os
-    attributes:
-      label: What OS are you seeing the problem on?
-      multiple: true
-      options:
-        - ubuntu
-        - macOS
-        - windows
-  - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+          Links? or References? 
+          
+          Anything that will give us more context about the issue you are encountering!
+          
+          Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
