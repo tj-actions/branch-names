@@ -58,10 +58,9 @@ on:
 |:-----------------:|:---------:|:--------:|:-----------------------:|
 | strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
 
-
 ## Events
 
-- `push*`
+*   `push*`
 
 ```yaml
 on:
@@ -94,7 +93,7 @@ on:
 
 ```
 
-- `pull_request*`
+*   `pull_request*`
 
 ```yaml
 on:
@@ -126,7 +125,7 @@ on:
         # Outputs: "Running on branch: feature/test".
 ```
 
-- `tag*`
+*   `tag*`
 
 ```yaml
 on:
@@ -152,7 +151,6 @@ on:
           echo "${{ steps.branch-name.outputs.tag }}"
         # Outputs: "v0.0.1" OR "0.0.1"
 ```
-
 
 ### Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
 
