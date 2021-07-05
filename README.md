@@ -58,14 +58,27 @@ on:
 |:-----------------:|:---------:|:--------:|:-----------------------:|
 | strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
 
-## Examples
+
+## Events
+
+- `push*`
 
 ```yaml
+on:
+  push:
+    branches:
+      - main
+
 ...
     steps:
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v4.5
+
+      - name: Current branch name
+        run: |
+          echo "${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "main" the branch that triggered the push event.
 
       - name: Running on the default branch.
         if: steps.branch-name.outputs.is_default == 'true'
@@ -73,58 +86,65 @@ on:
           echo "Running on default: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on default: main".
       
-      - name: Running on a pull request branch.
-        if: steps.branch-name.outputs.is_default == 'false'
-        run: |
-          echo "Running on pr: ${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "Running on pr: feature/test".
-     
-      - name: Running on a tag branch.
-        if: steps.branch-name.outputs.is_tag == 'true'
-        run: |
-          echo "Running on tag: ${{ steps.branch-name.outputs.tag }}"
-        # Outputs: "Running on tag: v0.0.1".
-      
-      - name: Running on a non tag based branch and the default branch.
+      - name: Running on the default branch (i.e non tag based branch).
         if: steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default == 'true'
         run: |
           echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on branch: main".
-        
+
+```
+
+- `pull_request*`
+
+```yaml
+on:
+  pull_request:
+    branches:
+      - main
+
+...
+    steps:
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v4.5
+      
+      - name: Current branch name
+        run: |
+          echo "${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "feature/test" current PR branch.
+
       - name: Running on a non tag based branch and a PR branch.
-        if: steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-name.outputs.is_default == 'false'
         run: |
           echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on branch: feature/test".
       
-      - name: Current branch name
-        if: github.event_name == 'pull_request'
+      - name: Running on a pull request (i.e non tag based branch).
+        if: steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default == 'false'
         run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "feature/test" current PR branch.
-      
-      - name: Current branch name
-        if: github.event_name == 'push'
-        run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "main" the branch that triggered the push event.
-      
-      - name: Get Ref brach name
-        run: |
-          echo "${{ steps.branch-name.outputs.ref_branch }}"
-        #  Outputs: "main" for non PR branches | "1/merge" for a PR branch
+          echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
+        # Outputs: "Running on branch: feature/test".
+```
 
-      - name: Get Head Ref branch name
-        if: github.event_name == 'pull_request'
-        run: |
-          echo "${{ steps.branch-name.outputs.head_ref_branch }}"
-        # Outputs: "feature/test" current PR branch.
+- `tag*`
 
-      - name: Get Base Ref branch name
-        if: github.event_name == 'pull_request'
+```yaml
+on:
+  push:
+    tags:
+      - '*'
+
+...
+    steps:
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v4.5.
+     
+      - name: Running on a tag branch.
+        if: steps.branch-name.outputs.is_tag == 'true'
         run: |
-          echo "${{ steps.branch-name.outputs.base_ref_branch }}"
-        # Outputs: "main" for main <- PR branch.
+          echo "Running on: ${{ steps.branch-name.outputs.tag }}"
+        # Outputs: "Running on: v0.0.1".
         
       - name: Get the current tag
         if: startsWith(github.ref, 'refs/tags/')
@@ -132,6 +152,7 @@ on:
           echo "${{ steps.branch-name.outputs.tag }}"
         # Outputs: "v0.0.1" OR "0.0.1"
 ```
+
 
 ### Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
 
