@@ -24,7 +24,7 @@ on:
       
 ...
     steps:
-      - name: Get branch names
+      - name: Get branch name
         id: branch-name
         uses: tj-actions/branch-names@v4.5
         
