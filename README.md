@@ -10,23 +10,6 @@ Get branch or tag information without the `/ref/*` prefix
 *   [`macos-*`](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 *   [`windows-*`](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 
-## Outputs
-
-|   Output             |    type      |  Example                    |  Description                                                      |
-|:--------------------:|:------------:|:---------------------------:|:-----------------------------------------------------------------:|
-|  is_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a default branch         |
-|  is_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a tag branch             |
-|  current_branch      |  `string`    |  `main` *OR* `feature/test` |  Always returns a valid branch name for a triggered workflow run. |
-|  base_ref_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
-|  head_ref_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
-|  ref_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
-|  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`      |  The tag that triggered the workflow run                          |
-
-## Inputs
-
-| Input             |   type    |  default | Description             |
-|:-----------------:|:---------:|:--------:|:-----------------------:|
-| strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
 
 ## Usage
 
@@ -57,6 +40,25 @@ on:
           echo "Running on pr: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on pr: feature/test".
 ```
+
+## Outputs
+
+|   Output             |    type      |  Example                    |  Description                                                      |
+|:--------------------:|:------------:|:---------------------------:|:-----------------------------------------------------------------:|
+|  is_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a default branch         |
+|  is_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a tag branch             |
+|  current_branch      |  `string`    |  `main` *OR* `feature/test` |  Always returns a valid branch name for a triggered workflow run. |
+|  base_ref_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
+|  head_ref_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
+|  ref_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
+|  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`      |  The tag that triggered the workflow run                          |
+
+## Inputs
+
+| Input             |   type    |  default | Description             |
+|:-----------------:|:---------:|:--------:|:-----------------------:|
+| strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
+
 
 ## Examples
 
