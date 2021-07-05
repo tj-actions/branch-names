@@ -10,7 +10,6 @@ Get branch or tag information without the `/ref/*` prefix
 *   [`macos-*`](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 *   [`windows-*`](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
 
-
 ## Usage
 
 ```yaml
@@ -58,7 +57,6 @@ on:
 | Input             |   type    |  default | Description             |
 |:-----------------:|:---------:|:--------:|:-----------------------:|
 | strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
-
 
 ## Examples
 
