@@ -90,7 +90,11 @@ on:
         run: |
           echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on branch: main".
-
+      
+      - name: Get Ref brach name
+        run: |
+          echo "${{ steps.branch-name.outputs.ref_branch }}"
+        #  Outputs: "main"
 ```
 
 *   `pull_request*`
@@ -123,6 +127,21 @@ on:
         run: |
           echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on branch: feature/test".
+      
+      - name: Get Ref brach name
+        run: |
+          echo "${{ steps.branch-name.outputs.ref_branch }}"
+        #  Outputs: "1/merge"
+
+      - name: Get Head Ref branch name (i.e The current pull request branch)
+        run: |
+          echo "${{ steps.branch-name.outputs.head_ref_branch }}"
+        # Outputs: "feature/test" current PR branch.
+
+      - name: Get Base Ref branch name (i.e The target of a pull request.)
+        run: |
+          echo "${{ steps.branch-name.outputs.base_ref_branch }}"
+        # Outputs: "main".
 ```
 
 *   `tag*`
