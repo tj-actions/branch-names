@@ -165,7 +165,7 @@ on:
         # Outputs: "Running on: v0.0.1".
         
       - name: Get the current tag
-        if: startsWith(github.ref, 'refs/tags/')
+        if: steps.branch-name.outputs.is_tag == 'true'  # Replaces: startsWith(github.ref, 'refs/tags/')
         run: |
           echo "${{ steps.branch-name.outputs.tag }}"
         # Outputs: "v0.0.1" OR "0.0.1"
