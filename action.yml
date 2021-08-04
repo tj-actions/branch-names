@@ -1,4 +1,4 @@
-name: Branch
+name: Branch Info
 description: Retrieve giithub branch or tag information without the /ref/* prefix
 author: tj-actions
 inputs:
