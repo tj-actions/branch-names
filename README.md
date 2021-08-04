@@ -25,7 +25,7 @@ on:
     steps:
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v4.7
+        uses: tj-actions/branch-names@v4.8
         
       - name: Running on the default branch.
         if: steps.branch-name.outputs.is_default == 'true'
@@ -72,7 +72,7 @@ on:
     steps:
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v4.7
+        uses: tj-actions/branch-names@v4.8
 
       - name: Current branch name
         run: |
@@ -109,7 +109,7 @@ on:
     steps:
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v4.7
+        uses: tj-actions/branch-names@v4.8
       
       - name: Current branch name
         run: |
@@ -156,7 +156,7 @@ on:
     steps:
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v4.7.
+        uses: tj-actions/branch-names@v4.8.
      
       - name: Running on a tag branch.
         if: steps.branch-name.outputs.is_tag == 'true'
@@ -185,7 +185,7 @@ on:
     steps:
       - name: Get branch names.
         id: branch-names
-        uses: tj-actions/branch-names@v4.7
+        uses: tj-actions/branch-names@v4.8
       - uses: actions/checkout@v2
         with:
           ref: ${{ steps.branch-names.outputs.head_ref_branch }}
