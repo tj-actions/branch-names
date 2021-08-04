@@ -1,5 +1,24 @@
 # Changelog
 
+## [v4.6](https://github.com/tj-actions/branch-names/tree/v4.6) (2021-08-04)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.5...v4.6)
+
+**Closed issues:**
+
+- Improve documentation [\#43](https://github.com/tj-actions/branch-names/issues/43)
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Update codacy/codacy-analysis-cli-action action to v4 [\#73](https://github.com/tj-actions/branch-names/pull/73) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v3 [\#72](https://github.com/tj-actions/branch-names/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#71](https://github.com/tj-actions/branch-names/pull/71) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#70](https://github.com/tj-actions/branch-names/pull/70) ([jackton1](https://github.com/jackton1))
+- Clean up docs to include all events [\#69](https://github.com/tj-actions/branch-names/pull/69) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#68](https://github.com/tj-actions/branch-names/pull/68) ([jackton1](https://github.com/jackton1))
+- Upgraded to v4.5 [\#66](https://github.com/tj-actions/branch-names/pull/66) ([jackton1](https://github.com/jackton1))
+
 ## [v4.5](https://github.com/tj-actions/branch-names/tree/v4.5) (2021-07-01)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.4...v4.5)
@@ -11,10 +30,6 @@
 ## [v4.4](https://github.com/tj-actions/branch-names/tree/v4.4) (2021-07-01)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.3...v4.4)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
