@@ -1,5 +1,13 @@
 # Changelog
 
+## [v4.8](https://github.com/tj-actions/branch-names/tree/v4.8) (2021-08-04)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.7...v4.8)
+
+**Merged pull requests:**
+
+- Upgraded to v4.7 [\#75](https://github.com/tj-actions/branch-names/pull/75) ([jackton1](https://github.com/jackton1))
+
 ## [v4.7](https://github.com/tj-actions/branch-names/tree/v4.7) (2021-08-04)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.6...v4.7)
