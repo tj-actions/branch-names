@@ -1,5 +1,22 @@
 # Changelog
 
+## [v4.9](https://github.com/tj-actions/branch-names/tree/v4.9) (2021-08-23)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.8...v4.9)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Updated README.md [\#81](https://github.com/tj-actions/branch-names/pull/81) ([jackton1](https://github.com/jackton1))
+- docs: add loarca as a contributor for code [\#80](https://github.com/tj-actions/branch-names/pull/80) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+- Update 'current\_branch' output to strip tag prefix [\#79](https://github.com/tj-actions/branch-names/pull/79) ([loarca](https://github.com/loarca))
+- Update tj-actions/remark action to v1.7 [\#78](https://github.com/tj-actions/branch-names/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#77](https://github.com/tj-actions/branch-names/pull/77) ([jackton1](https://github.com/jackton1))
+- Upgraded to v4.8 [\#76](https://github.com/tj-actions/branch-names/pull/76) ([jackton1](https://github.com/jackton1))
+
 ## [v4.8](https://github.com/tj-actions/branch-names/tree/v4.8) (2021-08-04)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.7...v4.8)
@@ -23,7 +40,6 @@
 **Closed issues:**
 
 - Improve documentation [\#43](https://github.com/tj-actions/branch-names/issues/43)
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
