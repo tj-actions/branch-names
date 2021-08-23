@@ -55,7 +55,7 @@ runs:
           fi
         else
           REF=${{ github.ref }}
-          REF_BRANCH=${REF/refs\/tags\//}
+          REF_BRANCH=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
           echo "::set-output name=current_branch::$REF_BRANCH"
         fi
       shell: bash
