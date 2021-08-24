@@ -18,6 +18,22 @@ Get branch or tag information without the `/ref/*` prefix
 
 ## Table of Contents
 
+*   [Usage](#usage)
+
+*   [Outputs](#outputs)
+
+*   [Inputs](#inputs)
+
+*   [Events](#events)
+
+    *   [Possible usage with actions/checkout@v2:](#possible-usage-with-actionscheckoutv2)
+
+*   [Credits](#credits)
+
+*   [Report Bugs](#report-bugs)
+
+*   [Contributors ✨](#contributors-)
+
 ## Usage
 
 ```yaml
