@@ -12,8 +12,8 @@ Get branch or tag information without the `/ref/*` prefix
 
 
 ## Features
-- Retrieve the current branch name without any prefix
-- Retrieve the current tag with an option to strip the "v" prefix 
+- Retrieve the current branch name without any prefix. (e.g. 'refs/heads/main' -> 'main')
+- Retrieve the current tag with an option to strip the "v" prefix (e.g. 'refs/tags/v1.0.0' -> 'v1.0.0' OR '1.0.0')
 - Detect actions triggered by non default branches
 - Detect actions triggered by the default branch 
 
