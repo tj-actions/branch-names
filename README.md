@@ -10,6 +10,14 @@
 
 Get branch or tag information without the `/ref/*` prefix
 
+
+## Features
+- Retrieve the current branch name without any prefix
+- Retrieve the current tag with an option to strip the "v" prefix 
+- Detect actions triggered by non default branches
+- Detect actions triggered by the default branch 
+
+
 ## Supported Platforms
 
 *   [`ubuntu-*`](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
