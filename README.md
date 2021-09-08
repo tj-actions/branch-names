@@ -169,7 +169,7 @@ on:
     steps:
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v4.9.
+        uses: tj-actions/branch-names@v4.9
      
       - name: Running on a tag branch.
         if: steps.branch-name.outputs.is_tag == 'true'
