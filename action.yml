@@ -36,13 +36,20 @@ runs:
     - id: branch
       run: |
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          BASE_REF=${{ github.base_ref }}
-          HEAD_REF=${{ github.head_ref }}
-          REF=${{ github.ref }}
-          echo "::set-output name=base_ref_branch::${BASE_REF/refs\/heads\//}"
-          echo "::set-output name=head_ref_branch::${HEAD_REF/refs\/heads\//}"
+          BASE_REF=$(printf "%q" "${{ github.base_ref }}")
+          HEAD_REF=$(printf "%q" "${{ github.head_ref }}")
+          REF=$(printf "%q" "${{ github.ref }}")
+
+          BASE_REF=${BASE_REF/refs\/heads\//}
+          HEAD_REF=${HEAD_REF/refs\/heads\//}
+
+          echo "::set-output name=base_ref_branch::$(eval printf "%s" "$BASE_REF")"
+          echo "::set-output name=head_ref_branch::$(eval printf "%s" "$HEAD_REF")"
+
           REF_BRANCH=${REF/refs\/pull\//}
-          echo "::set-output name=ref_branch::${REF_BRANCH/refs\/heads\//}"
+          REF_BRANCH=${REF_BRANCH/refs\/heads\//}
+
+          echo "::set-output name=ref_branch::$(eval printf "%s" "$REF_BRANCH")"
         fi
       shell: bash
     - id: current_branch
@@ -54,9 +61,10 @@ runs:
             echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
           fi
         else
-          REF=${{ github.ref }}
+          REF=$(printf "%q" "${{ github.ref }}")
           REF_BRANCH=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
-          echo "::set-output name=current_branch::$REF_BRANCH"
+
+          echo "::set-output name=current_branch::$(eval printf "%s" "$REF_BRANCH")"
         fi
       shell: bash
     - id: default
@@ -72,9 +80,10 @@ runs:
     - id: tag
       run: |
         if [[ "${{ github.ref }}" == "refs/tags/"* ]]; then
-          REF=${{ github.ref }}
+          REF=$(printf "%q" "${{ github.ref }}")
           TAG=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
-          echo "::set-output name=tag::$TAG"
+
+          echo "::set-output name=tag::$(eval printf "%s" "$TAG")"
           echo "::set-output name=is_tag::true"
         else
           echo "::set-output name=is_tag::false"
