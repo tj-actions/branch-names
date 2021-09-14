@@ -1,12 +1,33 @@
 # Changelog
 
-## [v4.9](https://github.com/tj-actions/branch-names/tree/v4.9) (2021-08-23)
+## [v5](https://github.com/tj-actions/branch-names/tree/v5) (2021-09-14)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.8...v4.9)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.9...v5)
+
+**Implemented enhancements:**
+
+- 🙏🙏🙏🙏🙏 Thanks for making this 👏👏👏👏 [\#87](https://github.com/tj-actions/branch-names/issues/87)
+
+**Fixed bugs:**
+
+- \[BUG\] Action fails when branch name contains parentheses  [\#88](https://github.com/tj-actions/branch-names/issues/88)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Update README.md [\#90](https://github.com/tj-actions/branch-names/pull/90) ([jackton1](https://github.com/jackton1))
+- Escape valid branch names [\#89](https://github.com/tj-actions/branch-names/pull/89) ([jackton1](https://github.com/jackton1))
+- Update pascalgn/automerge-action action to v0.14.3 [\#86](https://github.com/tj-actions/branch-names/pull/86) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#85](https://github.com/tj-actions/branch-names/pull/85) ([jackton1](https://github.com/jackton1))
+- Update peter-evans/create-pull-request action to v3.10.1 [\#83](https://github.com/tj-actions/branch-names/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v4.9 [\#82](https://github.com/tj-actions/branch-names/pull/82) ([jackton1](https://github.com/jackton1))
+
+## [v4.9](https://github.com/tj-actions/branch-names/tree/v4.9) (2021-08-23)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.8...v4.9)
 
 **Merged pull requests:**
 
