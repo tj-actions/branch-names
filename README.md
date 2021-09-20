@@ -1,6 +1,6 @@
 ## branch-names
 
-[![CI](https://github.com/tj-actions/branch-names/workflows/CI/badge.svg)](https://github.com/tj-actions/branch-names/actions?query=workflow%3ACI) [![Update release version.](https://github.com/tj-actions/branch-names/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/branch-names/actions/workflows/sync-release-version.yml) [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fbranch-names%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+branch-names+language%3AYAML\&s=\&type=Code) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5862d212695f44cbb0c4c031bf39f56f)](https://www.codacy.com/gh/tj-actions/branch-names/dashboard?utm_source=github.com\&utm_medium=referral\&utm_content=tj-actions/branch-names\&utm_campaign=Badge_Grade)
+[![CI](https://github.com/tj-actions/branch-names/workflows/CI/badge.svg)](https://github.com/tj-actions/branch-names/actions?query=workflow%3ACI) [![Update release version.](https://github.com/tj-actions/branch-names/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/branch-names/actions/workflows/sync-release-version.yml) [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fbranch-names%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+branch-names+language%3AYAML\&s=\&type=Code) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5862d212695f44cbb0c4c031bf39f56f)](https://www.codacy.com/gh/tj-actions/branch-names/dashboard?utm\_source=github.com\&utm\_medium=referral\&utm\_content=tj-actions/branch-names\&utm\_campaign=Badge\_Grade)
 
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob\_idruns-on)
 [![Mac OS](https://img.shields.io/badge/mac%20os-000000?logo=macos\&logoColor=F0F0F0)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob\_idruns-on)
@@ -8,7 +8,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all\_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -20,7 +20,7 @@ Get branch or tag information without the `/ref/*` prefix
 *   Retrieve the current tag with an option to strip the "v" prefix (e.g. `'refs/tags/v1.0.0'` -> `'v1.0.0'` OR `'1.0.0'`)
 *   Detect actions triggered by non default branches
 *   Detect actions triggered by the default branch
-*   Supports all valid [git branch names](https://wincent.com/wiki/Legal_Git_branch_names)
+*   Supports all valid [git branch names](https://wincent.com/wiki/Legal\_Git\_branch\_names)
 
 ## Usage
 
@@ -56,19 +56,19 @@ on:
 
 |   Output             |    type      |  Example                    |  Description                                                      |
 |:--------------------:|:------------:|:---------------------------:|:-----------------------------------------------------------------:|
-|  is_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a default branch         |
-|  is_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a tag branch             |
-|  current_branch      |  `string`    |  `main` *OR* `feature/test` |  Always returns a valid branch name for a triggered workflow run. |
-|  base_ref_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
-|  head_ref_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
-|  ref_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
+|  is\_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a default branch         |
+|  is\_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a tag branch             |
+|  current\_branch      |  `string`    |  `main` *OR* `feature/test` |  Always returns a valid branch name for a triggered workflow run. |
+|  base\_ref\_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
+|  head\_ref\_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
+|  ref\_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
 |  tag                 |  `string`    |  `v0.0.1` *OR* `0.0.1`      |  The tag that triggered the workflow run                          |
 
 ## Inputs
 
 | Input             |   type    |  default | Description             |
 |:-----------------:|:---------:|:--------:|:-----------------------:|
-| strip_tag_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
+| strip\_tag\_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
 
 ## Events
 
