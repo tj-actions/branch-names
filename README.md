@@ -52,6 +52,17 @@ on:
         # Outputs: "Running on pr: feature/test".
 ```
 
+If you feel generous and want to show some extra appreciation:
+
+Support this project with a :star:
+
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
+[buymeacoffee]: https://www.buymeacoffee.com/jackton1
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
+
+
 ## Outputs
 
 |   Output             |    type      |  Example                    |  Description                                                      |
@@ -182,16 +193,6 @@ on:
           echo "${{ steps.branch-name.outputs.tag }}"
         # Outputs: "v0.0.1" OR "0.0.1"
 ```
-
-If you feel generous and want to show some extra appreciation:
-
-Support this project with a :star:
-
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
-[buymeacoffee]: https://www.buymeacoffee.com/jackton1
-
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
 ### Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
 
