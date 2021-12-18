@@ -1,5 +1,39 @@
 # Changelog
 
+## [Unreleased](https://github.com/tj-actions/branch-names/tree/HEAD)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.1...HEAD)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+## [v5.1](https://github.com/tj-actions/branch-names/tree/v5.1) (2021-12-14)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5...v5.1)
+
+**Implemented enhancements:**
+
+- \[Feature\] Pre-merge branch ref for push and/or pull request [\#93](https://github.com/tj-actions/branch-names/issues/93)
+
+**Closed issues:**
+
+- Action Required: Fix Renovate Configuration [\#97](https://github.com/tj-actions/branch-names/issues/97)
+
+**Merged pull requests:**
+
+- Update peter-evans/create-pull-request action to v3.12.0 [\#104](https://github.com/tj-actions/branch-names/pull/104) ([renovate[bot]](https://github.com/apps/renovate))
+- Add a Codacy badge to README.md [\#102](https://github.com/tj-actions/branch-names/pull/102) ([codacy-badger](https://github.com/codacy-badger))
+- Updated README.md [\#101](https://github.com/tj-actions/branch-names/pull/101) ([jackton1](https://github.com/jackton1))
+- Update peter-evans/create-pull-request action to v3.11.0 [\#100](https://github.com/tj-actions/branch-names/pull/100) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#99](https://github.com/tj-actions/branch-names/pull/99) ([jackton1](https://github.com/jackton1))
+- Update actions/checkout action to v2.4.0 [\#98](https://github.com/tj-actions/branch-names/pull/98) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/sync-release-version from 8.7 to 9 [\#96](https://github.com/tj-actions/branch-names/pull/96) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update actions/checkout action to v2.3.5 [\#95](https://github.com/tj-actions/branch-names/pull/95) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v8 [\#94](https://github.com/tj-actions/branch-names/pull/94) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#92](https://github.com/tj-actions/branch-names/pull/92) ([jackton1](https://github.com/jackton1))
+- Upgraded to v5 [\#91](https://github.com/tj-actions/branch-names/pull/91) ([jackton1](https://github.com/jackton1))
+
 ## [v5](https://github.com/tj-actions/branch-names/tree/v5) (2021-09-14)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.9...v5)
@@ -11,10 +45,6 @@
 **Fixed bugs:**
 
 - \[BUG\] Action fails when branch name contains parentheses  [\#88](https://github.com/tj-actions/branch-names/issues/88)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
@@ -96,7 +126,7 @@
 
 ## [v4.3](https://github.com/tj-actions/branch-names/tree/v4.3) (2021-05-27)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4.3)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.3)
 
 **Merged pull requests:**
 
@@ -106,13 +136,13 @@
 - Update pascalgn/automerge-action action to v0.14.2 [\#54](https://github.com/tj-actions/branch-names/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
 - Upgraded to v4.2 [\#53](https://github.com/tj-actions/branch-names/pull/53) ([jackton1](https://github.com/jackton1))
 
-## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.2)
-
 ## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4)
+
+## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2)
 
 **Fixed bugs:**
 
