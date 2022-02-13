@@ -69,7 +69,7 @@ Support this project with a :star:
 |:--------------------:|:------------:|:---------------------------:|:-----------------------------------------------------------------:|
 |  is\_default          |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a default branch         |
 |  is\_tag              |  `boolean`   |  `true` *OR* `false`        |  Detects wheter the workflow is running on a tag branch             |
-|  current\_branch      |  `string`    |  `main` *OR* `feature/test` *OR* `v0.0.1` |  Always returns a valid branch name for a triggered workflow run. |
+|  current\_branch      |  `string`    |  `main` <br> *OR* <br> `feature/test` <br> *OR* <br> `v0.0.1` |  Always returns a valid branch name for a triggered workflow run. |
 |  base\_ref\_branch     |  `string`    |  `main`                     |  The target branch of a pull request                              |
 |  head\_ref\_branch     |  `string`    |  `feature/test`             |  The source branch of a pull request                              |
 |  ref\_branch          |  `string`    |  `1/merge` *OR* `main`      |  The branch that triggered the workflow run                       |
