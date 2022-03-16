@@ -18,7 +18,7 @@ Get branch or tag information without the `/ref/*` prefix
 ## Features
 
 *   Retrieve the current branch name without any prefix. (e.g. `'refs/heads/main'` -> `'main'`)
-*   Retrieve the current tag with an option to strip the "v" prefix (e.g. `'refs/tags/v1.0.0'` -> `'v1.0.0'` OR `'1.0.0'`)
+*   Retrieve the current tag with an option to strip the prefix (e.g. `v0.0.1` -> `v` -> `0.0.1`)
 *   Detect actions triggered by non default branches
 *   Detect actions triggered by the default branch
 *   Supports all valid [git branch names](https://wincent.com/wiki/Legal_Git_branch_names)
@@ -79,7 +79,7 @@ Support this project with a :star:
 
 | Input             |   type    |  default | Description             |
 |:-----------------:|:---------:|:--------:|:-----------------------:|
-| strip\_tag\_prefix  |  `string` |    `''`  | The tag prefix to strip <br> *i.e `v0.0.1` -> `v` -> `0.0.1`*  |
+| strip\_tag\_prefix  |  `string` |    `''`  | The tag prefix to strip <br> e.g `v0.0.1` -> `v` -> `0.0.1`  |
 
 ## Events
 
