@@ -71,7 +71,7 @@ Support this project with a :star:
 |-----------------|--------|---------------------------------------------------------------------------------------------------------------|
 | base\_ref\_branch | string | The target branch of a pull request<br>e.g `main`                                                             |
 | current\_branch  | string | Returns the value of the current branch<br>regardless of event\_type e.g `main`, `feature/test`, `v0.0.1`.<br> |
-| default\_branch  | string |                                                                                                               |
+| default\_branch  | string | The default branch e.g `main` OR `master`<br>                                                                 |
 | head\_ref\_branch | string | The source branch of a pull request<br>e.g `feature/test`                                                     |
 | is\_default      | string | Returns `"true"` if the current branch is<br>the default else `"false"`.                                      |
 | is\_tag          | string | Returns `"true"` if the current branch is<br>a tag else `"false"`.                                            |
