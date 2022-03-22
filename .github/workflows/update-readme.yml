@@ -12,6 +12,9 @@ jobs:
       - uses: actions/checkout@v3.0.0
         with:
           fetch-depth: 0
+      
+      - name: Run auto-doc
+        uses: tj-actions/auto-doc@v1.2.14
 
       - name: Run test
         uses: tj-actions/remark@v3
