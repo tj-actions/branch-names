@@ -3,7 +3,7 @@ description: Retrieve giithub branch or tag information without the /ref/* prefi
 author: tj-actions
 inputs:
   strip_tag_prefix:
-    description: 'The tag prefix to strip e.g `v0.0.1 -> (strip v) -> 0.0.1`'
+    description: 'The prefix that should be stripped from the tag e.g `v0.0.1` -> `(strip v)` -> `0.0.1`'
     default: ''
     required: false
 
