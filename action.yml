@@ -16,6 +16,7 @@ outputs:
     description: 'Returns `"true"` if the current branch is a tag else `"false"`.'
   default_branch:
     value: ${{ steps.default.outputs.default_branch }}
+    description: 'The default branch e.g `main` OR `master`'
   current_branch:
     value: ${{ steps.current_branch.outputs.current_branch }}
     description: 'Returns the value of the current branch regardless of event_type e.g `main`, `feature/test`, `v0.0.1`.'
