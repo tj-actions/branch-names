@@ -127,6 +127,11 @@ on:
         run: |
           echo "${{ steps.branch-name.outputs.ref_branch }}"
         #  Outputs: "main"
+      
+      - name: Default branch name
+        run: |
+          echo "${{ steps.branch-name.outputs.default_branch }}"
+        # Outputs: "main" the default branch.
 ```
 
 *   `pull_request*`
@@ -160,7 +165,7 @@ on:
           echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "Running on branch: feature/test".
       
-      - name: Get Ref brach name
+      - name: Get Ref branch name
         run: |
           echo "${{ steps.branch-name.outputs.ref_branch }}"
         #  Outputs: "1/merge"
@@ -174,6 +179,11 @@ on:
         run: |
           echo "${{ steps.branch-name.outputs.base_ref_branch }}"
         # Outputs: "main".
+      
+      - name: Default branch name
+        run: |
+          echo "${{ steps.branch-name.outputs.default_branch }}"
+        # Outputs: "main" the default branch.
 ```
 
 *   `tag*`
