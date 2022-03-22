@@ -84,9 +84,9 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|      INPUT       |  TYPE  | REQUIRED | DEFAULT |                          DESCRIPTION                          |
-|------------------|--------|----------|---------|---------------------------------------------------------------|
-| strip\_tag\_prefix | string | false    |         | The tag prefix to strip e.g `v0.0.1<br>-> (strip v) -> 0.0.1` |
+|      INPUT       |  TYPE  | REQUIRED | DEFAULT |                                         DESCRIPTION                                          |
+|------------------|--------|----------|---------|----------------------------------------------------------------------------------------------|
+| strip\_tag\_prefix | string | false    |         | The prefix that should be stripped from<br>the tag e.g `v0.0.1` -> `(strip v)`<br>-> `0.0.1` |
 
 <!-- AUTO-DOC-INPUT:END -->
 
