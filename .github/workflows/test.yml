@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [ubuntu-latest, windows-latest, macos-latest, macos-11, ubuntu-18.04, windows-2022, windows-2016]
+        platform: [ubuntu-latest, windows-latest, macos-latest, macos-11, ubuntu-18.04, windows-2022]
 
     steps:
       - name: Checkout
@@ -27,6 +27,7 @@ jobs:
         uses: ./
       - name: Show output
         run: |
+          echo "Default Branch: ${{ steps.branch-name.outputs.default_branch }}"
           echo "Current Branch: ${{ steps.branch-name.outputs.current_branch }}"
           echo "Base Ref: ${{ steps.branch-name.outputs.base_ref_branch }}"
           echo "Head Ref: ${{ steps.branch-name.outputs.head_ref_branch }}"

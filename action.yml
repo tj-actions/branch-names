@@ -3,7 +3,7 @@ description: Retrieve giithub branch or tag information without the /ref/* prefi
 author: tj-actions
 inputs:
   strip_tag_prefix:
-    description: 'The tag prefix to strip i.e v0.0.1 -> (strip v) -> 0.0.1'
+    description: 'The tag prefix to strip e.g v0.0.1 -> (strip v) -> 0.0.1'
     default: ''
     required: false
 
@@ -14,6 +14,8 @@ outputs:
   is_tag:
     value: ${{ steps.tag.outputs.is_tag }}
     description: 'Returns "true" if the current branch is a tag else "false".'
+  default_branch:
+    value: ${{ steps.default.outputs.default_branch }}
   current_branch:
     value: ${{ steps.current_branch.outputs.current_branch }}
     description: 'Returns the value of the current branch which is consistent regardless of event_type: i.e (push, pull_requests).'
@@ -72,8 +74,10 @@ runs:
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
           if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.branch.outputs.ref_branch }}" ]]; then
             echo "::set-output name=is_default::true"
+            echo "::set-output name=default_branch::${{ github.event.repository.default_branch }}"
           else
             echo "::set-output name=is_default::false"
+            echo "::set-output name=default_branch::${{ github.event.repository.default_branch }}"
           fi
         fi
       shell: bash
