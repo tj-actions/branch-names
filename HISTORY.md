@@ -1,12 +1,41 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/branch-names/tree/HEAD)
+## [v5.2](https://github.com/tj-actions/branch-names/tree/v5.2) (2022-03-22)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.1...HEAD)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.1...v5.2)
+
+**Implemented enhancements:**
+
+- \[Feature\] Get default branches name [\#124](https://github.com/tj-actions/branch-names/issues/124)
+- \[Feature\] Identify multiple default branches [\#112](https://github.com/tj-actions/branch-names/issues/112)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Updated README.md [\#127](https://github.com/tj-actions/branch-names/pull/127) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#126](https://github.com/tj-actions/branch-names/pull/126) ([jackton1](https://github.com/jackton1))
+- feat: add support for the default\_branch output [\#125](https://github.com/tj-actions/branch-names/pull/125) ([jackton1](https://github.com/jackton1))
+- Bump tj-actions/remark from 2.3 to 3 [\#123](https://github.com/tj-actions/branch-names/pull/123) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/github-changelog-generator action to v1.13 [\#122](https://github.com/tj-actions/branch-names/pull/122) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v9 [\#121](https://github.com/tj-actions/branch-names/pull/121) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.0.2 [\#120](https://github.com/tj-actions/branch-names/pull/120) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.0.1 [\#119](https://github.com/tj-actions/branch-names/pull/119) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action [\#118](https://github.com/tj-actions/branch-names/pull/118) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v3.14.0 [\#117](https://github.com/tj-actions/branch-names/pull/117) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v3.13.0 [\#116](https://github.com/tj-actions/branch-names/pull/116) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.12 [\#115](https://github.com/tj-actions/branch-names/pull/115) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/sync-release-version action to v11 [\#114](https://github.com/tj-actions/branch-names/pull/114) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v3.12.1 [\#113](https://github.com/tj-actions/branch-names/pull/113) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/remark action to v2.3 [\#111](https://github.com/tj-actions/branch-names/pull/111) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/remark action to v2.2 [\#110](https://github.com/tj-actions/branch-names/pull/110) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/remark action to v2 [\#109](https://github.com/tj-actions/branch-names/pull/109) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.11 [\#108](https://github.com/tj-actions/branch-names/pull/108) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.10 [\#107](https://github.com/tj-actions/branch-names/pull/107) ([renovate[bot]](https://github.com/apps/renovate))
+- Update test to include all supported platforms [\#106](https://github.com/tj-actions/branch-names/pull/106) ([jackton1](https://github.com/jackton1))
+- Upgraded to v5.1 [\#105](https://github.com/tj-actions/branch-names/pull/105) ([jackton1](https://github.com/jackton1))
 
 ## [v5.1](https://github.com/tj-actions/branch-names/tree/v5.1) (2021-12-14)
 
