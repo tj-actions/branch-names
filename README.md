@@ -67,16 +67,16 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-OUTPUT:START - Do not remove or modify this section -->
 
-|     OUTPUT      |  TYPE  |                                                          DESCRIPTION                                                          |
-|-----------------|--------|-------------------------------------------------------------------------------------------------------------------------------|
-| base\_ref\_branch | string | The target branch of a<br>pull request e.g main                                                                               |
-| current\_branch  | string | Returns the value of the<br>current branch which is consistent<br>regardless of event\_type e.g main,<br>feature/test, v0.0.1. |
-| default\_branch  | string |                                                                                                                               |
-| head\_ref\_branch | string | The source branch of a<br>pull request e.g feature/test                                                                       |
-| is\_default      | string | Returns "true" if the current<br>branch is the default else<br>"false".                                                       |
-| is\_tag          | string | Returns "true" if the current<br>branch is a tag else<br>"false".                                                             |
-| ref\_branch      | string | The branch that triggered the<br>workflow run. e.g 1/merge, main<br>                                                          |
-| tag             | string | The tag that triggered the<br>workflow run. e.g v0.0.1, 0.0.1<br>                                                             |
+|     OUTPUT      |  TYPE  |                                                           DESCRIPTION                                                            |
+|-----------------|--------|----------------------------------------------------------------------------------------------------------------------------------|
+| base\_ref\_branch | string | The target branch of a pull request<br>e.g `main`                                                                                |
+| current\_branch  | string | Returns the value of the current branch<br>which is consistent regardless of event\_type e.g<br>`main`, `feature/test`, `v0.0.1`. |
+| default\_branch  | string |                                                                                                                                  |
+| head\_ref\_branch | string | The source branch of a pull request<br>e.g `feature/test`                                                                        |
+| is\_default      | string | Returns `"true"` if the current branch is<br>the default else `"false"`.                                                         |
+| is\_tag          | string | Returns `"true"` if the current branch is<br>a tag else `"false"`.                                                               |
+| ref\_branch      | string | The branch that triggered the workflow run.<br>e.g `1/merge`, `main`                                                             |
+| tag             | string | The tag that triggered the workflow run.<br>e.g `v0.0.1`, `0.0.1`                                                                |
 
 <!-- AUTO-DOC-OUTPUT:END -->
 
@@ -84,9 +84,9 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|      INPUT       |  TYPE  | REQUIRED | DEFAULT |                          DESCRIPTION                           |
-|------------------|--------|----------|---------|----------------------------------------------------------------|
-| strip\_tag\_prefix | string | false    |         | The tag prefix to strip<br>e.g v0.0.1 -> (strip v)<br>-> 0.0.1 |
+|      INPUT       |  TYPE  | REQUIRED | DEFAULT |                          DESCRIPTION                          |
+|------------------|--------|----------|---------|---------------------------------------------------------------|
+| strip\_tag\_prefix | string | false    |         | The tag prefix to strip e.g `v0.0.1<br>-> (strip v) -> 0.0.1` |
 
 <!-- AUTO-DOC-INPUT:END -->
 
