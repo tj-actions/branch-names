@@ -13,7 +13,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Get branch or tag name without the `/ref/*` prefix
+Get a branch or tag name without the `/ref/*` prefix
 
 ## Features
 
