@@ -11,15 +11,15 @@ outputs:
   is_default:
     value: ${{ steps.default.outputs.is_default }}
     description: 'Returns `"true"` if the current branch is the default else `"false"`.'
-  is_tag:
-    value: ${{ steps.tag.outputs.is_tag }}
-    description: 'Returns `"true"` if the current branch is a tag else `"false"`.'
   default_branch:
     value: ${{ steps.default.outputs.default_branch }}
     description: 'The default branch name e.g `main` OR `master`'
+  is_tag:
+    value: ${{ steps.tag.outputs.is_tag }}
+    description: 'Returns `"true"` if the current branch is a tag else `"false"`.'
   current_branch:
-    value: ${{ steps.current_branch.outputs.current_branch }}
-    description: 'The current branch name regardless of event_type e.g `main`, `feature/test`, `v0.0.1`.'
+    value: ${{ github.ref_name }}
+    description: 'The current branch name. NOTE: This field would be deprecated in a future release as it is now natively supported via github.ref_name.'
   base_ref_branch:
     value: ${{ steps.branch.outputs.base_ref_branch }}
     description: 'The target branch of a pull request e.g `main`'
@@ -55,25 +55,10 @@ runs:
           echo "::set-output name=ref_branch::$(eval printf "%s" "$REF_BRANCH")"
         fi
       shell: bash
-    - id: current_branch
-      run: |
-        if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          if [[ ${{ github.event_name }} == 'pull_request' ]]; then
-            echo "::set-output name=current_branch::${{ steps.branch.outputs.head_ref_branch }}"
-          else
-            echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
-          fi
-        else
-          REF=$(printf "%q" "${{ github.ref }}")
-          REF_BRANCH=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
-
-          echo "::set-output name=current_branch::$(eval printf "%s" "$REF_BRANCH")"
-        fi
-      shell: bash
     - id: default
       run: |
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.branch.outputs.ref_branch }}" ]]; then
+          if [[ "${{ github.ref_name }}" == "${{ steps.branch.outputs.ref_branch }}" ]]; then
             echo "::set-output name=is_default::true"
             echo "::set-output name=default_branch::${{ github.event.repository.default_branch }}"
           else
