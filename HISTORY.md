@@ -1,5 +1,37 @@
 # Changelog
 
+## [v5.3](https://github.com/tj-actions/branch-names/tree/v5.3) (2022-06-22)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.2...v5.3)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Bump tj-actions/verify-changed-files from 9 to 10 [\#150](https://github.com/tj-actions/branch-names/pull/150) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump codacy/codacy-analysis-cli-action from 4.0.2 to 4.1.0 [\#149](https://github.com/tj-actions/branch-names/pull/149) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update peter-evans/create-pull-request action to v4.0.4 [\#148](https://github.com/tj-actions/branch-names/pull/148) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.15 [\#146](https://github.com/tj-actions/branch-names/pull/146) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.3 [\#145](https://github.com/tj-actions/branch-names/pull/145) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.7 [\#144](https://github.com/tj-actions/branch-names/pull/144) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.0.3 [\#143](https://github.com/tj-actions/branch-names/pull/143) ([renovate[bot]](https://github.com/apps/renovate))
+- Update github/codeql-action action to v2 [\#142](https://github.com/tj-actions/branch-names/pull/142) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.0.2 [\#141](https://github.com/tj-actions/branch-names/pull/141) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.6 [\#139](https://github.com/tj-actions/branch-names/pull/139) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.0.1 [\#138](https://github.com/tj-actions/branch-names/pull/138) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.0.2 [\#137](https://github.com/tj-actions/branch-names/pull/137) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.0.1 [\#136](https://github.com/tj-actions/branch-names/pull/136) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.2 [\#135](https://github.com/tj-actions/branch-names/pull/135) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.14.4 [\#134](https://github.com/tj-actions/branch-names/pull/134) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#133](https://github.com/tj-actions/branch-names/pull/133) ([jackton1](https://github.com/jackton1))
+- Update peter-evans/create-pull-request action [\#132](https://github.com/tj-actions/branch-names/pull/132) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#131](https://github.com/tj-actions/branch-names/pull/131) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#130](https://github.com/tj-actions/branch-names/pull/130) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#129](https://github.com/tj-actions/branch-names/pull/129) ([jackton1](https://github.com/jackton1))
+- Upgraded to v5.2 [\#128](https://github.com/tj-actions/branch-names/pull/128) ([jackton1](https://github.com/jackton1))
+
 ## [v5.2](https://github.com/tj-actions/branch-names/tree/v5.2) (2022-03-22)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.1...v5.2)
@@ -8,10 +40,6 @@
 
 - \[Feature\] Get default branches name [\#124](https://github.com/tj-actions/branch-names/issues/124)
 - \[Feature\] Identify multiple default branches [\#112](https://github.com/tj-actions/branch-names/issues/112)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
