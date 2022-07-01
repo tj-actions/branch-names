@@ -73,7 +73,7 @@ runs:
     - id: default
       run: |
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ steps.branch.outputs.ref_branch }}" ]]; then
+          if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ github.event.repository.default_branch }}" ]]; then
             echo "::set-output name=is_default::true"
             echo "::set-output name=default_branch::${{ github.event.repository.default_branch }}"
           else
