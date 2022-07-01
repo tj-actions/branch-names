@@ -1,5 +1,22 @@
 # Changelog
 
+## [Unreleased](https://github.com/tj-actions/branch-names/tree/HEAD)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.4...HEAD)
+
+**Fixed bugs:**
+
+- \[BUG\] is\_default always returns true [\#151](https://github.com/tj-actions/branch-names/issues/151)
+
+## [v5.4](https://github.com/tj-actions/branch-names/tree/v5.4) (2022-07-01)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.3...v5.4)
+
+**Merged pull requests:**
+
+- fix: bug with is\_default boolean output [\#153](https://github.com/tj-actions/branch-names/pull/153) ([jackton1](https://github.com/jackton1))
+- Upgraded to v5.3 [\#152](https://github.com/tj-actions/branch-names/pull/152) ([jackton1](https://github.com/jackton1))
+
 ## [v5.3](https://github.com/tj-actions/branch-names/tree/v5.3) (2022-06-22)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.2...v5.3)
