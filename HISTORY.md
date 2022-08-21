@@ -1,12 +1,28 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/branch-names/tree/HEAD)
+## [v5.5](https://github.com/tj-actions/branch-names/tree/v5.5) (2022-08-21)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.4...HEAD)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.4...v5.5)
 
 **Fixed bugs:**
 
 - \[BUG\] is\_default always returns true [\#151](https://github.com/tj-actions/branch-names/issues/151)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- chore: add helpful step comments [\#164](https://github.com/tj-actions/branch-names/pull/164) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.4.1 [\#162](https://github.com/tj-actions/branch-names/pull/162) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.4.0 [\#161](https://github.com/tj-actions/branch-names/pull/161) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.1 [\#160](https://github.com/tj-actions/branch-names/pull/160) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.0 [\#159](https://github.com/tj-actions/branch-names/pull/159) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.3.1 [\#157](https://github.com/tj-actions/branch-names/pull/157) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.3.0 [\#156](https://github.com/tj-actions/branch-names/pull/156) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.14 [\#155](https://github.com/tj-actions/branch-names/pull/155) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v5.4 [\#154](https://github.com/tj-actions/branch-names/pull/154) ([jackton1](https://github.com/jackton1))
 
 ## [v5.4](https://github.com/tj-actions/branch-names/tree/v5.4) (2022-07-01)
 
@@ -20,10 +36,6 @@
 ## [v5.3](https://github.com/tj-actions/branch-names/tree/v5.3) (2022-06-22)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.2...v5.3)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
@@ -200,7 +212,7 @@
 
 ## [v4.3](https://github.com/tj-actions/branch-names/tree/v4.3) (2021-05-27)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.3)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4.3)
 
 **Merged pull requests:**
 
@@ -210,13 +222,13 @@
 - Update pascalgn/automerge-action action to v0.14.2 [\#54](https://github.com/tj-actions/branch-names/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
 - Upgraded to v4.2 [\#53](https://github.com/tj-actions/branch-names/pull/53) ([jackton1](https://github.com/jackton1))
 
-## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4)
-
 ## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.2)
+
+## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4)
 
 **Fixed bugs:**
 
