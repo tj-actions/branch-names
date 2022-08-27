@@ -1,5 +1,18 @@
 # Changelog
 
+## [v5.6](https://github.com/tj-actions/branch-names/tree/v5.6) (2022-08-27)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.5...v5.6)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Update tj-actions/verify-changed-files action to v11 [\#166](https://github.com/tj-actions/branch-names/pull/166) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v5.5 [\#165](https://github.com/tj-actions/branch-names/pull/165) ([jackton1](https://github.com/jackton1))
+
 ## [v5.5](https://github.com/tj-actions/branch-names/tree/v5.5) (2022-08-21)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.4...v5.5)
@@ -7,10 +20,6 @@
 **Fixed bugs:**
 
 - \[BUG\] is\_default always returns true [\#151](https://github.com/tj-actions/branch-names/issues/151)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
