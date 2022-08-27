@@ -1,5 +1,19 @@
 # Changelog
 
+## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-08-27)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.6...v6)
+
+**Implemented enhancements:**
+
+- \[Feature\] determine branch-name when tag is pushed/triggers workflow [\#158](https://github.com/tj-actions/branch-names/issues/158)
+
+**Merged pull requests:**
+
+- Updated README.md [\#169](https://github.com/tj-actions/branch-names/pull/169) ([jackton1](https://github.com/jackton1))
+- feat: add support for setting the base\_ref branch of a tag [\#168](https://github.com/tj-actions/branch-names/pull/168) ([jackton1](https://github.com/jackton1))
+- Upgraded to v5.6 [\#167](https://github.com/tj-actions/branch-names/pull/167) ([jackton1](https://github.com/jackton1))
+
 ## [v5.6](https://github.com/tj-actions/branch-names/tree/v5.6) (2022-08-27)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.5...v5.6)
