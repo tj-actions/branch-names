@@ -54,6 +54,11 @@ runs:
           REF_BRANCH=${REF_BRANCH/refs\/heads\//}
 
           echo "::set-output name=ref_branch::$(eval printf "%s" "$REF_BRANCH")"
+        else
+          BASE_REF=$(printf "%q" "${{ github.event.base_ref }}")
+          BASE_REF=${BASE_REF/refs\/heads\/${{ inputs.strip_tag_prefix }}/}
+
+          echo "::set-output name=base_ref_branch::$(eval printf "%s" "$BASE_REF")"
         fi
       shell: bash
     - id: current_branch
@@ -65,11 +70,6 @@ runs:
           else
             echo "::set-output name=current_branch::${{ steps.branch.outputs.ref_branch }}"
           fi
-        else
-          REF=$(printf "%q" "${{ github.ref }}")
-          REF_BRANCH=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
-
-          echo "::set-output name=current_branch::$(eval printf "%s" "$REF_BRANCH")"
         fi
       shell: bash
     - id: default

@@ -22,9 +22,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3.0.2
-      - name: Show github context
-        run: |
-          echo '${{ toJSON(github) }}'
       - name: Run test
         id: branch-name
         uses: ./
@@ -74,14 +71,9 @@ jobs:
           echo "Current branch unset: ${{ steps.branch-name.outputs.current_branch }}"
           exit 1
       - name: Test current_branch output for tag based push event.
-        if: github.event_name == 'push' && steps.branch-name.outputs.is_tag == 'true' && !steps.branch-name.outputs.current_branch
+        if: github.event_name == 'push' && steps.branch-name.outputs.is_tag == 'true' && !steps.branch-name.outputs.base_ref_branch
         run: |
-          echo "Current branch unset: ${{ steps.branch-name.outputs.current_branch }}"
-          exit 1
-      - name: Test is_tag output for tag based push event.
-        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') == 'true'
-        run: |
-          echo "Current branch unset: ${{ steps.branch-name.outputs.current_branch }}"
+          echo "Base ref unset: ${{ steps.branch-name.outputs.base_ref_branch }}"
           exit 1
       - name: Test tag output for tag based push event.
         if: github.event_name == 'push' && steps.branch-name.outputs.is_tag == 'true' && !steps.branch-name.outputs.tag
