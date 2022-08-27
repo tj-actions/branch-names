@@ -19,10 +19,10 @@ outputs:
     description: 'The default branch name e.g `main` OR `master`'
   current_branch:
     value: ${{ steps.current_branch.outputs.current_branch }}
-    description: 'The current branch name regardless of event_type e.g `main`, `feature/test`, `v0.0.1`.'
+    description: 'The current branch name regardless of event_type e.g `main`, `feature/test`'
   base_ref_branch:
     value: ${{ steps.branch.outputs.base_ref_branch }}
-    description: 'The target branch of a pull request e.g `main`'
+    description: 'The target branch of a pull request or the source branch for a tag e.g `main`'
   head_ref_branch:
     value: ${{ steps.branch.outputs.head_ref_branch }}
     description: 'The source branch of a pull request e.g `feature/test`'
