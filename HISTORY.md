@@ -1,6 +1,10 @@
 # Changelog
 
-## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-08-27)
+## [v6.1](https://github.com/tj-actions/branch-names/tree/v6.1) (2022-09-22)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6...v6.1)
+
+## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-09-22)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.6...v6)
 
@@ -8,8 +12,17 @@
 
 - \[Feature\] determine branch-name when tag is pushed/triggers workflow [\#158](https://github.com/tj-actions/branch-names/issues/158)
 
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
 **Merged pull requests:**
 
+- Update peter-evans/create-pull-request action to v4.1.2 [\#174](https://github.com/tj-actions/branch-names/pull/174) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.2.0 [\#173](https://github.com/tj-actions/branch-names/pull/173) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/sync-release-version action to v13 [\#172](https://github.com/tj-actions/branch-names/pull/172) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.15 [\#171](https://github.com/tj-actions/branch-names/pull/171) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v6 [\#170](https://github.com/tj-actions/branch-names/pull/170) ([jackton1](https://github.com/jackton1))
 - Updated README.md [\#169](https://github.com/tj-actions/branch-names/pull/169) ([jackton1](https://github.com/jackton1))
 - feat: add support for setting the base\_ref branch of a tag [\#168](https://github.com/tj-actions/branch-names/pull/168) ([jackton1](https://github.com/jackton1))
 - Upgraded to v5.6 [\#167](https://github.com/tj-actions/branch-names/pull/167) ([jackton1](https://github.com/jackton1))
@@ -17,10 +30,6 @@
 ## [v5.6](https://github.com/tj-actions/branch-names/tree/v5.6) (2022-08-27)
 
 [Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.5...v5.6)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
