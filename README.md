@@ -69,7 +69,7 @@ Support this project with a :star:
 
 |     OUTPUT      |  TYPE  |                                     DESCRIPTION                                     |
 |-----------------|--------|-------------------------------------------------------------------------------------|
-| base\_ref\_branch | string | The target branch of a pull request<br>or the target branch for a tag<br>e.g `main` |
+| base\_ref\_branch | string | The target branch of a pull request<br>or the source branch for a tag<br>e.g `main` |
 | current\_branch  | string | The current branch name regardless of event\_type<br>e.g `main`, `feature/test`      |
 | default\_branch  | string | The default branch name e.g `main` OR<br>`master`                                   |
 | head\_ref\_branch | string | The source branch of a pull request<br>e.g `feature/test`                           |
