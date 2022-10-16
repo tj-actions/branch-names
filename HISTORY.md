@@ -1,20 +1,41 @@
 # Changelog
 
-## [v6.1](https://github.com/tj-actions/branch-names/tree/v6.1) (2022-09-22)
+## [Unreleased](https://github.com/tj-actions/branch-names/tree/HEAD)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6...v6.1)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.2...HEAD)
 
-## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-09-22)
+**Fixed bugs:**
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.6...v6)
+- \[BUG\] Usage of set-output triggers warnings during workflow. [\#180](https://github.com/tj-actions/branch-names/issues/180)
 
-**Implemented enhancements:**
+## [v6.2](https://github.com/tj-actions/branch-names/tree/v6.2) (2022-10-16)
 
-- \[Feature\] determine branch-name when tag is pushed/triggers workflow [\#158](https://github.com/tj-actions/branch-names/issues/158)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6...v6.2)
+
+## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-10-16)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.1...v6)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- feat: add support for writing to GITHUB\_OUTPUT file [\#181](https://github.com/tj-actions/branch-names/pull/181) ([jackton1](https://github.com/jackton1))
+- Update actions/checkout action to v3.1.0 [\#179](https://github.com/tj-actions/branch-names/pull/179) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.3 [\#178](https://github.com/tj-actions/branch-names/pull/178) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#177](https://github.com/tj-actions/branch-names/pull/177) ([jackton1](https://github.com/jackton1))
+- Upgraded to v6.1 [\#176](https://github.com/tj-actions/branch-names/pull/176) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#175](https://github.com/tj-actions/branch-names/pull/175) ([jackton1](https://github.com/jackton1))
+
+## [v6.1](https://github.com/tj-actions/branch-names/tree/v6.1) (2022-09-22)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v5.6...v6.1)
+
+**Implemented enhancements:**
+
+- \[Feature\] determine branch-name when tag is pushed/triggers workflow [\#158](https://github.com/tj-actions/branch-names/issues/158)
 
 **Merged pull requests:**
 
@@ -244,7 +265,7 @@
 
 ## [v4.3](https://github.com/tj-actions/branch-names/tree/v4.3) (2021-05-27)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4.3)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.3)
 
 **Merged pull requests:**
 
@@ -254,13 +275,13 @@
 - Update pascalgn/automerge-action action to v0.14.2 [\#54](https://github.com/tj-actions/branch-names/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
 - Upgraded to v4.2 [\#53](https://github.com/tj-actions/branch-names/pull/53) ([jackton1](https://github.com/jackton1))
 
-## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.2)
-
 ## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4)
+
+## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2)
 
 **Fixed bugs:**
 
