@@ -69,14 +69,14 @@ Support this project with a :star:
 
 |     OUTPUT      |  TYPE  |                                  DESCRIPTION                                   |
 |-----------------|--------|--------------------------------------------------------------------------------|
-| base\_ref\_branch | string | The target branch of a pull request<br>or tag e.g `main`                       |
+| base\_ref\_branch | string |            The target branch of a pull request<br>or tag e.g `main`            |
 | current\_branch  | string | The current branch name regardless of event\_type<br>e.g `main`, `feature/test` |
-| default\_branch  | string | The default branch name e.g `main` OR<br>`master`                              |
-| head\_ref\_branch | string | The source branch of a pull request<br>e.g `feature/test`                      |
-| is\_default      | string | Returns `"true"` if the current branch is<br>the default else `"false"`.       |
-| is\_tag          | string | Returns `"true"` if the current branch is<br>a tag else `"false"`.             |
-| ref\_branch      | string | The branch that triggered the workflow run.<br>e.g `1/merge`, `main`           |
-| tag             | string | The tag that triggered the workflow run.<br>e.g `v0.0.1`, `0.0.1`              |
+| default\_branch  | string |               The default branch name e.g `main` OR<br>`master`                |
+| head\_ref\_branch | string |           The source branch of a pull request<br>e.g `feature/test`            |
+|   is\_default    | string |    Returns `"true"` if the current branch is<br>the default else `"false"`.    |
+|     is\_tag      | string |       Returns `"true"` if the current branch is<br>a tag else `"false"`.       |
+|   ref\_branch    | string |      The branch that triggered the workflow run.<br>e.g `1/merge`, `main`      |
+|       tag       | string |       The tag that triggered the workflow run.<br>e.g `v0.0.1`, `0.0.1`        |
 
 <!-- AUTO-DOC-OUTPUT:END -->
 
@@ -86,7 +86,7 @@ Support this project with a :star:
 
 |      INPUT       |  TYPE  | REQUIRED | DEFAULT |                                         DESCRIPTION                                          |
 |------------------|--------|----------|---------|----------------------------------------------------------------------------------------------|
-| strip\_tag\_prefix | string | false    |         | The prefix that should be stripped from<br>the tag e.g `v0.0.1` -> `(strip v)`<br>-> `0.0.1` |
+| strip\_tag\_prefix | string |  false   |         | The prefix that should be stripped from<br>the tag e.g `v0.0.1` -> `(strip v)`<br>-> `0.0.1` |
 
 <!-- AUTO-DOC-INPUT:END -->
 
