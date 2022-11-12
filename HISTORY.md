@@ -1,24 +1,38 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/branch-names/tree/HEAD)
+## [v6.3](https://github.com/tj-actions/branch-names/tree/v6.3) (2022-11-12)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.2...HEAD)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6...v6.3)
+
+## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-11-12)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.2...v6)
 
 **Fixed bugs:**
 
+- \[BUG\] all outputs show default branch when on a PR branch [\#190](https://github.com/tj-actions/branch-names/issues/190)
 - \[BUG\] Usage of set-output triggers warnings during workflow. [\#180](https://github.com/tj-actions/branch-names/issues/180)
-
-## [v6.2](https://github.com/tj-actions/branch-names/tree/v6.2) (2022-10-16)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6...v6.2)
-
-## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-10-16)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.1...v6)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- fix: bug with branch name with PR's from forks [\#193](https://github.com/tj-actions/branch-names/pull/193) ([jackton1](https://github.com/jackton1))
+- chore: update test [\#191](https://github.com/tj-actions/branch-names/pull/191) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.4.3 [\#189](https://github.com/tj-actions/branch-names/pull/189) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#188](https://github.com/tj-actions/branch-names/pull/188) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.4.2 [\#187](https://github.com/tj-actions/branch-names/pull/187) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.0 [\#186](https://github.com/tj-actions/branch-names/pull/186) ([renovate[bot]](https://github.com/apps/renovate))
+- Update pascalgn/automerge-action action to v0.15.5 [\#185](https://github.com/tj-actions/branch-names/pull/185) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.4 [\#184](https://github.com/tj-actions/branch-names/pull/184) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v12 [\#183](https://github.com/tj-actions/branch-names/pull/183) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v6.2 [\#182](https://github.com/tj-actions/branch-names/pull/182) ([jackton1](https://github.com/jackton1))
+
+## [v6.2](https://github.com/tj-actions/branch-names/tree/v6.2) (2022-10-16)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.1...v6.2)
 
 **Merged pull requests:**
 
