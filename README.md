@@ -33,7 +33,6 @@ on:
   pull_request:
     branches:
       - main
-
 ...
 
     steps:
