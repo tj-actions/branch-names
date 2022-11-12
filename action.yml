@@ -92,7 +92,7 @@ runs:
       run: |
         # "Set the default branch name..."
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ github.event.repository.default_branch }}" && "${{ github.event.pull_request.head.fork }}" != "true" ]]; then
+          if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ github.event.repository.default_branch }}" && "${{ github.event.pull_request.head.repo.fork }}" != "true" ]]; then
             if [[ -z "$GITHUB_OUTPUT" ]]; then
               echo "::set-output name=is_default::true"
               echo "::set-output name=default_branch::${{ github.event.repository.default_branch }}"
