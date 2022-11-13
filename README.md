@@ -33,8 +33,8 @@ on:
   pull_request:
     branches:
       - main
-      
 ...
+
     steps:
       - name: Get branch name
         id: branch-name
