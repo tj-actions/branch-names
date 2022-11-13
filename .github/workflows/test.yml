@@ -46,7 +46,7 @@ jobs:
           echo "Is default is invalid: ${{ steps.branch-name.outputs.is_default }}"
           exit 1
       - name: Test is_default output for non pull request
-        if: (github.event_name == 'pull_request' || github.event_name == 'pull_request_target') && steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default != 'true'
+        if: (github.event_name != 'pull_request' || github.event_name != 'pull_request_target') && steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default != 'true'
         run: |
           echo "Is default is invalid: ${{ steps.branch-name.outputs.is_default }}"
           exit 1
