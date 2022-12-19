@@ -1,21 +1,40 @@
 # Changelog
 
+## [v6.4](https://github.com/tj-actions/branch-names/tree/v6.4) (2022-12-19)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6...v6.4)
+
+## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-12-19)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.3...v6)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
+
+**Merged pull requests:**
+
+- Updated README.md [\#204](https://github.com/tj-actions/branch-names/pull/204) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/verify-changed-files action to v13 [\#203](https://github.com/tj-actions/branch-names/pull/203) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.6.0 [\#202](https://github.com/tj-actions/branch-names/pull/202) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.8 [\#201](https://github.com/tj-actions/branch-names/pull/201) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.2.0 [\#200](https://github.com/tj-actions/branch-names/pull/200) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.5.0 [\#199](https://github.com/tj-actions/branch-names/pull/199) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.3 [\#198](https://github.com/tj-actions/branch-names/pull/198) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.2 [\#197](https://github.com/tj-actions/branch-names/pull/197) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.1 [\#196](https://github.com/tj-actions/branch-names/pull/196) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump hmarr/auto-approve-action from 2 to 3 [\#195](https://github.com/tj-actions/branch-names/pull/195) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Upgraded to v6.3 [\#194](https://github.com/tj-actions/branch-names/pull/194) ([jackton1](https://github.com/jackton1))
+- Update README.md [\#192](https://github.com/tj-actions/branch-names/pull/192) ([jackton1](https://github.com/jackton1))
+
 ## [v6.3](https://github.com/tj-actions/branch-names/tree/v6.3) (2022-11-12)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6...v6.3)
-
-## [v6](https://github.com/tj-actions/branch-names/tree/v6) (2022-11-12)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.2...v6)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v6.2...v6.3)
 
 **Fixed bugs:**
 
 - \[BUG\] all outputs show default branch when on a PR branch [\#190](https://github.com/tj-actions/branch-names/issues/190)
 - \[BUG\] Usage of set-output triggers warnings during workflow. [\#180](https://github.com/tj-actions/branch-names/issues/180)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#36](https://github.com/tj-actions/branch-names/issues/36)
 
 **Merged pull requests:**
 
@@ -279,7 +298,7 @@
 
 ## [v4.3](https://github.com/tj-actions/branch-names/tree/v4.3) (2021-05-27)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.3)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4.3)
 
 **Merged pull requests:**
 
@@ -289,13 +308,13 @@
 - Update pascalgn/automerge-action action to v0.14.2 [\#54](https://github.com/tj-actions/branch-names/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
 - Upgraded to v4.2 [\#53](https://github.com/tj-actions/branch-names/pull/53) ([jackton1](https://github.com/jackton1))
 
-## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
-
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.2...v4)
-
 ## [v4.2](https://github.com/tj-actions/branch-names/tree/v4.2) (2021-05-25)
 
-[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2)
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4...v4.2)
+
+## [v4](https://github.com/tj-actions/branch-names/tree/v4) (2021-05-25)
+
+[Full Changelog](https://github.com/tj-actions/branch-names/compare/v4.1...v4)
 
 **Fixed bugs:**
 
