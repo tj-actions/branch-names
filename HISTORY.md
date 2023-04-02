@@ -13,7 +13,7 @@
 - PR [#208](https://github.com/tj-actions/branch-names/pull/208): README.md ([6d86e58](https://github.com/tj-actions/branch-names/commit/6d86e5894d6cf1121d9e1facb7e7aee64edf5c5c))  - (repo-ranger[bot])
 - PR [#205](https://github.com/tj-actions/branch-names/pull/205): to v6.4 ([b069021](https://github.com/tj-actions/branch-names/commit/b069021bd9894f3d3937fb3ab8ae62dd31699ba1))  - (repo-ranger[bot])
 
-## <!-- 14 -->🔖 Releases
+## <!-- 14 -->📦 Bumps
 
 - Bump tj-actions/auto-doc from 1.7.1 to 1.7.2
 
@@ -85,7 +85,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d582bca](https://github.co
 - Merge branch 'main' into upgrade-to-v6.3 ([caf6589](https://github.com/tj-actions/branch-names/commit/caf6589e510db4d41f39f6404449469d4e55fb7d))  - (Tonye Jack)
 - Merge branch 'main' into main ([311807f](https://github.com/tj-actions/branch-names/commit/311807f0be080de8a7aa6afaca05d0ed50f9604f))  - (Tonye Jack)
 
-## <!-- 14 -->🔖 Releases
+## <!-- 14 -->📦 Bumps
 
 - Bump hmarr/auto-approve-action from 2 to 3
 
@@ -315,7 +315,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 - PR [#129](https://github.com/tj-actions/branch-names/pull/129): README.md ([2fe7201](https://github.com/tj-actions/branch-names/commit/2fe7201bf9b61a1d1bae4130a29c14621ea92d24))  - (Tonye Jack)
 - PR [#128](https://github.com/tj-actions/branch-names/pull/128): to v5.2 ([bc1ca43](https://github.com/tj-actions/branch-names/commit/bc1ca43300c9efcdf8936d22343a1cadc0ecdd95))  - (Tonye Jack)
 
-## <!-- 14 -->🔖 Releases
+## <!-- 14 -->📦 Bumps
 
 - Bump tj-actions/verify-changed-files from 9 to 10
 
@@ -412,7 +412,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([472f6cb](https://github.co
 - PR [#106](https://github.com/tj-actions/branch-names/pull/106): test to include all supported platforms ([7f0a69a](https://github.com/tj-actions/branch-names/commit/7f0a69aa8e80f46987e8979c73ac9923d6a3c004))  - (Tonye Jack)
 - PR [#105](https://github.com/tj-actions/branch-names/pull/105): to v5.1 ([504346f](https://github.com/tj-actions/branch-names/commit/504346f6789ff3ec698179801ece6f6709f51ebe))  - (Tonye Jack)
 
-## <!-- 14 -->🔖 Releases
+## <!-- 14 -->📦 Bumps
 
 - Bump tj-actions/remark from 2.3 to 3
 
@@ -498,7 +498,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([4b89c81](https://github.co
 - PR [#92](https://github.com/tj-actions/branch-names/pull/92): README.md ([4baa6cc](https://github.com/tj-actions/branch-names/commit/4baa6ccae973288b147ae8965942406782dcceb0))  - (Tonye Jack)
 - PR [#91](https://github.com/tj-actions/branch-names/pull/91): to v5 ([1abc271](https://github.com/tj-actions/branch-names/commit/1abc2711cd53e7eaa4a320b07aca73f65110c8d2))  - (Tonye Jack)
 
-## <!-- 14 -->🔖 Releases
+## <!-- 14 -->📦 Bumps
 
 - Bump tj-actions/sync-release-version from 8.7 to 9
 
@@ -850,7 +850,7 @@ Resolves: #50 ([a9ebb75](https://github.com/tj-actions/branch-names/commit/a9ebb
 - PR [#34](https://github.com/tj-actions/branch-names/pull/34): to v4 ([ec750d4](https://github.com/tj-actions/branch-names/commit/ec750d494c99dcaaf6ee72667d78a405c52bf356))  - (Tonye Jack)
 - PR [#33](https://github.com/tj-actions/branch-names/pull/33): to v3.6 ([055227d](https://github.com/tj-actions/branch-names/commit/055227d87294d15e984b485919d850a83e6f7fb8))  - (Tonye Jack)
 
-## <!-- 14 -->🔖 Releases
+## <!-- 14 -->📦 Bumps
 
 - Bump peter-evans/create-pull-request from 3.9.2 to 3.10.0
 
