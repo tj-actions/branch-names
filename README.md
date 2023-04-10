@@ -215,7 +215,7 @@ on:
         # Outputs: "v0.0.1" OR "0.0.1"
 ```
 
-### Possible usage with [actions/checkout@v2](https://github.com/actions/checkout):
+### Possible usage with [actions/checkout](https://github.com/actions/checkout):
 
 ```yaml
 on:
@@ -230,7 +230,7 @@ on:
       - name: Get branch names.
         id: branch-names
         uses: tj-actions/branch-names@v6
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ steps.branch-names.outputs.head_ref_branch }}
 ```
