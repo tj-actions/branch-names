@@ -28,13 +28,6 @@ Get a branch or tag name without the `/ref/*` prefix.
 ## Usage
 
 ```yaml
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
 ...
 
     steps:
