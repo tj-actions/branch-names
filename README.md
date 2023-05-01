@@ -45,14 +45,25 @@ on:
       - name: Running on the default branch.
         if: steps.branch-name.outputs.is_default == 'true'
         run: |
-          echo "Running on default: ${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "Running on default: main".
+          echo "Running on default: ${{ steps.branch-name.outputs.current_branch }}" 
+        # Outputs: "Running on default: main"
       
       - name: Running on a pull request branch.
         if: steps.branch-name.outputs.is_default == 'false'
         run: |
           echo "Running on pr: ${{ steps.branch-name.outputs.current_branch }}"
-        # Outputs: "Running on pr: feature/test".
+        # Outputs: "Running on pr: feature/test"
+      
+      - name: Running on a pull request branch.
+        if: steps.branch-name.outputs.is_default == 'false'
+        run: |
+          echo "Base branch: ${{ steps.branch-name.outputs.base_ref_branch }}"
+        # Outputs: "Base branch: main"
+        
+      - name: Running on any event
+        run: |
+          echo "Default branch: ${{ steps.branch-name.outputs.default_branch }}"
+        # Outputs: "Default branch: main"
 ```
 
 If you feel generous and want to show some extra appreciation:
