@@ -75,14 +75,14 @@ Support this project with a :star:
 
 |     OUTPUT      |  TYPE  |                                  DESCRIPTION                                   |
 |-----------------|--------|--------------------------------------------------------------------------------|
-| base\_ref\_branch | string |            The target branch of a pull<br>request or tag e.g `main`            |
-| current\_branch  | string | The current branch name regardless of<br>event\_type e.g `main`, `feature/test` |
-| default\_branch  | string |               The default branch name e.g `main`<br>OR `master`                |
-| head\_ref\_branch | string |           The source branch of a pull<br>request e.g `feature/test`            |
-|   is\_default    | string |    Returns `"true"` if the current branch<br>is the default else `"false"`.    |
-|     is\_tag      | string |       Returns `"true"` if the current branch<br>is a tag else `"false"`.       |
-|   ref\_branch    | string |      The branch that triggered the workflow<br>run. e.g `1/merge`, `main`      |
-|       tag       | string |       The tag that triggered the workflow<br>run. e.g `v0.0.1`, `0.0.1`        |
+| base\_ref\_branch | string |          The target branch of a<br> pull request or tag e.g<br>`main`          |
+| current\_branch  | string | The current branch name regardless<br>of event\_type e.g `main`, `feature/test` |
+| default\_branch  | string |               The default branch name e.g<br>`main` OR `master`                |
+| head\_ref\_branch | string |           The source branch of a<br>pull request e.g `feature/test`            |
+|   is\_default    | string |  Returns `"true"` if the current<br> branch is the default else<br>`"false"`.  |
+|     is\_tag      | string |     Returns `"true"` if the current<br> branch is a tag else<br>`"false"`.     |
+|   ref\_branch    | string |      The branch that triggered the<br>workflow run. e.g `1/merge`, `main`      |
+|       tag       | string |       The tag that triggered the<br>workflow run. e.g `v0.0.1`, `0.0.1`        |
 
 <!-- AUTO-DOC-OUTPUT:END -->
 
@@ -92,7 +92,7 @@ Support this project with a :star:
 
 |      INPUT       |  TYPE  | REQUIRED | DEFAULT |                                                 DESCRIPTION                                                  |
 |------------------|--------|----------|---------|--------------------------------------------------------------------------------------------------------------|
-| strip\_tag\_prefix | string |  false   |         | The prefix that should be stripped<br> from the tag e.g `v` -><br> with a tag `v0.0.1` -> returns<br>`0.0.1` |
+| strip\_tag\_prefix | string |  false   |         | The prefix that should be<br> stripped from the tag e.g<br> `v` -> with a tag<br>`v0.0.1` -> returns `0.0.1` |
 
 <!-- AUTO-DOC-INPUT:END -->
 
