@@ -75,9 +75,9 @@ runs:
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
           if [[ ${{ github.event_name }} == *"pull_request"* ]]; then
             if [[ -z "$GITHUB_OUTPUT" ]]; then
-              echo "::set-output name=current_branch::${{ steps.branch.outputs.head_ref_branch }}"
+              echo "::set-output name=current_branch::${{ github.event.pull_request.head.ref }}"
             else
-              echo "current_branch=${{ steps.branch.outputs.head_ref_branch }}" >> "$GITHUB_OUTPUT"
+              echo "current_branch=${{ github.event.pull_request.head.ref }}" >> "$GITHUB_OUTPUT"
             fi
           else
             if [[ -z "$GITHUB_OUTPUT" ]]; then
