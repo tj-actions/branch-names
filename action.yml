@@ -40,7 +40,7 @@ runs:
       run: |
         # "Set branch names..."
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          BASE_REF=$(printf "%q" "${{ github.base_ref }}")
+          BASE_REF=$(printf "%q" "${{ github.event.pull_request.base.ref || github.base_ref }}")
           HEAD_REF=$(printf "%q" "${{ github.event.pull_request.head.ref || github.head_ref }}")
           REF=$(printf "%q" "${{ github.ref }}")
 
