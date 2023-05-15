@@ -1,6 +1,24 @@
 # Changelog
 
-# [7](https://github.com/tj-actions/branch-names/compare/v6.5...v7) - (2023-05-15)
+# [7.0.1](https://github.com/tj-actions/branch-names/compare/v7.0.0...v7.0.1) - (2023-05-15)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#236](https://github.com/tj-actions/branch-names/issues/236))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([e6d6c8a](https://github.com/tj-actions/branch-names/commit/e6d6c8af35aabaaf943ba5a8ac4bbf2412294362))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#237](https://github.com/tj-actions/branch-names/pull/237): to v7 ([4e53239](https://github.com/tj-actions/branch-names/commit/4e532392367d7e4fb2f494f2d50c47562660cce5))  - (repo-ranger[bot])
+- Merge branch 'main' into upgrade-to-v7 ([02441bb](https://github.com/tj-actions/branch-names/commit/02441bb24080e46a13e32393a31203dc79157401))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v6.4 -> v7
+ ([d26e039](https://github.com/tj-actions/branch-names/commit/d26e039a33a3d940507e8b772ec90c2d46257631))  - (jackton1)
+
+# [7.0.0](https://github.com/tj-actions/branch-names/compare/v6.5...v7.0.0) - (2023-05-15)
 
 ## <!-- 1 -->🐛 Bug Fixes
 
