@@ -73,16 +73,16 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-OUTPUT:START - Do not remove or modify this section -->
 
-|     OUTPUT      |  TYPE  |                                  DESCRIPTION                                   |
-|-----------------|--------|--------------------------------------------------------------------------------|
-| base\_ref\_branch | string |          The target branch of a<br> pull request or tag e.g<br>`main`          |
-| current\_branch  | string | The current branch name regardless<br>of event\_type e.g `main`, `feature/test` |
-| default\_branch  | string |               The default branch name e.g<br>`main` OR `master`                |
-| head\_ref\_branch | string |           The source branch of a<br>pull request e.g `feature/test`            |
-|   is\_default    | string |  Returns `"true"` if the current<br> branch is the default else<br>`"false"`.  |
-|     is\_tag      | string |     Returns `"true"` if the current<br> branch is a tag else<br>`"false"`.     |
-|   ref\_branch    | string |      The branch that triggered the<br>workflow run. e.g `1/merge`, `main`      |
-|       tag       | string |       The tag that triggered the<br>workflow run. e.g `v0.0.1`, `0.0.1`        |
+|     OUTPUT      |  TYPE  |                                   DESCRIPTION                                    |
+|-----------------|--------|----------------------------------------------------------------------------------|
+| base\_ref\_branch | string |          The target branch of a <br>pull request or tag e.g <br>`main`           |
+| current\_branch  | string | The current branch name regardless <br>of event\_type e.g `main`, `feature/test`  |
+| default\_branch  | string |               The default branch name e.g <br>`main` OR `master`                 |
+| head\_ref\_branch | string |           The source branch of a <br>pull request e.g `feature/test`             |
+|   is\_default    | string |  Returns `"true"` if the current <br>branch is the default else <br>`"false"`.   |
+|     is\_tag      | string |     Returns `"true"` if the current <br>branch is a tag else <br>`"false"`.      |
+|   ref\_branch    | string |      The branch that triggered the <br>workflow run. e.g `1/merge`, `main`       |
+|       tag       | string |       The tag that triggered the <br>workflow run. e.g `v0.0.1`, `0.0.1`         |
 
 <!-- AUTO-DOC-OUTPUT:END -->
 
@@ -90,9 +90,9 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|      INPUT       |  TYPE  | REQUIRED | DEFAULT |                                                 DESCRIPTION                                                  |
-|------------------|--------|----------|---------|--------------------------------------------------------------------------------------------------------------|
-| strip\_tag\_prefix | string |  false   |         | The prefix that should be<br> stripped from the tag e.g<br> `v` -> with a tag<br>`v0.0.1` -> returns `0.0.1` |
+|      INPUT       |  TYPE  | REQUIRED | DEFAULT |                                                  DESCRIPTION                                                   |
+|------------------|--------|----------|---------|----------------------------------------------------------------------------------------------------------------|
+| strip\_tag\_prefix | string |  false   |         | The prefix that should be <br>stripped from the tag e.g <br>`v` -> with a tag <br>`v0.0.1` -> returns `0.0.1`  |
 
 <!-- AUTO-DOC-INPUT:END -->
 
