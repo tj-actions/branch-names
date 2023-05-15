@@ -40,8 +40,8 @@ runs:
       run: |
         # "Set branch names..."
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          BASE_REF=$(printf "%q" "${{ github.base_ref }}")
-          HEAD_REF=$(printf "%q" "${{ github.head_ref }}")
+          BASE_REF=$(printf "%q" "${{ github.event.pull_request.base.ref || github.base_ref }}")
+          HEAD_REF=$(printf "%q" "${{ github.event.pull_request.head.ref || github.head_ref }}")
           REF=$(printf "%q" "${{ github.ref }}")
 
           BASE_REF=${BASE_REF/refs\/heads\//}
@@ -73,7 +73,7 @@ runs:
       run: |
         # "Set the current branch name..."
         if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          if [[ ${{ github.event_name }} == 'pull_request' || ${{ github.event_name }} == 'pull_request_target' ]]; then
+          if [[ ${{ github.event_name }} == *"pull_request"* ]]; then
             if [[ -z "$GITHUB_OUTPUT" ]]; then
               echo "::set-output name=current_branch::${{ steps.branch.outputs.head_ref_branch }}"
             else
