@@ -1,5 +1,33 @@
 # Changelog
 
+# [7.0.2](https://github.com/tj-actions/branch-names/compare/v7.0.1...v7.0.2) - (2023-07-05)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/auto-merge.yml ([172649b](https://github.com/tj-actions/branch-names/commit/172649b1ec083fe63b6be99dbd595ee524d48210))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update dependabot.yml ([636cfe4](https://github.com/tj-actions/branch-names/commit/636cfe47b2002897ee4d3f07792c9fdd5d7dc725))  - (Tonye Jack)
+- Updated renovate.json ([f25b469](https://github.com/tj-actions/branch-names/commit/f25b4691b31ed55815588e634ae012aa85f15056))  - (Tonye Jack)
+- Update README.md ([ba4eea6](https://github.com/tj-actions/branch-names/commit/ba4eea6a655f1a7b7e08afbe060d46407e49e7cf))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#238](https://github.com/tj-actions/branch-names/pull/238): to v7.0.1 ([609e2ab](https://github.com/tj-actions/branch-names/commit/609e2ab20e8d9fc30e0955dc72d337345cfa13ea))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update tj-actions/verify-changed-files action to v16 ([24d02d8](https://github.com/tj-actions/branch-names/commit/24d02d8974b0e95b619900cec5f21896d720c5e2))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v5.0.2 ([f32c283](https://github.com/tj-actions/branch-names/commit/f32c283d49103ca6c89553ec47c4f5cff61ce477))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v15 ([8def4de](https://github.com/tj-actions/branch-names/commit/8def4deb23baa799b9959d7b2dcb2b5396c86f93))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v3.5.3 ([826adf1](https://github.com/tj-actions/branch-names/commit/826adf145b02d0ba291a9918c2263a97cb833080))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.0 -> v7.0.1
+ ([8b7f8ee](https://github.com/tj-actions/branch-names/commit/8b7f8ee18d1f519473989edae04c23380b579ece))  - (jackton1)
+
 # [7.0.1](https://github.com/tj-actions/branch-names/compare/v7.0.0...v7.0.1) - (2023-05-15)
 
 ## <!-- 26 -->🔄 Update
