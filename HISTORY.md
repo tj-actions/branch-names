@@ -1,5 +1,38 @@
 # Changelog
 
+# [7.0.3](https://github.com/tj-actions/branch-names/compare/v7.0.2...v7.0.3) - (2023-08-24)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Fixing typo ([#246](https://github.com/tj-actions/branch-names/issues/246))
+
+ ([6e30a19](https://github.com/tj-actions/branch-names/commit/6e30a1961f751e1e2c2c40c7e97dad91e28b7748))  - (Ian Woodard)
+
+## <!-- 26 -->🔄 Update
+
+- Updated .github/FUNDING.yml ([5f94738](https://github.com/tj-actions/branch-names/commit/5f947380b9edf72a179d7d5bb6c4fad202b35789))  - (Tonye Jack)
+- Updated .github/FUNDING.yml ([120d68d](https://github.com/tj-actions/branch-names/commit/120d68d4a8df47936869ddc8ea41679ec6017c3a))  - (Tonye Jack)
+- Updated README.md
+ ([83616e3](https://github.com/tj-actions/branch-names/commit/83616e36876837be2367377283569528c7d6117c))  - (jackton1)
+
+## <!-- 3 -->📚 Documentation
+
+- Add IanWoodard as a contributor for doc ([#247](https://github.com/tj-actions/branch-names/issues/247)) ([40695cf](https://github.com/tj-actions/branch-names/commit/40695cf61eb460ae9a6da3de928f2dec2430da9c))  - (allcontributors[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#248](https://github.com/tj-actions/branch-names/pull/248): README.md ([65d352f](https://github.com/tj-actions/branch-names/commit/65d352f95972e19f5b7126e8696fbf3904b99f46))  - (repo-ranger[bot])
+- PR [#244](https://github.com/tj-actions/branch-names/pull/244): to v7.0.2 ([468d8a8](https://github.com/tj-actions/branch-names/commit/468d8a888b021e778a640ebe6457bd492834caeb))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update tj-actions/auto-doc action to v3 ([#249](https://github.com/tj-actions/branch-names/issues/249)) ([309671a](https://github.com/tj-actions/branch-names/commit/309671a59e1143038c2a50f009b6adf301f6aa71))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.1 -> v7.0.2
+ ([a22501e](https://github.com/tj-actions/branch-names/commit/a22501ea9bcc88f6287598482d744040461a1c34))  - (jackton1)
+
 # [7.0.2](https://github.com/tj-actions/branch-names/compare/v7.0.1...v7.0.2) - (2023-07-05)
 
 ## <!-- 17 -->➖ Remove
