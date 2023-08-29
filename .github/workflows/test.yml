@@ -6,6 +6,8 @@ on:
       - '*'
     branches:
       - main
+  release:
+    types: [published, created]
   pull_request_review:
   pull_request_target:
   pull_request:
