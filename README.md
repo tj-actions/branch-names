@@ -98,7 +98,7 @@ Support this project with a :star:
 
 ## Events
 
-*   `push*`
+### `push*`
 
 ```yaml
 on:
@@ -140,7 +140,7 @@ on:
         # Outputs: "main" the default branch.
 ```
 
-*   `pull_request*`
+### `pull_request*`
 
 ```yaml
 on:
@@ -192,7 +192,7 @@ on:
         # Outputs: "main" the default branch.
 ```
 
-*   `tag*`
+### `tag*`
 
 ```yaml
 on:
