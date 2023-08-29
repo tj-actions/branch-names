@@ -1,5 +1,21 @@
 # Changelog
 
+# [7.0.5](https://github.com/tj-actions/branch-names/compare/v7.0.4...v7.0.5) - (2023-08-29)
+
+## <!-- 0 -->🚀 Features
+
+- Update test to include release events ([b7525e0](https://github.com/tj-actions/branch-names/commit/b7525e0e0397bad69b3cf03a940ad71f624c3dd0))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#256](https://github.com/tj-actions/branch-names/pull/256): update test to include release events ([033f235](https://github.com/tj-actions/branch-names/commit/033f2358d95522973eee35810e35a86fae4a71d8))  - (repo-ranger[bot])
+- PR [#255](https://github.com/tj-actions/branch-names/pull/255): to v7.0.4 ([2f53fbb](https://github.com/tj-actions/branch-names/commit/2f53fbbb518fd325daed3febf7365068504c6ab7))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.3 -> v7.0.4
+ ([790ddd8](https://github.com/tj-actions/branch-names/commit/790ddd8af0d6195dd3f1a0e7202a6c1654c4ebca))  - (jackton1)
+
 # [7.0.4](https://github.com/tj-actions/branch-names/compare/v7.0.3...v7.0.4) - (2023-08-26)
 
 ## <!-- 26 -->🔄 Update
