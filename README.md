@@ -205,6 +205,8 @@ on:
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v7
+        with:
+          strip_tag_prefix: v # Optionally strip the leading `v` from the tag.
      
       - name: Running on a tag branch.
         if: steps.branch-name.outputs.is_tag == 'true'
