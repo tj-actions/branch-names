@@ -1,5 +1,28 @@
 # Changelog
 
+# [7.0.4](https://github.com/tj-actions/branch-names/compare/v7.0.3...v7.0.4) - (2023-08-26)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#250](https://github.com/tj-actions/branch-names/issues/250))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([77641da](https://github.com/tj-actions/branch-names/commit/77641da3eba8f17b8399903abaa71ead8800ae8a))  - (tj-actions[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#253](https://github.com/tj-actions/branch-names/pull/253): update tj-actions/release-tagger action to v4 ([f7cfbc8](https://github.com/tj-actions/branch-names/commit/f7cfbc8edeb70a87ebec52e94fa8366f5077d0bc))  - (repo-ranger[bot])
+- PR [#251](https://github.com/tj-actions/branch-names/pull/251): to v7.0.3 ([1c8d9d1](https://github.com/tj-actions/branch-names/commit/1c8d9d18f078756d8faa68aa7b62839b2e048a1a))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update tj-actions/release-tagger action to v4 ([8a9c911](https://github.com/tj-actions/branch-names/commit/8a9c9111a96f314e2d2dd24b9a5d97b66b06baf4))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v3.6.0 ([ce4e623](https://github.com/tj-actions/branch-names/commit/ce4e6234e4e5cdbbcfff93c75724546d9f915b63))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.2 -> v7.0.3
+ ([8f6b6b0](https://github.com/tj-actions/branch-names/commit/8f6b6b05c34bbb21ca9e2ff39379e924ba5abf8f))  - (jackton1)
+
 # [7.0.3](https://github.com/tj-actions/branch-names/compare/v7.0.2...v7.0.3) - (2023-08-24)
 
 ## <!-- 1 -->🐛 Bug Fixes
