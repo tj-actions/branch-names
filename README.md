@@ -212,13 +212,13 @@ on:
         if: steps.branch-name.outputs.is_tag == 'true'
         run: |
           echo "Running on: ${{ steps.branch-name.outputs.tag }}"
-        # Outputs: "Running on: v0.0.1".
+        # Outputs: "Running on: 0.0.1".
         
       - name: Get the current tag
         if: steps.branch-name.outputs.is_tag == 'true'  # Replaces: startsWith(github.ref, 'refs/tags/')
         run: |
           echo "${{ steps.branch-name.outputs.tag }}"
-        # Outputs: "v0.0.1" OR "0.0.1"
+        # Outputs: "0.0.1"
 ```
 
 ### Possible usage with [actions/checkout](https://github.com/actions/checkout):
