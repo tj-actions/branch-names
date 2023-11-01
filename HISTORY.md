@@ -1,5 +1,55 @@
 # Changelog
 
+# [7.0.6](https://github.com/tj-actions/branch-names/compare/v7.0.5...v7.0.6) - (2023-11-01)
+
+## <!-- 13 -->📦 Bumps
+
+- Bump actions/checkout from 4.1.0 to 4.1.1
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.0 to 4.1.1.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.0...b4ffde65f46336ab88eb53be808477a3936bae11)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([8b43395](https://github.com/tj-actions/branch-names/commit/8b433953b8dc5fb0686eec8565c10737bb95483b))  - (dependabot[bot])
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/ISSUE_TEMPLATE/feature_request.yaml ([089be91](https://github.com/tj-actions/branch-names/commit/089be91d06dfe2991fba1157c5c1f9ad53244ce9))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/bug_report.yaml ([22372c2](https://github.com/tj-actions/branch-names/commit/22372c24f1da5ba6cc6a4b09518595191f0db420))  - (Tonye Jack)
+- Deleted .github/FUNDING.yml ([30360a8](https://github.com/tj-actions/branch-names/commit/30360a840993a8922a306594a8439431d6a987d4))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update README.md ([ab304d8](https://github.com/tj-actions/branch-names/commit/ab304d8562e2f137165e1d930e6d22d431189074))  - (Tonye Jack)
+- Update README.md ([19657bb](https://github.com/tj-actions/branch-names/commit/19657bbaedafb67e12af31127198546302a920a1))  - (Tonye Jack)
+- Update README.md ([cffa63d](https://github.com/tj-actions/branch-names/commit/cffa63d82e1d45cad6f0464f2f78434a92ff92bf))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#263](https://github.com/tj-actions/branch-names/pull/263): actions/checkout from 4.1.0 to 4.1.1 ([3cd6ba9](https://github.com/tj-actions/branch-names/commit/3cd6ba9145bdf0dd77d5ea9fc5c2bcf3371386a2))  - (repo-ranger[bot])
+- PR [#259](https://github.com/tj-actions/branch-names/pull/259): update actions/checkout action to v4 ([898d31f](https://github.com/tj-actions/branch-names/commit/898d31f1c43ce8fc290c291dd0f6412a82cd3170))  - (repo-ranger[bot])
+- PR [#257](https://github.com/tj-actions/branch-names/pull/257): to v7.0.5 ([38fb177](https://github.com/tj-actions/branch-names/commit/38fb177cdf42b4d4a4a19ad0ec4354dd5be09765))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update actions/checkout action to v4.1.1 ([30b83fe](https://github.com/tj-actions/branch-names/commit/30b83fe1bceced0e41dc4c3fd8a3210cb07b5947))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.0 ([aa82489](https://github.com/tj-actions/branch-names/commit/aa82489df0e5f20d4734b03cd12d6aaeb1fb9b3b))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 8ade135 ([38100de](https://github.com/tj-actions/branch-names/commit/38100de122f8790a84a3ce1dbf7418b8effa1d65))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4 ([5e4b161](https://github.com/tj-actions/branch-names/commit/5e4b161118e026e63c7b319174e1ded0258cdd95))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.4 -> v7.0.5
+ ([2afc72c](https://github.com/tj-actions/branch-names/commit/2afc72cf668bfb2e412bfaf70395ca3dbda72702))  - (jackton1)
+
 # [7.0.5](https://github.com/tj-actions/branch-names/compare/v7.0.4...v7.0.5) - (2023-08-29)
 
 ## <!-- 0 -->🚀 Features
