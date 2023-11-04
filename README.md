@@ -256,6 +256,10 @@ on:
           ref: ${{ steps.branch-names.outputs.head_ref_branch }}
 ```
 
+### Other supported events
+
+Visit the [test](https://github.com/tj-actions/branch-names/blob/main/.github/workflows/test.yml) for more examples.
+
 *   Free software: [MIT license](LICENSE)
 
 ## Credits
