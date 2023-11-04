@@ -27,6 +27,7 @@ Get a branch or tag name without the `/ref/*` prefix.
     *   [`push*`](#push)
     *   [`pull_request*`](#pull_request)
     *   [`tag*`](#tag)
+    *   [Other supported events](#other-supported-events)
     *   [Possible usage with actions/checkout:](#possible-usage-with-actionscheckout)
 *   [Credits](#credits)
 *   [Report Bugs](#report-bugs)
@@ -239,7 +240,6 @@ on:
 ### Other supported events
 
 Visit the [test](https://github.com/tj-actions/branch-names/blob/main/.github/workflows/test.yml) for more examples.
-
 
 ### Possible usage with [actions/checkout](https://github.com/actions/checkout):
 
