@@ -17,6 +17,8 @@
 
 Get a branch or tag name without the `/ref/*` prefix.
 
+## Table of Contents
+
 ## Features
 
 *   Retrieve the current branch name without any prefix. (e.g. `'refs/heads/main'` -> `'main'`)
