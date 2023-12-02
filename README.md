@@ -85,23 +85,6 @@ Support this project with a :star:
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
-## Outputs
-
-<!-- AUTO-DOC-OUTPUT:START - Do not remove or modify this section -->
-
-|                                     OUTPUT                                      |  TYPE  |                                   DESCRIPTION                                    |
-|---------------------------------------------------------------------------------|--------|----------------------------------------------------------------------------------|
-| <a name="output_base_ref_branch"></a>[base\_ref\_branch](#output_base_ref_branch) | string |          The target branch of a <br>pull request or tag e.g <br>`main`           |
-|  <a name="output_current_branch"></a>[current\_branch](#output_current_branch)   | string | The current branch name regardless <br>of event\_type e.g `main`, `feature/test`  |
-|  <a name="output_default_branch"></a>[default\_branch](#output_default_branch)   | string |               The default branch name e.g <br>`main` OR `master`                 |
-| <a name="output_head_ref_branch"></a>[head\_ref\_branch](#output_head_ref_branch) | string |           The source branch of a <br>pull request e.g `feature/test`             |
-|        <a name="output_is_default"></a>[is\_default](#output_is_default)         | string |  Returns `"true"` if the current <br>branch is the default else <br>`"false"`.   |
-|              <a name="output_is_tag"></a>[is\_tag](#output_is_tag)               | string |     Returns `"true"` if the current <br>branch is a tag else <br>`"false"`.      |
-|        <a name="output_ref_branch"></a>[ref\_branch](#output_ref_branch)         | string |      The branch that triggered the <br>workflow run. e.g `1/merge`, `main`       |
-|                   <a name="output_tag"></a>[tag](#output_tag)                   | string |       The tag that triggered the <br>workflow run. e.g `v0.0.1`, `0.0.1`         |
-
-<!-- AUTO-DOC-OUTPUT:END -->
-
 ## Inputs
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
@@ -119,6 +102,9 @@ Support this project with a :star:
 ```
 
 <!-- AUTO-DOC-INPUT:END -->
+
+
+## Outputs
 
 ## Events
 
