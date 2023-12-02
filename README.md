@@ -106,9 +106,17 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|                                      INPUT                                       |  TYPE  | REQUIRED | DEFAULT |                                                  DESCRIPTION                                                   |
-|----------------------------------------------------------------------------------|--------|----------|---------|----------------------------------------------------------------------------------------------------------------|
-| <a name="input_strip_tag_prefix"></a>[strip\_tag\_prefix](#input_strip_tag_prefix) | string |  false   |         | The prefix that should be <br>stripped from the tag e.g <br>`v` -> with a tag <br>`v0.0.1` -> returns `0.0.1`  |
+```yaml
+- uses: tj-actions/branch-names@v7
+  id: branch-names
+  with:
+    # The prefix that should be stripped from the tag 
+    # e.g `v` -> with a tag `v0.0.1` -> returns 
+    # `0.0.1` 
+    # Type: string
+    strip_tag_prefix: ''
+
+```
 
 <!-- AUTO-DOC-INPUT:END -->
 
