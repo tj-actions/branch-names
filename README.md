@@ -47,31 +47,31 @@ Get a branch or tag name without the `/ref/*` prefix.
 ...
 
     steps:
-      - name: Get branch name
-        id: branch-name
+      - name: Get branch names.
+        id: branch-names
         uses: tj-actions/branch-names@v7
         
       - name: Running on the default branch.
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-names.outputs.is_default == 'true'
         run: |
-          echo "Running on default: ${{ steps.branch-name.outputs.current_branch }}" 
+          echo "Running on default: ${{ steps.branch-names.outputs.current_branch }}" 
         # Outputs: "Running on default: main"
       
       - name: Running on a pull request branch.
-        if: steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-names.outputs.is_default == 'false'
         run: |
-          echo "Running on pr: ${{ steps.branch-name.outputs.current_branch }}"
+          echo "Running on pr: ${{ steps.branch-names.outputs.current_branch }}"
         # Outputs: "Running on pr: feature/test"
       
       - name: Running on a pull request branch.
-        if: steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-names.outputs.is_default == 'false'
         run: |
-          echo "Base branch: ${{ steps.branch-name.outputs.base_ref_branch }}"
+          echo "Base branch: ${{ steps.branch-names.outputs.base_ref_branch }}"
         # Outputs: "Base branch: main"
         
-      - name: Running on any event
+      - name: Running on any event.
         run: |
-          echo "Default branch: ${{ steps.branch-name.outputs.default_branch }}"
+          echo "Default branch: ${{ steps.branch-names.outputs.default_branch }}"
         # Outputs: "Default branch: main"
 ```
 
@@ -133,34 +133,34 @@ on:
 ...
     steps:
       - name: Get branch names
-        id: branch-name
+        id: branch-names
         uses: tj-actions/branch-names@v7
 
-      - name: Current branch name
+      - name: Current branch names
         run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
+          echo "${{ steps.branch-names.outputs.current_branch }}"
         # Outputs: "main" the branch that triggered the push event.
 
       - name: Running on the default branch.
-        if: steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-names.outputs.is_default == 'true'
         run: |
-          echo "Running on default: ${{ steps.branch-name.outputs.current_branch }}"
+          echo "Running on default: ${{ steps.branch-names.outputs.current_branch }}"
         # Outputs: "Running on default: main".
       
       - name: Running on the default branch (i.e non tag based branch).
-        if: steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default == 'true'
+        if: steps.branch-names.outputs.is_tag == 'false' && steps.branch-names.outputs.is_default == 'true'
         run: |
-          echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
+          echo "Running on branch: ${{ steps.branch-names.outputs.current_branch }}"
         # Outputs: "Running on branch: main".
       
       - name: Get Ref brach name
         run: |
-          echo "${{ steps.branch-name.outputs.ref_branch }}"
+          echo "${{ steps.branch-names.outputs.ref_branch }}"
         #  Outputs: "main"
       
       - name: Default branch name
         run: |
-          echo "${{ steps.branch-name.outputs.default_branch }}"
+          echo "${{ steps.branch-names.outputs.default_branch }}"
         # Outputs: "main" the default branch.
 ```
 
@@ -175,44 +175,44 @@ on:
 ...
     steps:
       - name: Get branch names
-        id: branch-name
+        id: branch-names
         uses: tj-actions/branch-names@v7
       
-      - name: Current branch name
+      - name: Current branch names
         run: |
-          echo "${{ steps.branch-name.outputs.current_branch }}"
+          echo "${{ steps.branch-names.outputs.current_branch }}"
         # Outputs: "feature/test" current PR branch.
 
       - name: Running on a non tag based branch and a PR branch.
-        if: steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-names.outputs.is_default == 'false'
         run: |
-          echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
+          echo "Running on branch: ${{ steps.branch-names.outputs.current_branch }}"
         # Outputs: "Running on branch: feature/test".
       
       - name: Running on a pull request (i.e non tag based branch).
-        if: steps.branch-name.outputs.is_tag == 'false' && steps.branch-name.outputs.is_default == 'false'
+        if: steps.branch-names.outputs.is_tag == 'false' && steps.branch-names.outputs.is_default == 'false'
         run: |
-          echo "Running on branch: ${{ steps.branch-name.outputs.current_branch }}"
+          echo "Running on branch: ${{ steps.branch-names.outputs.current_branch }}"
         # Outputs: "Running on branch: feature/test".
       
       - name: Get Ref branch name
         run: |
-          echo "${{ steps.branch-name.outputs.ref_branch }}"
+          echo "${{ steps.branch-names.outputs.ref_branch }}"
         #  Outputs: "1/merge"
 
-      - name: Get Head Ref branch name (i.e The current pull request branch)
+      - name: Get Head Ref branch names (i.e The current pull request branch)
         run: |
-          echo "${{ steps.branch-name.outputs.head_ref_branch }}"
+          echo "${{ steps.branch-names.outputs.head_ref_branch }}"
         # Outputs: "feature/test" current PR branch.
 
-      - name: Get Base Ref branch name (i.e The target of a pull request.)
+      - name: Get Base Ref branch names (i.e The target of a pull request.)
         run: |
-          echo "${{ steps.branch-name.outputs.base_ref_branch }}"
+          echo "${{ steps.branch-names.outputs.base_ref_branch }}"
         # Outputs: "main".
       
-      - name: Default branch name
+      - name: Default branch names
         run: |
-          echo "${{ steps.branch-name.outputs.default_branch }}"
+          echo "${{ steps.branch-names.outputs.default_branch }}"
         # Outputs: "main" the default branch.
 ```
 
@@ -227,21 +227,21 @@ on:
 ...
     steps:
       - name: Get branch names
-        id: branch-name
+        id: branch-names
         uses: tj-actions/branch-names@v7
         with:
           strip_tag_prefix: v # Optionally strip the leading `v` from the tag.
      
       - name: Running on a tag branch.
-        if: steps.branch-name.outputs.is_tag == 'true'
+        if: steps.branch-names.outputs.is_tag == 'true'
         run: |
-          echo "Running on: ${{ steps.branch-name.outputs.tag }}"
+          echo "Running on: ${{ steps.branch-names.outputs.tag }}"
         # Outputs: "Running on: 0.0.1".
         
       - name: Get the current tag
-        if: steps.branch-name.outputs.is_tag == 'true'  # Replaces: startsWith(github.ref, 'refs/tags/')
+        if: steps.branch-names.outputs.is_tag == 'true'  # Replaces: startsWith(github.ref, 'refs/tags/')
         run: |
-          echo "${{ steps.branch-name.outputs.tag }}"
+          echo "${{ steps.branch-names.outputs.tag }}"
         # Outputs: "0.0.1"
 ```
 
