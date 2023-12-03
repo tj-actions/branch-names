@@ -37,12 +37,18 @@ runs:
   using: "composite"
   steps:
     - id: branch
+      env:
+        GITHUB_REF: ${{ github.ref }}
+        GITHUB_BASE_REF: ${{ github.event.pull_request.base.ref || github.base_ref }}
+        GITHUB_HEAD_REF: ${{ github.event.pull_request.head.ref || github.head_ref }}
+        GITHUB_EVENT_BASE_REF: ${{ github.event.base_ref }}
+        INPUTS_STRIP_TAG_PREFIX: ${{ inputs.strip_tag_prefix }}
       run: |
         # "Set branch names..."
-        if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          BASE_REF=$(printf "%q" "${{ github.event.pull_request.base.ref || github.base_ref }}")
-          HEAD_REF=$(printf "%q" "${{ github.event.pull_request.head.ref || github.head_ref }}")
-          REF=$(printf "%q" "${{ github.ref }}")
+        if [[ "$GITHUB_REF" != "refs/tags/"* ]]; then
+          BASE_REF=$(printf "%q" "$GITHUB_BASE_REF")
+          HEAD_REF=$(printf "%q" "$GITHUB_HEAD_REF")
+          REF=$(printf "%q" "$GITHUB_REF")
 
           BASE_REF=${BASE_REF/refs\/heads\//}
           HEAD_REF=${HEAD_REF/refs\/heads\//}
@@ -53,42 +59,55 @@ runs:
           echo "head_ref_branch=$(eval printf "%s" "$HEAD_REF")" >> "$GITHUB_OUTPUT"
           echo "ref_branch=$(eval printf "%s" "$REF_BRANCH")" >> "$GITHUB_OUTPUT"
         else
-          BASE_REF=$(printf "%q" "${{ github.event.base_ref }}")
-          BASE_REF=${BASE_REF/refs\/heads\/${{ inputs.strip_tag_prefix }}/}
+          BASE_REF=$(printf "%q" "$GITHUB_EVENT_BASE_REF")
+          BASE_REF=${BASE_REF/refs\/heads\/$INPUTS_STRIP_TAG_PREFIX/}
           
           echo "base_ref_branch=$(eval printf "%s" "$BASE_REF")" >> "$GITHUB_OUTPUT"
         fi
       shell: bash
     - id: current_branch
+      env:
+        GITHUB_REF: ${{ github.ref }}
+        GITHUB_EVENT_NAME: ${{ github.event_name }}
+        HEAD_REF_BRANCH: ${{ steps.branch.outputs.head_ref_branch }}
+        REF_BRANCH: ${{ steps.branch.outputs.ref_branch }}
       run: |
         # "Set the current branch name..."
-        if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          if [[ ${{ github.event_name }} == *"pull_request"* ]]; then
-            echo "current_branch=${{ steps.branch.outputs.head_ref_branch }}" >> "$GITHUB_OUTPUT"
+        if [[ "$GITHUB_REF" != "refs/tags/"* ]]; then
+          if [[ "$GITHUB_EVENT_NAME" == *"pull_request"* ]]; then
+            echo "current_branch=$HEAD_REF_BRANCH" >> "$GITHUB_OUTPUT"
           else
-            echo "current_branch=${{ steps.branch.outputs.ref_branch }}" >> "$GITHUB_OUTPUT"
+            echo "current_branch=$REF_BRANCH" >> "$GITHUB_OUTPUT"
           fi
         fi
       shell: bash
     - id: default
+      env:
+        GITHUB_REF: ${{ github.ref }}
+        CURRENT_BRANCH: ${{ steps.current_branch.outputs.current_branch }}
+        DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        FORK: ${{ github.event.pull_request.head.repo.fork }}
       run: |
         # "Set the default branch name..."
-        if [[ "${{ github.ref }}" != "refs/tags/"* ]]; then
-          if [[ "${{ steps.current_branch.outputs.current_branch }}" == "${{ github.event.repository.default_branch }}" && "${{ github.event.pull_request.head.repo.fork }}" != "true" ]]; then
+        if [[ "$GITHUB_REF" != "refs/tags/"* ]]; then
+          if [[ "$CURRENT_BRANCH" == "$DEFAULT_BRANCH" && "$FORK" != "true" ]]; then
             echo "is_default=true" >> "$GITHUB_OUTPUT"
-            echo "default_branch=${{ github.event.repository.default_branch }}" >> "$GITHUB_OUTPUT"
+            echo "default_branch=$DEFAULT_BRANCH" >> "$GITHUB_OUTPUT"
           else
             echo "is_default=false" >> "$GITHUB_OUTPUT"
-            echo "default_branch=${{ github.event.repository.default_branch }}" >> "$GITHUB_OUTPUT"
+            echo "default_branch=$DEFAULT_BRANCH" >> "$GITHUB_OUTPUT"
           fi
         fi
       shell: bash
     - id: tag
+      env:
+        GITHUB_REF: ${{ github.ref }}
+        INPUTS_STRIP_TAG_PREFIX: ${{ inputs.strip_tag_prefix }}
       run: |
         # "Set the tag name..."
-        if [[ "${{ github.ref }}" == "refs/tags/"* ]]; then
-          REF=$(printf "%q" "${{ github.ref }}")
-          TAG=${REF/refs\/tags\/${{ inputs.strip_tag_prefix }}/}
+        if [[ "$GITHUB_REF" == "refs/tags/"* ]]; then
+          REF=$(printf "%q" "$GITHUB_REF")
+          TAG="${REF/refs\/tags\/$INPUTS_STRIP_TAG_PREFIX/}"
 
           echo "tag=$(eval printf "%s" "$TAG")" >> "$GITHUB_OUTPUT"
           echo "is_tag=true" >> "$GITHUB_OUTPUT"
