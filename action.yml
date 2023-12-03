@@ -80,7 +80,7 @@ runs:
             echo "current_branch=$REF_BRANCH" >> "$GITHUB_OUTPUT"
           fi
         fi
-      shell: bash  
+      shell: bash
     - id: default
       env:
         GITHUB_REF: ${{ github.ref }}
