@@ -1,5 +1,55 @@
 # Changelog
 
+# [7.0.7](https://github.com/tj-actions/branch-names/compare/v7.0.6...v7.0.7) - (2023-12-03)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Fix indentation ([610e980](https://github.com/tj-actions/branch-names/commit/610e9803309427800eaee5dcde8de48e946f02e3))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/greetings.yml ([baaf5cd](https://github.com/tj-actions/branch-names/commit/baaf5cdbe276584218fb70fa9958bdce58bea50a))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update action.yml ([d1dce85](https://github.com/tj-actions/branch-names/commit/d1dce85278f56712618c88f991af7bdaa2d1e1d7))  - (Tonye Jack)
+- Update action.yml ([6a7e022](https://github.com/tj-actions/branch-names/commit/6a7e02263c0eeb64d7ca5dc54a91e0064f54679b))  - (Tonye Jack)
+- Updated README.md
+ ([43f1d99](https://github.com/tj-actions/branch-names/commit/43f1d995a17f4507d6549ab09250d44c5e0e2a43))  - (jackton1)
+- Update README.md ([d2fdfdc](https://github.com/tj-actions/branch-names/commit/d2fdfdc07649eb8981e8bf1619b81b8d5047b310))  - (Tonye Jack)
+- Update README.md ([564ba51](https://github.com/tj-actions/branch-names/commit/564ba51f1b32b3303f151799871492f0b171ef42))  - (Tonye Jack)
+- Updated README.md
+ ([af65b43](https://github.com/tj-actions/branch-names/commit/af65b43bdc8c0a8db39c03cd8923673eb7e52d90))  - (jackton1)
+- Update update-readme.yml ([ba3c765](https://github.com/tj-actions/branch-names/commit/ba3c7653e7a0d1836dfa90780f2208f44c14277c))  - (Tonye Jack)
+- Updated README.md ([#266](https://github.com/tj-actions/branch-names/issues/266))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([78a040a](https://github.com/tj-actions/branch-names/commit/78a040adc7c4f0be6b6952c3b9a0a37e4b70cb66))  - (tj-actions[bot])
+- Update README.md ([d275988](https://github.com/tj-actions/branch-names/commit/d275988a8ea21addd5362e44b8338faf24cfed0b))  - (Tonye Jack)
+- Update README.md ([616936f](https://github.com/tj-actions/branch-names/commit/616936ff339f712e9a31163275b4fc3abece2aae))  - (Tonye Jack)
+- Updated README.md ([#265](https://github.com/tj-actions/branch-names/issues/265))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([61a1557](https://github.com/tj-actions/branch-names/commit/61a1557cd001eb325dddd1b74d358e8339114958))  - (tj-actions[bot])
+- Update README.md ([8a998b1](https://github.com/tj-actions/branch-names/commit/8a998b151870dadbc1ba597191b0adde3532ac3f))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#272](https://github.com/tj-actions/branch-names/pull/272): remove vulnerable events from test ([6c999ac](https://github.com/tj-actions/branch-names/commit/6c999acf206f5561e19f46301bb310e9e70d8815))  - (repo-ranger[bot])
+- Remove vulnerable events from test ([726fe9b](https://github.com/tj-actions/branch-names/commit/726fe9ba5e9da4fcc716223b7994ffd0358af060))  - (Tonye Jack)
+- PR [#271](https://github.com/tj-actions/branch-names/pull/271): prevent arbitrary code injection via untrusted inputs ([4923d1c](https://github.com/tj-actions/branch-names/commit/4923d1ca41f928c24f1c1b3af9daaadfb71e6337))  - (repo-ranger[bot])
+- Prevent arbitrary code injection via untrusted inputs ([73b5e05](https://github.com/tj-actions/branch-names/commit/73b5e05c8551b0ea18e91f7ae8acd38ce5ea4ede))  - (Tonye Jack)
+- PR [#270](https://github.com/tj-actions/branch-names/pull/270): README.md ([c73f478](https://github.com/tj-actions/branch-names/commit/c73f47823369a524870914f826f8270195c89d14))  - (repo-ranger[bot])
+- PR [#269](https://github.com/tj-actions/branch-names/pull/269): README.md ([00f78f3](https://github.com/tj-actions/branch-names/commit/00f78f37b0a8a5dcd5c5a78317743f17ee9dc9c5))  - (repo-ranger[bot])
+- PR [#264](https://github.com/tj-actions/branch-names/pull/264): to v7.0.6 ([22d5ce4](https://github.com/tj-actions/branch-names/commit/22d5ce483bf4d0d875c227529624c68632373d9e))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Remove deprecated set-ouput calls ([#268](https://github.com/tj-actions/branch-names/issues/268)) ([93d729b](https://github.com/tj-actions/branch-names/commit/93d729b69b958481c864e2bc121bb339f0e0d744))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.5 -> v7.0.6
+ ([f949501](https://github.com/tj-actions/branch-names/commit/f949501dd56f7e4055ad441276960789d534ec4a))  - (jackton1)
+
 # [7.0.6](https://github.com/tj-actions/branch-names/compare/v7.0.5...v7.0.6) - (2023-11-01)
 
 ## <!-- 13 -->📦 Bumps
