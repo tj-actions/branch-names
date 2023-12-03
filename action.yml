@@ -107,7 +107,7 @@ runs:
         # "Set the tag name..."
         if [[ "$GITHUB_REF" == "refs/tags/"* ]]; then
           REF=$(printf "%q" "$GITHUB_REF")
-          TAG=${REF/refs\/tags\/$INPUTS_STRIP_TAG_PREFIX/}
+          TAG="${REF/refs\/tags\/$INPUTS_STRIP_TAG_PREFIX/}"
 
           echo "tag=$(eval printf "%s" "$TAG")" >> "$GITHUB_OUTPUT"
           echo "is_tag=true" >> "$GITHUB_OUTPUT"
