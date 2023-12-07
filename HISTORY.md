@@ -1,5 +1,24 @@
 # Changelog
 
+# [8.0.0](https://github.com/tj-actions/branch-names/compare/v7.0.7...v8.0.0) - (2023-12-05)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/auto-approve.yml ([d412a8b](https://github.com/tj-actions/branch-names/commit/d412a8b9be018a303e4c446b1e1e77e26dc79603))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#273](https://github.com/tj-actions/branch-names/pull/273): to v7.0.7 ([aebb456](https://github.com/tj-actions/branch-names/commit/aebb456ae8608f6dc5a66f8ee1af451d4cc6a121))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Create SECURITY.md ([#274](https://github.com/tj-actions/branch-names/issues/274)) ([6b29454](https://github.com/tj-actions/branch-names/commit/6b29454859d080290fc5e9c05ee4e82b9156404b))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.6 -> v7.0.7
+ ([f78faab](https://github.com/tj-actions/branch-names/commit/f78faabb0379ad0477ee82bf26324d6c8e6e6a05))  - (jackton1)
+
 # [7.0.7](https://github.com/tj-actions/branch-names/compare/v7.0.6...v7.0.7) - (2023-12-03)
 
 ## <!-- 1 -->🐛 Bug Fixes

@@ -49,7 +49,7 @@ Get a branch or tag name without the `/ref/*` prefix.
     steps:
       - name: Get branch names.
         id: branch-names
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v8
         
       - name: Running on the default branch.
         if: steps.branch-names.outputs.is_default == 'true'
@@ -90,7 +90,7 @@ Support this project with a :star:
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
 ```yaml
-- uses: tj-actions/branch-names@v7
+- uses: tj-actions/branch-names@v8
   id: branch-names
   with:
     # The prefix that should be stripped from the tag 
@@ -134,7 +134,7 @@ on:
     steps:
       - name: Get branch names
         id: branch-names
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v8
 
       - name: Current branch names
         run: |
@@ -176,7 +176,7 @@ on:
     steps:
       - name: Get branch names
         id: branch-names
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v8
       
       - name: Current branch names
         run: |
@@ -228,7 +228,7 @@ on:
     steps:
       - name: Get branch names
         id: branch-names
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v8
         with:
           strip_tag_prefix: v # Optionally strip the leading `v` from the tag.
      
@@ -263,7 +263,7 @@ on:
     steps:
       - name: Get branch names.
         id: branch-names
-        uses: tj-actions/branch-names@v7
+        uses: tj-actions/branch-names@v8
       - uses: actions/checkout@v3
         with:
           ref: ${{ steps.branch-names.outputs.head_ref_branch }}
