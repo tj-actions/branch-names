@@ -247,7 +247,7 @@ on:
 
 ### Other supported events
 
-Visit the [test](https://github.com/tj-actions/branch-names/blob/main/.github/workflows/test.yml) for more examples.
+See [.github/workflows/test.yml](https://github.com/tj-actions/branch-names/blob/main/.github/workflows/test.yml) for more examples.
 
 ### Possible usage with [actions/checkout](https://github.com/actions/checkout):
 
