@@ -1,5 +1,53 @@
 # Changelog
 
+# [8.0.1](https://github.com/tj-actions/branch-names/compare/v8.0.0...v8.0.1) - (2024-02-07)
+
+## <!-- 13 -->📦 Bumps
+
+- Bump peter-evans/create-pull-request from 5 to 6
+
+Bumps [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request) from 5 to 6.
+- [Release notes](https://github.com/peter-evans/create-pull-request/releases)
+- [Commits](https://github.com/peter-evans/create-pull-request/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: peter-evans/create-pull-request
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([d7e1c12](https://github.com/tj-actions/branch-names/commit/d7e1c12a1319bef4a91b309ff0b19f9c9c23ce29))  - (dependabot[bot])
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md
+ ([331c645](https://github.com/tj-actions/branch-names/commit/331c645bc0d6a25b59d335c5998e0d6a84de5473))  - (jackton1)
+- Update README.md ([1dd881b](https://github.com/tj-actions/branch-names/commit/1dd881b93548225d6846bfb1e11db437ec69b3e8))  - (Tonye Jack)
+- Update README.md ([df61b49](https://github.com/tj-actions/branch-names/commit/df61b4971562e262705f8aedd34a353cc760121b))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#282](https://github.com/tj-actions/branch-names/pull/282): update test.yml ([6871f53](https://github.com/tj-actions/branch-names/commit/6871f53176ad61624f978536bbf089c574dc19a2))  - (repo-ranger[bot])
+- PR [#281](https://github.com/tj-actions/branch-names/pull/281): update tj-actions/verify-changed-files action to v18 ([b08a65c](https://github.com/tj-actions/branch-names/commit/b08a65ca3d4a4d94606ea92ad30085d74c8d1d46))  - (repo-ranger[bot])
+- PR [#279](https://github.com/tj-actions/branch-names/pull/279): peter-evans/create-pull-request from 5 to 6 ([daaa308](https://github.com/tj-actions/branch-names/commit/daaa3086490a7b51a7cf11025b452fc3e215bc9b))  - (repo-ranger[bot])
+- PR [#278](https://github.com/tj-actions/branch-names/pull/278): README.md ([e6d7f60](https://github.com/tj-actions/branch-names/commit/e6d7f60b99ffa6afdb58eec2c3d2ac2deae3b3e1))  - (repo-ranger[bot])
+- PR [#277](https://github.com/tj-actions/branch-names/pull/277): update tj-actions/verify-changed-files action to v17 ([6a42993](https://github.com/tj-actions/branch-names/commit/6a429934f4c10691ff33b9c0c5c7b0c6edf1da8b))  - (repo-ranger[bot])
+- PR [#276](https://github.com/tj-actions/branch-names/pull/276): update github/codeql-action action to v3 ([3480893](https://github.com/tj-actions/branch-names/commit/3480893ae4ce4a095e4c823474091bb3e1cddc75))  - (repo-ranger[bot])
+- PR [#275](https://github.com/tj-actions/branch-names/pull/275): to v8 ([ce11ce0](https://github.com/tj-actions/branch-names/commit/ce11ce0f7384e0fa0d9c9f692dc646b32ac3ca9c))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Update test.yml ([fd631fd](https://github.com/tj-actions/branch-names/commit/fd631fd13a734d793c5cb0152217764ca3e5bfdf))  - (Tonye Jack)
+- **deps:** Update tj-actions/verify-changed-files action to v18 ([7a67835](https://github.com/tj-actions/branch-names/commit/7a67835b20204f0f3ee6524f4b6a336410a601e3))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v17 ([2fc8b99](https://github.com/tj-actions/branch-names/commit/2fc8b99e0131dd6de58bc7a880080809d1141834))  - (renovate[bot])
+- **deps:** Update github/codeql-action action to v3 ([133b286](https://github.com/tj-actions/branch-names/commit/133b2868695e37161eb02f366be04ab37b9def81))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v7.0.7 -> v8
+ ([cf62a9f](https://github.com/tj-actions/branch-names/commit/cf62a9f7613bf12dcd4940cbe365e47fd49a161e))  - (jackton1)
+
 # [8.0.0](https://github.com/tj-actions/branch-names/compare/v7.0.7...v8.0.0) - (2023-12-05)
 
 ## <!-- 17 -->➖ Remove
