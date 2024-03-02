@@ -264,7 +264,7 @@ on:
       - name: Get branch names.
         id: branch-names
         uses: tj-actions/branch-names@v8
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{ steps.branch-names.outputs.head_ref_branch }}
 ```
