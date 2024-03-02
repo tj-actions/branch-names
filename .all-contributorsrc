@@ -22,6 +22,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "boidolr",
+      "name": "Raphael Boidol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/652404?v=4",
+      "profile": "https://home.boidol.dev/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
