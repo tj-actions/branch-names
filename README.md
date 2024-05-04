@@ -93,9 +93,10 @@ Support this project with a :star:
 - uses: tj-actions/branch-names@v8
   id: branch-names
   with:
-    # The prefix that should be stripped from the tag 
-    # e.g `v` -> with a tag `v0.0.1` -> returns 
-    # `0.0.1` 
+    # The prefix that should be 
+    # stripped from the tag e.g 
+    # `v` -> with a tag 
+    # `v0.0.1` -> returns `0.0.1` 
     # Type: string
     strip_tag_prefix: ''
 
