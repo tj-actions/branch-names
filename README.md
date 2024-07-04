@@ -28,7 +28,7 @@ Get a branch or tag name without the `/ref/*` prefix.
     *   [`pull_request*`](#pull_request)
     *   [`tag*`](#tag)
     *   [Other supported events](#other-supported-events)
-    *   [Possible usage with actions/checkout:](#possible-usage-with-actionscheckout)
+    *   [Possible usage with actions/checkout](#possible-usage-with-actionscheckout)
 *   [Credits](#credits)
 *   [Report Bugs](#report-bugs)
 *   [Contributors ✨](#contributors-)
