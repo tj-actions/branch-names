@@ -80,7 +80,6 @@ runs:
         GITHUB_EVENT_NAME: ${{ github.event_name }}
         HEAD_REF_BRANCH: ${{ steps.branch.outputs.head_ref_branch }}
         REF_BRANCH: ${{ steps.branch.outputs.ref_branch }}
-        INPUTS_STRIP_BRANCH_PREFIX: ${{ inputs.strip_branch_prefix }}
       run: |
         # "Set the current branch name..."
         if [[ "$GITHUB_REF" != "refs/tags/"* ]]; then
