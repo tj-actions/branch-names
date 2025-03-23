@@ -1,5 +1,462 @@
 # Changelog
 
+# [8.0.2](https://github.com/tj-actions/branch-names/compare/v8.0.1...v8.0.2) - (2025-03-15)
+
+## <!-- 13 -->📦 Bumps
+
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([534653b](https://github.com/tj-actions/branch-names/commit/534653b2272678c76b23f2e681c8cfc2056d7b99))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([6fa5c81](https://github.com/tj-actions/branch-names/commit/6fa5c816c1da476df9c5c303c9e17ba1f0abaa6f))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([8e55874](https://github.com/tj-actions/branch-names/commit/8e55874a72fc608d9ebc1e999f0c73d927fb0058))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([13adcfd](https://github.com/tj-actions/branch-names/commit/13adcfdc61dbbddf5a768c336bd3843109a82ab3))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([a3fff96](https://github.com/tj-actions/branch-names/commit/a3fff9678b016ac639124952cfb86dd16bdc6256))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([0f8131e](https://github.com/tj-actions/branch-names/commit/0f8131e1daf358bc1c0a84ecee68da94e366e5fa))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([ca2778e](https://github.com/tj-actions/branch-names/commit/ca2778e720748725fea1e7b4e7cdc7b2d4ff39f8))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([42c5d88](https://github.com/tj-actions/branch-names/commit/42c5d885a30981b9ec6eea771c00eb38cfc6ec75))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([265f806](https://github.com/tj-actions/branch-names/commit/265f806c46ccb84dba24194a9d687a471035064b))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([ac6ee7a](https://github.com/tj-actions/branch-names/commit/ac6ee7a46072f7f1673d6991219519237ad7b1dd))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([88cf81d](https://github.com/tj-actions/branch-names/commit/88cf81de7fe78e5a05c5d424ef6ffb0cc2ad08f7))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([da72ca7](https://github.com/tj-actions/branch-names/commit/da72ca7ff363cc518b18ba4944650f7e68be6a0c))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([bc0c064](https://github.com/tj-actions/branch-names/commit/bc0c064c152f5fc91380bd6343523b7996994576))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([cc62037](https://github.com/tj-actions/branch-names/commit/cc62037c42d5abd0801dea4f83c0071828ec20ec))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4.1.1...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([e166d47](https://github.com/tj-actions/branch-names/commit/e166d475e70e8f599234e97d49d9a2f38e8be3f1))  - (dependabot[bot])
+- Bump actions/checkout from 4.1.1 to 4.1.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/b4ffde65f46336ab88eb53be808477a3936bae11...9bb56186c3b09b4f86b1c65136769dd318469633)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([b9529d4](https://github.com/tj-actions/branch-names/commit/b9529d4905c17608d76876eb74fabb66ff219ee0))  - (dependabot[bot])
+
+## <!-- 17 -->➖ Remove
+
+- Deleted renovate.json ([394802c](https://github.com/tj-actions/branch-names/commit/394802c2335dc81582b3569322f3d7da41a9978e))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#384](https://github.com/tj-actions/branch-names/issues/384))
+
+Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([82ee4e6](https://github.com/tj-actions/branch-names/commit/82ee4e60aba9b293e8766badf85cdc0500f23dc6))  - (tj-actions[bot])
+- Update README.md ([658be2f](https://github.com/tj-actions/branch-names/commit/658be2f7c0d9f99127d2513e1ded876915b3ac72))  - (Tonye Jack)
+- Updated README.md
+ ([2e715d5](https://github.com/tj-actions/branch-names/commit/2e715d5bdbcec5bb68660db3db170d42477b9fbb))  - (repo-ranger[bot])
+- Updated README.md
+ ([f24d748](https://github.com/tj-actions/branch-names/commit/f24d748f8b32e9e51d83b8c7c9a5d1cf5777ea9e))  - (jackton1)
+
+## <!-- 29 -->👷 CI/CD
+
+- **deps:** Bump actions/checkout from 4.1.7 to 4.2.0 ([#393](https://github.com/tj-actions/branch-names/issues/393)) ([f938022](https://github.com/tj-actions/branch-names/commit/f938022a89369091263a58aad25dc1a02161309d))  - (dependabot[bot])
+- **deps:** Bump peter-evans/create-pull-request from 6 to 7 ([#391](https://github.com/tj-actions/branch-names/issues/391)) ([932563e](https://github.com/tj-actions/branch-names/commit/932563efe6f04760faac8137a30e55b4f20e69ae))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.6 ([7f4e864](https://github.com/tj-actions/branch-names/commit/7f4e86406813f73c9d52c60ab6c48c8bf202724e))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.6 ([ba1a03f](https://github.com/tj-actions/branch-names/commit/ba1a03fb43a5f3e5da4eb1303f2ed9e0dde70c45))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.5 ([ce69956](https://github.com/tj-actions/branch-names/commit/ce69956ef23b5a4965f8d029820b77ea228fa5e6))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.5 ([b3bcd8d](https://github.com/tj-actions/branch-names/commit/b3bcd8de138cbd22efe4469839e7ab9036f4b952))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.5 ([965b6cd](https://github.com/tj-actions/branch-names/commit/965b6cd141a765f462e4f2d870075db423023e7c))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.5 ([2d945e6](https://github.com/tj-actions/branch-names/commit/2d945e69faa9134f82c16e06b14335fc79f54425))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.5 ([7e6b6a1](https://github.com/tj-actions/branch-names/commit/7e6b6a1303fd692d9967237c8e18b70300a2e549))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.5 ([1bd7d17](https://github.com/tj-actions/branch-names/commit/1bd7d17f496c81ea4e6cb662808f3e956924f291))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.4 to 4.1.5 ([4150064](https://github.com/tj-actions/branch-names/commit/4150064c299dd8070203af25769f9db1e59b81d6))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.3 to 4.1.4 ([dae786c](https://github.com/tj-actions/branch-names/commit/dae786c139f3b059abbea526665664d1fa7a6467))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.3 ([e584617](https://github.com/tj-actions/branch-names/commit/e584617c2e41276f04d74409c73ebad94ec82ce2))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([2a77671](https://github.com/tj-actions/branch-names/commit/2a77671e30844e4c79aaab89c332a75628ab7e4b))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([9a1de3d](https://github.com/tj-actions/branch-names/commit/9a1de3d80d8a545bd2a8c569de040cd90ee51db6))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([e672ffd](https://github.com/tj-actions/branch-names/commit/e672ffd9599d38ccaaec355222283a2380805bef))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([669f409](https://github.com/tj-actions/branch-names/commit/669f4093d21ea9cf4368ff2e1dec471a276ec690))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([28c5871](https://github.com/tj-actions/branch-names/commit/28c587120d74f178b3b3ac2cce2ec407cc1949be))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([95c4b88](https://github.com/tj-actions/branch-names/commit/95c4b88b14571ec2405fc06ce14aee9b9cbe84c3))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([cace666](https://github.com/tj-actions/branch-names/commit/cace666ad9d20140e0feb01b1cb63a6d36a607b2))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([1d19061](https://github.com/tj-actions/branch-names/commit/1d19061dffdda941b7e6b738e8612ea5eac86b68))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([b3e4e14](https://github.com/tj-actions/branch-names/commit/b3e4e1464694a9d6156a8ea606b337bd2291ecdb))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([7ee7b07](https://github.com/tj-actions/branch-names/commit/7ee7b07a594c2380741a41289434fa98b27f76d0))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([11faa5b](https://github.com/tj-actions/branch-names/commit/11faa5bcd9a3045c538a604ee42a289f3988ec1e))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([b52a6ba](https://github.com/tj-actions/branch-names/commit/b52a6ba62cb9465607f9af2943a0a71b30f0a40a))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([0278465](https://github.com/tj-actions/branch-names/commit/027846530db45bf0900ef10664c14d2ffc24e392))  - (dependabot[bot])
+- **deps:** Bump actions/checkout from 4.1.1 to 4.1.2 ([3efec7d](https://github.com/tj-actions/branch-names/commit/3efec7d73866c688416b28cab2eaa8df69b9fda3))  - (dependabot[bot])
+
+## <!-- 3 -->📚 Documentation
+
+- Update checkout action ([#286](https://github.com/tj-actions/branch-names/issues/286)) ([1c741b4](https://github.com/tj-actions/branch-names/commit/1c741b4b40390a824755ef235ddbb922e5b0c3fc))  - (Raphael Boidol)
+- Add boidolr as a contributor for doc ([#287](https://github.com/tj-actions/branch-names/issues/287)) ([1c68030](https://github.com/tj-actions/branch-names/commit/1c68030a6dc3aebfa3a8981535662b3febde0180))  - (allcontributors[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#379](https://github.com/tj-actions/branch-names/pull/379): update actions/checkout digest to 0ad4b8f ([2db2524](https://github.com/tj-actions/branch-names/commit/2db252424fefc6e7aeeee9a13c4b637840080bca))  - (repo-ranger[bot])
+- PR [#378](https://github.com/tj-actions/branch-names/pull/378): bump actions/checkout from 4.1.4 to 4.1.6 ([8fbad50](https://github.com/tj-actions/branch-names/commit/8fbad50488dfd87d8ef4e57647a99b1148f508a8))  - (repo-ranger[bot])
+- PR [#377](https://github.com/tj-actions/branch-names/pull/377): update actions/checkout digest to 0ad4b8f ([14adf37](https://github.com/tj-actions/branch-names/commit/14adf3718a10aa93c9a07ded3c4993a330b0cf2a))  - (repo-ranger[bot])
+- PR [#376](https://github.com/tj-actions/branch-names/pull/376): bump actions/checkout from 4.1.4 to 4.1.6 ([82fce9c](https://github.com/tj-actions/branch-names/commit/82fce9c6d6a3426e2f18c17f7258501369716882))  - (repo-ranger[bot])
+- PR [#374](https://github.com/tj-actions/branch-names/pull/374): update actions/checkout digest to 0ad4b8f ([3b45f1b](https://github.com/tj-actions/branch-names/commit/3b45f1b0590a9cb594f44fccedbc03caaad7ab8b))  - (repo-ranger[bot])
+- PR [#373](https://github.com/tj-actions/branch-names/pull/373): bump actions/checkout from 4.1.4 to 4.1.5 ([3a5f524](https://github.com/tj-actions/branch-names/commit/3a5f524b3b1de5ff47f9ccf0fd47586fd63af019))  - (repo-ranger[bot])
+- PR [#372](https://github.com/tj-actions/branch-names/pull/372): update actions/checkout digest to 0ad4b8f ([2d7caec](https://github.com/tj-actions/branch-names/commit/2d7caecfd4e586e7014532de40394963bdfe2324))  - (repo-ranger[bot])
+- PR [#371](https://github.com/tj-actions/branch-names/pull/371): bump actions/checkout from 4.1.4 to 4.1.5 ([aaf3545](https://github.com/tj-actions/branch-names/commit/aaf3545227b811a868cef47b859db374fdfdf2b6))  - (repo-ranger[bot])
+- PR [#370](https://github.com/tj-actions/branch-names/pull/370): update actions/checkout digest to 0ad4b8f ([85228cd](https://github.com/tj-actions/branch-names/commit/85228cdda943444123e18e977ea226a646ddbef8))  - (repo-ranger[bot])
+- PR [#369](https://github.com/tj-actions/branch-names/pull/369): bump actions/checkout from 4.1.4 to 4.1.5 ([fe89084](https://github.com/tj-actions/branch-names/commit/fe8908440065606be9092e4b75765b5f9342b24f))  - (repo-ranger[bot])
+- PR [#368](https://github.com/tj-actions/branch-names/pull/368): update actions/checkout digest to 0ad4b8f ([514b496](https://github.com/tj-actions/branch-names/commit/514b496b6263033f90f58c958b4a83e989f17e21))  - (repo-ranger[bot])
+- PR [#367](https://github.com/tj-actions/branch-names/pull/367): bump actions/checkout from 4.1.4 to 4.1.5 ([44e6c9a](https://github.com/tj-actions/branch-names/commit/44e6c9a7a98ffd1f3f44abaa708a6ebc3b659d79))  - (repo-ranger[bot])
+- PR [#366](https://github.com/tj-actions/branch-names/pull/366): update actions/checkout digest to 0ad4b8f ([26abdd7](https://github.com/tj-actions/branch-names/commit/26abdd72b6fb2e1ef15eba02abf859fea54e2bef))  - (repo-ranger[bot])
+- PR [#365](https://github.com/tj-actions/branch-names/pull/365): bump actions/checkout from 4.1.4 to 4.1.5 ([27149ac](https://github.com/tj-actions/branch-names/commit/27149ac8f4a9d23191fb612cd58a2b77bee19cdb))  - (repo-ranger[bot])
+- PR [#364](https://github.com/tj-actions/branch-names/pull/364): update actions/checkout digest to 0ad4b8f ([e7167cd](https://github.com/tj-actions/branch-names/commit/e7167cd879b5f695a17358980a5909d466bd4003))  - (repo-ranger[bot])
+- PR [#362](https://github.com/tj-actions/branch-names/pull/362): update actions/checkout digest to 0ad4b8f ([f9789de](https://github.com/tj-actions/branch-names/commit/f9789de67b4b21f46252389a32078e175ec9f0f5))  - (repo-ranger[bot])
+- PR [#361](https://github.com/tj-actions/branch-names/pull/361): bump actions/checkout from 4.1.4 to 4.1.5 ([a7e67ad](https://github.com/tj-actions/branch-names/commit/a7e67ad58883ec07ed559b86dc8609ce262a360a))  - (repo-ranger[bot])
+- PR [#359](https://github.com/tj-actions/branch-names/pull/359): update actions/checkout digest to 0ad4b8f ([8f0dd01](https://github.com/tj-actions/branch-names/commit/8f0dd01d1108b9e3f09c6626e5ec7e16c6f2a066))  - (repo-ranger[bot])
+- PR [#358](https://github.com/tj-actions/branch-names/pull/358): bump actions/checkout from 4.1.4 to 4.1.5 ([195e4ed](https://github.com/tj-actions/branch-names/commit/195e4ede61885b47aa99667eebb96468f49245eb))  - (repo-ranger[bot])
+- PR [#357](https://github.com/tj-actions/branch-names/pull/357): README.md ([c31779c](https://github.com/tj-actions/branch-names/commit/c31779ccc13e424499db03f13ed915b3ade827b1))  - (repo-ranger[bot])
+- PR [#356](https://github.com/tj-actions/branch-names/pull/356): update tj-actions/verify-changed-files action to v20 ([6ca1d98](https://github.com/tj-actions/branch-names/commit/6ca1d98b2581e8b0ad8d59a1168854ded4690b45))  - (repo-ranger[bot])
+- PR [#354](https://github.com/tj-actions/branch-names/pull/354): update actions/checkout digest to 1d96c77 ([b597dfb](https://github.com/tj-actions/branch-names/commit/b597dfb036c3af7fbd2bd4e696a37c12dd933666))  - (repo-ranger[bot])
+- PR [#353](https://github.com/tj-actions/branch-names/pull/353): bump actions/checkout from 4.1.3 to 4.1.4 ([7fd6a0d](https://github.com/tj-actions/branch-names/commit/7fd6a0d2ce32a0f5c9f87620caf8f81c30708fb9))  - (repo-ranger[bot])
+- PR [#351](https://github.com/tj-actions/branch-names/pull/351): update actions/checkout digest to b4ffde6 ([8d2c049](https://github.com/tj-actions/branch-names/commit/8d2c049d03d3d530b025f1dfc84c750c74332d23))  - (repo-ranger[bot])
+- PR [#350](https://github.com/tj-actions/branch-names/pull/350): bump actions/checkout from 4.1.1 to 4.1.3 ([d7f3af5](https://github.com/tj-actions/branch-names/commit/d7f3af5b4ac6d8ae8255d0241613c21360d6a39d))  - (repo-ranger[bot])
+- PR [#349](https://github.com/tj-actions/branch-names/pull/349): update actions/checkout digest to b4ffde6 ([10dcc55](https://github.com/tj-actions/branch-names/commit/10dcc55b32dfe854953b32f2b871bf6cb131b948))  - (repo-ranger[bot])
+- PR [#348](https://github.com/tj-actions/branch-names/pull/348): bump actions/checkout from 4.1.1 to 4.1.2 ([862f59e](https://github.com/tj-actions/branch-names/commit/862f59e26654f2b5523ce34e36a9d7b0ac51c80b))  - (repo-ranger[bot])
+- PR [#347](https://github.com/tj-actions/branch-names/pull/347): update actions/checkout digest to b4ffde6 ([ffc9637](https://github.com/tj-actions/branch-names/commit/ffc96370c977cd858e38e83795e25bd4e4526bbb))  - (repo-ranger[bot])
+- PR [#346](https://github.com/tj-actions/branch-names/pull/346): bump actions/checkout from 4.1.1 to 4.1.2 ([12b7d18](https://github.com/tj-actions/branch-names/commit/12b7d188e66ea93fe5df075b5359ad269c9970c8))  - (repo-ranger[bot])
+- PR [#345](https://github.com/tj-actions/branch-names/pull/345): update actions/checkout digest to b4ffde6 ([1c10803](https://github.com/tj-actions/branch-names/commit/1c10803f1674f1273fa63ec536f46315252c8c36))  - (repo-ranger[bot])
+- PR [#344](https://github.com/tj-actions/branch-names/pull/344): bump actions/checkout from 4.1.1 to 4.1.2 ([040aab5](https://github.com/tj-actions/branch-names/commit/040aab5d2fc72bd032ab0c7fc12855162033c2d1))  - (repo-ranger[bot])
+- PR [#343](https://github.com/tj-actions/branch-names/pull/343): update actions/checkout digest to b4ffde6 ([1790a8c](https://github.com/tj-actions/branch-names/commit/1790a8c8a79e99a9c08c5f4b4be7ddd9286c0593))  - (repo-ranger[bot])
+- PR [#342](https://github.com/tj-actions/branch-names/pull/342): bump actions/checkout from 4.1.1 to 4.1.2 ([110e93c](https://github.com/tj-actions/branch-names/commit/110e93cc3a72495dcf574b195bd7fca6745f8124))  - (repo-ranger[bot])
+- PR [#341](https://github.com/tj-actions/branch-names/pull/341): update actions/checkout digest to b4ffde6 ([b075b95](https://github.com/tj-actions/branch-names/commit/b075b9582ba3ead507172a69acc11b4914c6e3f4))  - (repo-ranger[bot])
+- PR [#340](https://github.com/tj-actions/branch-names/pull/340): bump actions/checkout from 4.1.1 to 4.1.2 ([a48216b](https://github.com/tj-actions/branch-names/commit/a48216b129ef42dfd042a14dca19d39100bcb42e))  - (repo-ranger[bot])
+- PR [#339](https://github.com/tj-actions/branch-names/pull/339): update actions/checkout digest to b4ffde6 ([69e7d85](https://github.com/tj-actions/branch-names/commit/69e7d85e588f81104a1728e43f7e3989a3a137e3))  - (repo-ranger[bot])
+- PR [#338](https://github.com/tj-actions/branch-names/pull/338): bump actions/checkout from 4.1.1 to 4.1.2 ([7bc42cb](https://github.com/tj-actions/branch-names/commit/7bc42cbb46fa8c723fd6cf05745ccff784e43777))  - (repo-ranger[bot])
+- PR [#337](https://github.com/tj-actions/branch-names/pull/337): update actions/checkout digest to b4ffde6 ([13e56f0](https://github.com/tj-actions/branch-names/commit/13e56f03697d636baf6f2c44709341bb9422f475))  - (repo-ranger[bot])
+- PR [#336](https://github.com/tj-actions/branch-names/pull/336): bump actions/checkout from 4.1.1 to 4.1.2 ([320254f](https://github.com/tj-actions/branch-names/commit/320254f582d45a861f1b7eba552e20d9fbc0d658))  - (repo-ranger[bot])
+- PR [#335](https://github.com/tj-actions/branch-names/pull/335): update actions/checkout digest to b4ffde6 ([e4f80fe](https://github.com/tj-actions/branch-names/commit/e4f80fe9d5013452cac80274b0b418340cc983c6))  - (repo-ranger[bot])
+- PR [#334](https://github.com/tj-actions/branch-names/pull/334): bump actions/checkout from 4.1.1 to 4.1.2 ([9f70ae0](https://github.com/tj-actions/branch-names/commit/9f70ae0949052186b37b2299863b192103fb24e0))  - (repo-ranger[bot])
+- PR [#333](https://github.com/tj-actions/branch-names/pull/333): update actions/checkout digest to b4ffde6 ([e038789](https://github.com/tj-actions/branch-names/commit/e03878996b350fdc5d210d67e84a6ad17cfa992a))  - (repo-ranger[bot])
+- PR [#332](https://github.com/tj-actions/branch-names/pull/332): bump actions/checkout from 4.1.1 to 4.1.2 ([205ecb8](https://github.com/tj-actions/branch-names/commit/205ecb8411b94e4bfc7ab9c0f177362212434894))  - (repo-ranger[bot])
+- PR [#331](https://github.com/tj-actions/branch-names/pull/331): update actions/checkout digest to b4ffde6 ([f5df948](https://github.com/tj-actions/branch-names/commit/f5df948c7c6370330aa021f657534283d4bb1396))  - (repo-ranger[bot])
+- PR [#330](https://github.com/tj-actions/branch-names/pull/330): bump actions/checkout from 4.1.1 to 4.1.2 ([1b5e308](https://github.com/tj-actions/branch-names/commit/1b5e30829403419e47083605988fb16d232d9be0))  - (repo-ranger[bot])
+- PR [#329](https://github.com/tj-actions/branch-names/pull/329): update actions/checkout digest to b4ffde6 ([57159c4](https://github.com/tj-actions/branch-names/commit/57159c4154fdebd4e50f7e393dfafd7a52e079a8))  - (repo-ranger[bot])
+- PR [#328](https://github.com/tj-actions/branch-names/pull/328): bump actions/checkout from 4.1.1 to 4.1.2 ([2a55796](https://github.com/tj-actions/branch-names/commit/2a55796e1eb956d6620de60d8f7ab4842f4089e0))  - (repo-ranger[bot])
+- PR [#327](https://github.com/tj-actions/branch-names/pull/327): update actions/checkout digest to b4ffde6 ([080de39](https://github.com/tj-actions/branch-names/commit/080de394adfbb0ec08ecdaca8b030d69af3f1a52))  - (repo-ranger[bot])
+- PR [#326](https://github.com/tj-actions/branch-names/pull/326): bump actions/checkout from 4.1.1 to 4.1.2 ([e9bd047](https://github.com/tj-actions/branch-names/commit/e9bd047681fc932a92674ee2e14fa4ffb57cc29f))  - (repo-ranger[bot])
+- PR [#325](https://github.com/tj-actions/branch-names/pull/325): update actions/checkout digest to b4ffde6 ([4583f30](https://github.com/tj-actions/branch-names/commit/4583f3068a39f48b1834a521c1d510bddd1567c0))  - (repo-ranger[bot])
+- PR [#324](https://github.com/tj-actions/branch-names/pull/324): bump actions/checkout from 4.1.1 to 4.1.2 ([7a0e900](https://github.com/tj-actions/branch-names/commit/7a0e9009ca2dd1a28c1d8bfc7e69458faaa5818d))  - (repo-ranger[bot])
+- PR [#323](https://github.com/tj-actions/branch-names/pull/323): update actions/checkout digest to b4ffde6 ([20d9000](https://github.com/tj-actions/branch-names/commit/20d9000b37495ecc9bc296e797f607c8b4e933cb))  - (repo-ranger[bot])
+- PR [#322](https://github.com/tj-actions/branch-names/pull/322): bump actions/checkout from 4.1.1 to 4.1.2 ([526e0bc](https://github.com/tj-actions/branch-names/commit/526e0bcf3f0add7a28d9a48c9e47023592f798fe))  - (repo-ranger[bot])
+- PR [#321](https://github.com/tj-actions/branch-names/pull/321): update actions/checkout digest to b4ffde6 ([b772dde](https://github.com/tj-actions/branch-names/commit/b772dde15dcb9ba9b2abab8e35fc664530974f96))  - (repo-ranger[bot])
+- PR [#320](https://github.com/tj-actions/branch-names/pull/320): actions/checkout from 4.1.1 to 4.1.2 ([7608d8b](https://github.com/tj-actions/branch-names/commit/7608d8bd68c10db53e635d863b9f9823d299ec7d))  - (repo-ranger[bot])
+- PR [#319](https://github.com/tj-actions/branch-names/pull/319): update actions/checkout digest to b4ffde6 ([99c806b](https://github.com/tj-actions/branch-names/commit/99c806b261bc4ea946a202aa4851385f9f129126))  - (repo-ranger[bot])
+- PR [#318](https://github.com/tj-actions/branch-names/pull/318): actions/checkout from 4.1.1 to 4.1.2 ([6f87fdf](https://github.com/tj-actions/branch-names/commit/6f87fdf07cf30b87a74e56a9f88b2566630d517c))  - (repo-ranger[bot])
+- PR [#317](https://github.com/tj-actions/branch-names/pull/317): update actions/checkout digest to b4ffde6 ([a859391](https://github.com/tj-actions/branch-names/commit/a859391e05a60f681dcc04b4513d5e60a679e593))  - (repo-ranger[bot])
+- PR [#316](https://github.com/tj-actions/branch-names/pull/316): actions/checkout from 4.1.1 to 4.1.2 ([a06d7f7](https://github.com/tj-actions/branch-names/commit/a06d7f7259adba50f3fb28a25e4fab1d08e32ad7))  - (repo-ranger[bot])
+- PR [#315](https://github.com/tj-actions/branch-names/pull/315): update actions/checkout digest to b4ffde6 ([47c5239](https://github.com/tj-actions/branch-names/commit/47c52395a8d00dd7f575e0496bb2e77c72550d56))  - (repo-ranger[bot])
+- PR [#314](https://github.com/tj-actions/branch-names/pull/314): actions/checkout from 4.1.1 to 4.1.2 ([b7fec82](https://github.com/tj-actions/branch-names/commit/b7fec8206abf13f08bf3bb89774e084b386bc71a))  - (repo-ranger[bot])
+- PR [#313](https://github.com/tj-actions/branch-names/pull/313): update actions/checkout digest to b4ffde6 ([98a19de](https://github.com/tj-actions/branch-names/commit/98a19de3dd4169b3f661ab0c088077381a73109d))  - (repo-ranger[bot])
+- PR [#312](https://github.com/tj-actions/branch-names/pull/312): actions/checkout from 4.1.1 to 4.1.2 ([e1c6def](https://github.com/tj-actions/branch-names/commit/e1c6def1235bfeddb9978932769ec920887be8f0))  - (repo-ranger[bot])
+- PR [#311](https://github.com/tj-actions/branch-names/pull/311): update actions/checkout digest to b4ffde6 ([c46fec8](https://github.com/tj-actions/branch-names/commit/c46fec8a8dd4e7026ff76b6a8c30edc90cc9bd3e))  - (repo-ranger[bot])
+- PR [#310](https://github.com/tj-actions/branch-names/pull/310): actions/checkout from 4.1.1 to 4.1.2 ([a0431eb](https://github.com/tj-actions/branch-names/commit/a0431eb84ce13ba9a0049af4d8490fe3b8c07c52))  - (repo-ranger[bot])
+- PR [#309](https://github.com/tj-actions/branch-names/pull/309): update actions/checkout digest to b4ffde6 ([44b1e46](https://github.com/tj-actions/branch-names/commit/44b1e46858e2271918143d9556e12a40b6aba067))  - (repo-ranger[bot])
+- PR [#308](https://github.com/tj-actions/branch-names/pull/308): actions/checkout from 4.1.1 to 4.1.2 ([f05994f](https://github.com/tj-actions/branch-names/commit/f05994f00ae24ad27f5631bfac5ecc5e1f67530d))  - (repo-ranger[bot])
+- PR [#307](https://github.com/tj-actions/branch-names/pull/307): update actions/checkout digest to b4ffde6 ([358eaba](https://github.com/tj-actions/branch-names/commit/358eaba0a7a4a5e76273c463b5149884d4c169e8))  - (repo-ranger[bot])
+- PR [#306](https://github.com/tj-actions/branch-names/pull/306): actions/checkout from 4.1.1 to 4.1.2 ([f95aa0a](https://github.com/tj-actions/branch-names/commit/f95aa0a8b237bb9cbc160c67bc38465c677e3ac2))  - (repo-ranger[bot])
+- PR [#305](https://github.com/tj-actions/branch-names/pull/305): update actions/checkout digest to b4ffde6 ([fc7290f](https://github.com/tj-actions/branch-names/commit/fc7290f5bcf3e7e4f38b9a5f4a274f22c23587fe))  - (repo-ranger[bot])
+- PR [#304](https://github.com/tj-actions/branch-names/pull/304): actions/checkout from 4.1.1 to 4.1.2 ([0f475e0](https://github.com/tj-actions/branch-names/commit/0f475e0cbeb9e0ba43becc312d9bd1dcc387fa04))  - (repo-ranger[bot])
+- PR [#303](https://github.com/tj-actions/branch-names/pull/303): update actions/checkout digest to b4ffde6 ([0d2fb73](https://github.com/tj-actions/branch-names/commit/0d2fb7372369e42fb3ff196bafb2d51f87c43a35))  - (repo-ranger[bot])
+- PR [#302](https://github.com/tj-actions/branch-names/pull/302): actions/checkout from 4.1.1 to 4.1.2 ([94646ef](https://github.com/tj-actions/branch-names/commit/94646ef275cfc1b4169cdaec7a3c82eafe7355a8))  - (repo-ranger[bot])
+- PR [#301](https://github.com/tj-actions/branch-names/pull/301): update actions/checkout digest to b4ffde6 ([ab67756](https://github.com/tj-actions/branch-names/commit/ab67756d82015d7a0bc527b0e5a6ad20edb60988))  - (repo-ranger[bot])
+- PR [#300](https://github.com/tj-actions/branch-names/pull/300): actions/checkout from 4.1.1 to 4.1.2 ([6ca8806](https://github.com/tj-actions/branch-names/commit/6ca8806109f8f778488c9993392d5d692e066214))  - (repo-ranger[bot])
+- PR [#299](https://github.com/tj-actions/branch-names/pull/299): update actions/checkout digest to b4ffde6 ([4fb519d](https://github.com/tj-actions/branch-names/commit/4fb519d95d10f55bb925addd361be7fdeedc25df))  - (repo-ranger[bot])
+- PR [#298](https://github.com/tj-actions/branch-names/pull/298): actions/checkout from 4.1.1 to 4.1.2 ([c2d36bf](https://github.com/tj-actions/branch-names/commit/c2d36bfd1e98099a76b64ca72d85998a3411d6ed))  - (repo-ranger[bot])
+- PR [#297](https://github.com/tj-actions/branch-names/pull/297): update actions/checkout digest to b4ffde6 ([b49be18](https://github.com/tj-actions/branch-names/commit/b49be184ba6984fff5ee42d455e2903d5c9af697))  - (repo-ranger[bot])
+- PR [#296](https://github.com/tj-actions/branch-names/pull/296): actions/checkout from 4.1.1 to 4.1.2 ([75d02ca](https://github.com/tj-actions/branch-names/commit/75d02ca14cef68136e8e1bb388e8584cf39f1a75))  - (repo-ranger[bot])
+- PR [#295](https://github.com/tj-actions/branch-names/pull/295): update actions/checkout digest to b4ffde6 ([c39a79d](https://github.com/tj-actions/branch-names/commit/c39a79df11de79a23849daff3871a89410eb7d27))  - (repo-ranger[bot])
+- PR [#294](https://github.com/tj-actions/branch-names/pull/294): actions/checkout from 4.1.1 to 4.1.2 ([eba4637](https://github.com/tj-actions/branch-names/commit/eba46372c02153441c3ec752f3408901b9f80c88))  - (repo-ranger[bot])
+- PR [#293](https://github.com/tj-actions/branch-names/pull/293): update actions/checkout digest to b4ffde6 ([7c299eb](https://github.com/tj-actions/branch-names/commit/7c299eb22fa59b72ce0938591ca57640ba46b35b))  - (repo-ranger[bot])
+- PR [#292](https://github.com/tj-actions/branch-names/pull/292): actions/checkout from 4.1.1 to 4.1.2 ([cc6411a](https://github.com/tj-actions/branch-names/commit/cc6411a227e3dcdc41b353f5d2de8d9106ff26ff))  - (repo-ranger[bot])
+- PR [#289](https://github.com/tj-actions/branch-names/pull/289): actions/checkout from 4.1.1 to 4.1.2 ([859c434](https://github.com/tj-actions/branch-names/commit/859c43472be4e78f58f5671d5d19ff6c768ca4da))  - (repo-ranger[bot])
+- PR [#288](https://github.com/tj-actions/branch-names/pull/288): README.md ([1f31efc](https://github.com/tj-actions/branch-names/commit/1f31efcfd1f50d0ad051111a8b167e11e17a34cc))  - (repo-ranger[bot])
+- PR [#285](https://github.com/tj-actions/branch-names/pull/285): update tj-actions/verify-changed-files action to v19 ([b98e0b6](https://github.com/tj-actions/branch-names/commit/b98e0b6fd9cdd9d08ba9a85afcda66cfeb356b15))  - (repo-ranger[bot])
+- PR [#283](https://github.com/tj-actions/branch-names/pull/283): to v8.0.1 ([19d222f](https://github.com/tj-actions/branch-names/commit/19d222fca02662016ce3b65bce18acabfbecb23d))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update actions/checkout action to v4.2.2 ([32798b2](https://github.com/tj-actions/branch-names/commit/32798b2266752bb2b274d694923596fdc67c399a))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 11bd719 ([9a04c05](https://github.com/tj-actions/branch-names/commit/9a04c058bb2ddc036c2d273df7a6a21d42f28533))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to eef6144 ([e400ca0](https://github.com/tj-actions/branch-names/commit/e400ca0ec8ef23d62fca0f9492fc40093a3f1012))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.2.1 ([5d79051](https://github.com/tj-actions/branch-names/commit/5d79051f9e52a0067942d0b42e53ca411220c07b))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 692973e ([#394](https://github.com/tj-actions/branch-names/issues/394)) ([d353900](https://github.com/tj-actions/branch-names/commit/d353900ec68b69229ad98021a530af33c416dcb1))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.2.0 ([f36b84c](https://github.com/tj-actions/branch-names/commit/f36b84c7a6d059e219ed079f81d11947c2d1f1db))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.5 ([1cefad6](https://github.com/tj-actions/branch-names/commit/1cefad6ec3e7752bda7bb84c1b5c9c9fd4a56e9e))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.4 ([520f881](https://github.com/tj-actions/branch-names/commit/520f881f2568624eb68d8b8ea225c8ca62191e1c))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.2 ([c1c3d1d](https://github.com/tj-actions/branch-names/commit/c1c3d1decb3e569e483d720d36a7dbae70951e29))  - (renovate[bot])
+- **test:** Update platform matrix ([#385](https://github.com/tj-actions/branch-names/issues/385)) ([d229305](https://github.com/tj-actions/branch-names/commit/d229305964d10873e7eb2ae31dc0e278d09f2d7b))  - (Tonye Jack)
+- **deps:** Update actions/checkout digest to 692973e ([a449ab0](https://github.com/tj-actions/branch-names/commit/a449ab03aca1a352deb0e2d125961acfed811ec9))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.7 ([efba984](https://github.com/tj-actions/branch-names/commit/efba98456f1eb73a63ed6cfc30030dcab837ecad))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to a5ac7e5 ([613f2a9](https://github.com/tj-actions/branch-names/commit/613f2a9ef42986ac4fdfad11bf937344862b638e))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([f28e26f](https://github.com/tj-actions/branch-names/commit/f28e26fcb2f017b7e7dff4b857ade2435f7b9859))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([d2167e8](https://github.com/tj-actions/branch-names/commit/d2167e877759acc184f391a2456d0815c21d2272))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.6 ([fe038db](https://github.com/tj-actions/branch-names/commit/fe038db00c908b759ee7aa274cb63d20d875fd1f))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([27f1349](https://github.com/tj-actions/branch-names/commit/27f13490ffea9b1265dcb1cdb85af946f4bf9a6e))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([bef26ce](https://github.com/tj-actions/branch-names/commit/bef26ce26441aaa7e81929e9d1a7f16498a9d6fd))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([7e1d8d9](https://github.com/tj-actions/branch-names/commit/7e1d8d9ff3a36d595995bde8b6b0d7a3259d689c))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([1d33260](https://github.com/tj-actions/branch-names/commit/1d33260d82e5cfad72de33e07974e086c1c71c75))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([d6c1f51](https://github.com/tj-actions/branch-names/commit/d6c1f51afd5b7f6bfbf8c3a55f8be2724f71bd05))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([09c4340](https://github.com/tj-actions/branch-names/commit/09c434097e9fa6002bfee0906d0444f910276180))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 44c2b7a ([103d846](https://github.com/tj-actions/branch-names/commit/103d84656176be1194f4bb53f12bedb65836240a))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([7b3efa1](https://github.com/tj-actions/branch-names/commit/7b3efa1ae4a71b6cbaabbfa142b7e7e43117006e))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.1 ([9a6b02d](https://github.com/tj-actions/branch-names/commit/9a6b02d3b6fb2cdf5b00a6aa32c343f77aacc26e))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([e1db24b](https://github.com/tj-actions/branch-names/commit/e1db24bc385e265ba5c19f8ca2257d5909bfa147))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v20 ([e8f85ab](https://github.com/tj-actions/branch-names/commit/e8f85abca21420d349fbe069baf6ec028b0fd1b0))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([771282b](https://github.com/tj-actions/branch-names/commit/771282b2419c04a7c52c3b9c71c2d45d6ba1516d))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 1d96c77 ([be06eb0](https://github.com/tj-actions/branch-names/commit/be06eb0c3b0c59dbb82ff04ee8552d7c9e84cd7d))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 1d96c77 ([1243673](https://github.com/tj-actions/branch-names/commit/124367347e0cf2ff733821a1e7880f1121c8f075))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([230ad37](https://github.com/tj-actions/branch-names/commit/230ad376e68f93b6d524bd6c721c8d88afe24007))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([6351940](https://github.com/tj-actions/branch-names/commit/635194089f3641a30f50a5e8a72930ea8b784915))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([45a8fbe](https://github.com/tj-actions/branch-names/commit/45a8fbefbd83b0b39ce467093a83fac7a03ca173))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([7f5774d](https://github.com/tj-actions/branch-names/commit/7f5774d1360746081bc56204b52f1bcdbcd4a256))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([23a8022](https://github.com/tj-actions/branch-names/commit/23a802284e61c74bd0b5f0829e383e26e433a902))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([9ba8da9](https://github.com/tj-actions/branch-names/commit/9ba8da9604e0acc7a505f008b73757170a3ee968))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([b11ba74](https://github.com/tj-actions/branch-names/commit/b11ba7443ff27ed14baa1284b63be7c004dbb707))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([c7cb687](https://github.com/tj-actions/branch-names/commit/c7cb687da28cf37cd5b7b82056fc8f636f7d0a6b))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([156bcdf](https://github.com/tj-actions/branch-names/commit/156bcdfbf5387cead3126058262c421bb27a47b4))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([314d580](https://github.com/tj-actions/branch-names/commit/314d58080e851a30495c72ff161a531fab779986))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([cb195c8](https://github.com/tj-actions/branch-names/commit/cb195c88b4972400b3410c1987e14842456f1773))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([318cc45](https://github.com/tj-actions/branch-names/commit/318cc4550e27457f113b88aed4df89852c2b572f))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([04270e5](https://github.com/tj-actions/branch-names/commit/04270e55c35967dcf718f3880b829ae5b4c46570))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([603f8a2](https://github.com/tj-actions/branch-names/commit/603f8a294e0d1aea0e68e72afc999f0ca288d375))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([c918e93](https://github.com/tj-actions/branch-names/commit/c918e93e6cb5e30f813eed1cb122beadd5022a3a))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([3a4ea8f](https://github.com/tj-actions/branch-names/commit/3a4ea8fe06786bf3fa301dd5ea96ff74a7e6857c))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([026fa35](https://github.com/tj-actions/branch-names/commit/026fa353bfe7cbd44ea42494cb85f87c78d0305e))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([86e22cb](https://github.com/tj-actions/branch-names/commit/86e22cb1d7b46022f013335c3acc946ef5448240))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([d3fc5f7](https://github.com/tj-actions/branch-names/commit/d3fc5f750083ad4f94d7de6654255cc7bc726d2e))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([7238ff4](https://github.com/tj-actions/branch-names/commit/7238ff4875e001f6f03e0fcf1fe6496202393742))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([ed48345](https://github.com/tj-actions/branch-names/commit/ed483454cfb0615a925816d0d17bd05124f50eba))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([6358aa8](https://github.com/tj-actions/branch-names/commit/6358aa89d3e9b5e14c977884cb887ff0efc62260))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([c492b30](https://github.com/tj-actions/branch-names/commit/c492b302a4cedd66ed6794d72657d1302ff6fc3b))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([bac04cc](https://github.com/tj-actions/branch-names/commit/bac04ccd2760591a86f87e48347a0128ed9c6596))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([aedee2d](https://github.com/tj-actions/branch-names/commit/aedee2d3a6dad26d98e9aad10e1cbab3a13a55f7))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([d45f581](https://github.com/tj-actions/branch-names/commit/d45f581df02aea1a67ae59964cbeea8b3207bccd))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([d9eb79f](https://github.com/tj-actions/branch-names/commit/d9eb79f4e702909209a9f6e9a179fe5c9d0c8b3a))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([a92d3f6](https://github.com/tj-actions/branch-names/commit/a92d3f665e66e1c53eb700bba863f7066f8fbe7c))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([ed1dd41](https://github.com/tj-actions/branch-names/commit/ed1dd41edcc8887eb999cdfde00fde9b5576958c))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([93c469b](https://github.com/tj-actions/branch-names/commit/93c469b6016e662f875fe3d03756cedeb4918008))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([8495a16](https://github.com/tj-actions/branch-names/commit/8495a16773ed59205b214eab121d9f7068f8251f))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.2 ([613ee9b](https://github.com/tj-actions/branch-names/commit/613ee9b80012c147cca26d3d53ba2ed5fb3062e7))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v19 ([dc6a6da](https://github.com/tj-actions/branch-names/commit/dc6a6da104b9f4e791135cd70f96fa48921a3061))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.0 ([972c53f](https://github.com/tj-actions/branch-names/commit/972c53f82bead16994b5d49be520584c58068d9b))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v8.0.0 -> v8.0.1
+ ([ce93851](https://github.com/tj-actions/branch-names/commit/ce9385103d27dffec69fd7785036ceb8f68a7e51))  - (jackton1)
+
 # [8.0.1](https://github.com/tj-actions/branch-names/compare/v8.0.0...v8.0.1) - (2024-02-07)
 
 ## <!-- 13 -->📦 Bumps
@@ -410,9 +867,9 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 - Updated README.md
  ([f48100e](https://github.com/tj-actions/branch-names/commit/f48100e6bf9ac7e3b91413c96d25577c38c400c6))  - (jackton1)
 - Update README.md ([d1db4d2](https://github.com/tj-actions/branch-names/commit/d1db4d231e7e39ed8ba1df366e954d9b6540fc3e))  - (Tonye Jack)
-- Update test.yml ([74cff8b](https://github.com/tj-actions/branch-names/commit/74cff8ba15ca46c014fb1c6c8c4699324d1a0950))  - (Tonye Jack)
-- Update tj-actions/verify-changed-files action to v13 ([231653b](https://github.com/tj-actions/branch-names/commit/231653b109cc50cebac2756925586d29a133d8e6))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.6.0 ([990f206](https://github.com/tj-actions/branch-names/commit/990f206fa683ff77ab9a938dff60c707ca6e785d))  - (renovate[bot])
+- Update tj-actions/verify-changed-files action to v13 ([231653b](https://github.com/tj-actions/branch-names/commit/231653b109cc50cebac2756925586d29a133d8e6))  - (renovate[bot])
+- Update test.yml ([74cff8b](https://github.com/tj-actions/branch-names/commit/74cff8ba15ca46c014fb1c6c8c4699324d1a0950))  - (Tonye Jack)
 - Update cirrus-actions/rebase action to v1.8 ([d2f6983](https://github.com/tj-actions/branch-names/commit/d2f6983deadef07ae6434bf87195bff653f84124))  - (renovate[bot])
 - Update actions/checkout action to v3.2.0 ([e546ac8](https://github.com/tj-actions/branch-names/commit/e546ac834c28d0283c43478946da462de4470fc6))  - (renovate[bot])
 - Update sync-release-version.yml ([42fb38e](https://github.com/tj-actions/branch-names/commit/42fb38ec5f9009247f90a144e36729397897c7d3))  - (Tonye Jack)
@@ -1067,9 +1524,9 @@ Fixes: #43 ([12119e4](https://github.com/tj-actions/branch-names/commit/12119e48
 - Update README.md ([b2f7d2f](https://github.com/tj-actions/branch-names/commit/b2f7d2f3c54ac0faf2ce715521edc9fd724a6b12))  - (Tonye Jack)
 - Updated README.md
  ([53128ab](https://github.com/tj-actions/branch-names/commit/53128ab92f6fc7bcc78bcc1a750a952e7259365c))  - (jackton1)
-- Update action.yml ([340dacc](https://github.com/tj-actions/branch-names/commit/340dacc06c6136cd56fa07392e7c2f2fa920eb01))  - (Tonye Jack)
 - Updated README.md
  ([8c5d04c](https://github.com/tj-actions/branch-names/commit/8c5d04cd56ee520cf93828e8cd28d5293028b3a4))  - (jackton1)
+- Update action.yml ([340dacc](https://github.com/tj-actions/branch-names/commit/340dacc06c6136cd56fa07392e7c2f2fa920eb01))  - (Tonye Jack)
 - Update README.md ([220d0f2](https://github.com/tj-actions/branch-names/commit/220d0f26b7c14df5427a14e48205bfcbcd50b904))  - (Tonye Jack)
 - Update README.md ([64a68dc](https://github.com/tj-actions/branch-names/commit/64a68dc774937f55caf0103b4bca8392246b348f))  - (Tonye Jack)
 - Update tj-actions/sync-release-version action to v8.7
@@ -1243,16 +1700,16 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 - PR [#30](https://github.com/tj-actions/branch-names/pull/30): to v3.4 ([985406e](https://github.com/tj-actions/branch-names/commit/985406edb0f857e9dc0e64be0475f6e77359e312))  - (Tonye Jack)
 - PR [#32](https://github.com/tj-actions/branch-names/pull/32): action.yml ([ebe618e](https://github.com/tj-actions/branch-names/commit/ebe618e79ae5338c234b697601869d9f54b0f3b6))  - (Tonye Jack)
 
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v3.3 -> v3.4
+ ([cedb820](https://github.com/tj-actions/branch-names/commit/cedb820571690433c300ceea983cefaefa0e7cbe))  - (jackton1)
+
 # [3.5](https://github.com/tj-actions/branch-names/compare/v3.4...v3.5) - (2021-04-25)
 
 ## <!-- 26 -->🔄 Update
 
 - Update action.yml ([b587231](https://github.com/tj-actions/branch-names/commit/b587231a9abec0da6f45dbaea42d88a9c130ee8f))  - (Tonye Jack)
-
-## <!-- 9 -->⬆️ Upgrades
-
-- Upgraded from v3.3 -> v3.4
- ([cedb820](https://github.com/tj-actions/branch-names/commit/cedb820571690433c300ceea983cefaefa0e7cbe))  - (jackton1)
 
 # [3.4](https://github.com/tj-actions/branch-names/compare/v3.3...v3.4) - (2021-04-25)
 
@@ -1314,6 +1771,8 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 - Upgraded from v3 -> v3.1
  ([1bd8ecd](https://github.com/tj-actions/branch-names/commit/1bd8ecd8284083ea155c38996b119b3a8059ad99))  - (jackton1)
+- Upgraded from v2.2 -> v3
+ ([d6a3f7a](https://github.com/tj-actions/branch-names/commit/d6a3f7aeb301fc1d7d36e2848af9b0a05e5f4552))  - (jackton1)
 
 # [3.1](https://github.com/tj-actions/branch-names/compare/v3...v3.1) - (2021-04-24)
 
@@ -1325,11 +1784,6 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 - PR [#23](https://github.com/tj-actions/branch-names/pull/23): action.yml ([eb14b2d](https://github.com/tj-actions/branch-names/commit/eb14b2dffd7af08b599b691d72b757ae607675bd))  - (Tonye Jack)
 
-## <!-- 9 -->⬆️ Upgrades
-
-- Upgraded from v2.2 -> v3
- ([d6a3f7a](https://github.com/tj-actions/branch-names/commit/d6a3f7aeb301fc1d7d36e2848af9b0a05e5f4552))  - (jackton1)
-
 # [3](https://github.com/tj-actions/branch-names/compare/v2.2...v3) - (2021-04-24)
 
 ## <!-- 16 -->➕ Add
@@ -1337,9 +1791,9 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 - Added .github/ISSUE_TEMPLATE/feature_request.md ([1d3da85](https://github.com/tj-actions/branch-names/commit/1d3da85be4a48d079bd829b4402476df4e942e7c))  - (Tonye Jack)
 - Added .github/ISSUE_TEMPLATE/bug_report.md ([d44e56e](https://github.com/tj-actions/branch-names/commit/d44e56ea11aa063cafd8a8b00c3964dc79d045b9))  - (Tonye Jack)
 - Added .github/auto-approve.yml ([83b7611](https://github.com/tj-actions/branch-names/commit/83b7611c90705cde5f1dff2520c50f7575856265))  - (Tonye Jack)
-- Added .github/workflows/auto-approve.yml ([c398d2e](https://github.com/tj-actions/branch-names/commit/c398d2e19feb541bcd07d1bf3e3cf81cb1f4b3f4))  - (Tonye Jack)
 - Add renovate.json
  ([8be0535](https://github.com/tj-actions/branch-names/commit/8be0535acb36a05ea0794881d136b3102586cb49))  - (Renovate Bot)
+- Added .github/workflows/auto-approve.yml ([c398d2e](https://github.com/tj-actions/branch-names/commit/c398d2e19feb541bcd07d1bf3e3cf81cb1f4b3f4))  - (Tonye Jack)
 - Create FUNDING.yml ([2a0ddae](https://github.com/tj-actions/branch-names/commit/2a0ddae18382b98f82507876762784fb73437575))  - (Tonye Jack)
 
 ## <!-- 17 -->➖ Remove
