@@ -94,6 +94,13 @@ Support this project with a :star:
   id: branch-names
   with:
     # The prefix that should be 
+    # stripped from the branch e.g 
+    # `release/` -> with a branch 
+    # `release/1.0` -> returns `1.0` 
+    # Type: string
+    strip_branch_prefix: ''
+
+    # The prefix that should be 
     # stripped from the tag e.g 
     # `v` -> with a tag 
     # `v0.0.1` -> returns `0.0.1` 
