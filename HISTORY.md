@@ -1,5 +1,27 @@
 # Changelog
 
+# [8.1.0](https://github.com/tj-actions/branch-names/compare/v8.0.2...v8.1.0) - (2025-03-23)
+
+## <!-- 0 -->🚀 Features
+
+- Add support for strip_branch_prefix ([#406](https://github.com/tj-actions/branch-names/issues/406)) ([c83c87a](https://github.com/tj-actions/branch-names/commit/c83c87ab5379a8ff88c905ea78c391c0d53972ac))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#408](https://github.com/tj-actions/branch-names/issues/408))
+
+ ([d18e657](https://github.com/tj-actions/branch-names/commit/d18e657ed32f367301fdebeb9a88b7e5539f3052))  - (Tonye Jack)
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Update test.yml ([#409](https://github.com/tj-actions/branch-names/issues/409)) ([f44339b](https://github.com/tj-actions/branch-names/commit/f44339b51f74753b57583fbbd124e18a81170ab1))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v8.0.1 -> v8.0.2 ([#407](https://github.com/tj-actions/branch-names/issues/407))
+
+ ([86aaf17](https://github.com/tj-actions/branch-names/commit/86aaf170e74d8cad1e7d4f566f2e9bed6cf000af))  - (Tonye Jack)
+
 # [8.0.2](https://github.com/tj-actions/branch-names/compare/v8.0.1...v8.0.2) - (2025-03-15)
 
 ## <!-- 13 -->📦 Bumps
