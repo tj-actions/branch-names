@@ -86,3 +86,18 @@ jobs:
         run: |
           echo "Current tag unset: ${{ steps.branch-names.outputs.tag }}"
           exit 1
+      - name: Run test strip_branch_prefix
+        id: branch-names-strip_branch_prefix
+        uses: ./
+        with:
+          strip_branch_prefix: 'chore/'
+      - name: Show output
+        run: |
+          echo "Default Branch: ${{ steps.branch-names-strip_branch_prefix.outputs.default_branch }}"
+          echo "Current Branch: ${{ steps.branch-names-strip_branch_prefix.outputs.current_branch }}"
+          echo "Base Ref: ${{ steps.branch-names-strip_branch_prefix.outputs.base_ref_branch }}"
+          echo "Head Ref: ${{ steps.branch-names-strip_branch_prefix.outputs.head_ref_branch }}"
+          echo "Ref: ${{ steps.branch-names-strip_branch_prefix.outputs.ref_branch }}"
+          echo "Is Default: ${{ steps.branch-names-strip_branch_prefix.outputs.is_default }}"
+          echo "Is Tag: ${{ steps.branch-names-strip_branch_prefix.outputs.is_tag }}"
+          echo "Current tag: ${{ steps.branch-names-strip_branch_prefix.outputs.tag }}"
