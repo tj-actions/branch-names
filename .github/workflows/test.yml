@@ -90,7 +90,7 @@ jobs:
         id: branch-names-strip_branch_prefix
         uses: ./
         with:
-          strip_branch_prefix: 'fix/'
+          strip_branch_prefix: 'chore/'
       - name: Show output
         run: |
           echo "Default Branch: ${{ steps.branch-names-strip_branch_prefix.outputs.default_branch }}"
