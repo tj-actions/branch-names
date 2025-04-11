@@ -93,6 +93,12 @@ Support this project with a :star:
 - uses: tj-actions/branch-names@v8
   id: branch-names
   with:
+    # Replace forward slashes with hyphens 
+    # in branch names 
+    # Type: boolean
+    # Default: "false"
+    replace_slashes_with_hyphens: ''
+
     # The prefix that should be 
     # stripped from the branch e.g 
     # `release/` -> with a branch 
