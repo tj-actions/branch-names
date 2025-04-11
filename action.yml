@@ -10,6 +10,10 @@ inputs:
     description: 'The prefix that should be stripped from the branch e.g `release/` -> with a branch `release/1.0` -> returns `1.0`'
     default: ''
     required: false
+  replace_slashes_with_hyphens:
+    description: 'Replace forward slashes with hyphens in branch names'
+    default: 'false'
+    required: false
 
 outputs:
   is_default:
@@ -48,6 +52,7 @@ runs:
         GITHUB_EVENT_BASE_REF: ${{ github.event.base_ref }}
         INPUTS_STRIP_TAG_PREFIX: ${{ inputs.strip_tag_prefix }}
         INPUTS_STRIP_BRANCH_PREFIX: ${{ inputs.strip_branch_prefix }}
+        INPUTS_REPLACE_SLASHES: ${{ inputs.replace_slashes_with_hyphens }}
       run: |
         # "Set branch names..."
         if [[ "$GITHUB_REF" != "refs/tags/"* ]]; then
@@ -64,12 +69,24 @@ runs:
           REF_BRANCH=${REF_BRANCH/$INPUTS_STRIP_BRANCH_PREFIX/}
           HEAD_REF=${HEAD_REF/$INPUTS_STRIP_BRANCH_PREFIX/}
 
+          # Replace slashes with hyphens if enabled
+          if [[ "$INPUTS_REPLACE_SLASHES" == "true" ]]; then
+            BASE_REF=${BASE_REF//\//-}
+            HEAD_REF=${HEAD_REF//\//-}
+            REF_BRANCH=${REF_BRANCH//\//-}
+          fi
+
           echo "base_ref_branch=$(eval printf "%s" "$BASE_REF")" >> "$GITHUB_OUTPUT"
           echo "head_ref_branch=$(eval printf "%s" "$HEAD_REF")" >> "$GITHUB_OUTPUT"
           echo "ref_branch=$(eval printf "%s" "$REF_BRANCH")" >> "$GITHUB_OUTPUT"
         else
           BASE_REF=$(printf "%q" "$GITHUB_EVENT_BASE_REF")
           BASE_REF=${BASE_REF/refs\/heads\/$INPUTS_STRIP_TAG_PREFIX/}
+          
+          # Replace slashes with hyphens if enabled
+          if [[ "$INPUTS_REPLACE_SLASHES" == "true" ]]; then
+            BASE_REF=${BASE_REF//\//-}
+          fi
           
           echo "base_ref_branch=$(eval printf "%s" "$BASE_REF")" >> "$GITHUB_OUTPUT"
         fi
@@ -112,11 +129,17 @@ runs:
       env:
         GITHUB_REF: ${{ github.ref }}
         INPUTS_STRIP_TAG_PREFIX: ${{ inputs.strip_tag_prefix }}
+        INPUTS_REPLACE_SLASHES: ${{ inputs.replace_slashes_with_hyphens }}
       run: |
         # "Set the tag name..."
         if [[ "$GITHUB_REF" == "refs/tags/"* ]]; then
           REF=$(printf "%q" "$GITHUB_REF")
           TAG="${REF/refs\/tags\/$INPUTS_STRIP_TAG_PREFIX/}"
+
+          # Replace slashes with hyphens if enabled
+          if [[ "$INPUTS_REPLACE_SLASHES" == "true" ]]; then
+            TAG=${TAG//\//-}
+          fi
 
           echo "tag=$(eval printf "%s" "$TAG")" >> "$GITHUB_OUTPUT"
           echo "is_tag=true" >> "$GITHUB_OUTPUT"
