@@ -119,6 +119,7 @@ jobs:
           echo "Current tag: ${{ steps.branch-names-replace-slashes.outputs.tag }}"
       - name: Test slash replacement in branch names
         if: contains(github.event_name, 'pull_request')
+        shell: bash
         run: |
           head_ref="${{ steps.branch-names-replace-slashes.outputs.head_ref_branch }}"
           if [[ "$head_ref" == *"/"* ]]; then
