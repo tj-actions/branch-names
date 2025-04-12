@@ -1,5 +1,38 @@
 # Changelog
 
+# [8.2.1](https://github.com/tj-actions/branch-names/compare/v8.2.0...v8.2.1) - (2025-04-11)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Update sync-release-version.yml to sign commits ([#416](https://github.com/tj-actions/branch-names/issues/416)) ([dde14ac](https://github.com/tj-actions/branch-names/commit/dde14ac574a8b9b1cedc59a1cf312788af43d8d8))  - (Tonye Jack)
+
+# [8.2.0](https://github.com/tj-actions/branch-names/compare/v8.1.0...v8.2.0) - (2025-04-11)
+
+## <!-- 0 -->🚀 Features
+
+- Add support for replace forward slashes with hyphens ([#412](https://github.com/tj-actions/branch-names/issues/412)) ([af40635](https://github.com/tj-actions/branch-names/commit/af406356b42c0855d5d112babee4a0b76ee630df))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/rebase.yml ([c209967](https://github.com/tj-actions/branch-names/commit/c209967c9a91450d7dced6e5adc3c61ca030c868))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#415](https://github.com/tj-actions/branch-names/issues/415))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([47dfeca](https://github.com/tj-actions/branch-names/commit/47dfecabcf7a70329c1d7fc49d56ce56739c5420))  - (github-actions[bot])
+- Update update-readme.yml ([c9cf6f9](https://github.com/tj-actions/branch-names/commit/c9cf6f9a0e21d41fb9acf4025894c022a1dd22db))  - (Tonye Jack)
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Update update-readme.yml ([#414](https://github.com/tj-actions/branch-names/issues/414)) ([b1f61bc](https://github.com/tj-actions/branch-names/commit/b1f61bc147718240eda9ab8a823f836416ab297c))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v8.0.2 -> v8.1.0 ([#410](https://github.com/tj-actions/branch-names/issues/410))
+
+ ([9601220](https://github.com/tj-actions/branch-names/commit/96012203a066021edaf47a9381953d843444eacf))  - (Tonye Jack)
+
 # [8.1.0](https://github.com/tj-actions/branch-names/compare/v8.0.2...v8.1.0) - (2025-03-23)
 
 ## <!-- 0 -->🚀 Features
