@@ -94,20 +94,21 @@ Support this project with a :star:
   id: branch-names
   with:
     # Replace forward slashes with hyphens 
-    # in branch names 
+    # in branch names e.g. `feature/test` 
+    # -> `feature-test` 
     # Type: boolean
     # Default: "false"
     replace_slashes_with_hyphens: ''
 
     # The prefix that should be 
-    # stripped from the branch e.g 
+    # stripped from the branch e.g. 
     # `release/` -> with a branch 
     # `release/1.0` -> returns `1.0` 
     # Type: string
     strip_branch_prefix: ''
 
     # The prefix that should be 
-    # stripped from the tag e.g 
+    # stripped from the tag e.g. 
     # `v` -> with a tag 
     # `v0.0.1` -> returns `0.0.1` 
     # Type: string
