@@ -64,7 +64,7 @@ runs:
           HEAD_REF=${HEAD_REF/refs\/heads\//}
           REF_BRANCH=${REF/refs\/pull\//}
           REF_BRANCH=${REF_BRANCH/refs\/heads\//}
-          
+
           # Strip branch prefix if provided
           REF_BRANCH=${REF_BRANCH/$INPUTS_STRIP_BRANCH_PREFIX/}
           HEAD_REF=${HEAD_REF/$INPUTS_STRIP_BRANCH_PREFIX/}
@@ -76,19 +76,18 @@ runs:
             REF_BRANCH=${REF_BRANCH//\//-}
           fi
 
-          echo "base_ref_branch=$(eval printf "%s" "$BASE_REF")" >> "$GITHUB_OUTPUT"
-          echo "head_ref_branch=$(eval printf "%s" "$HEAD_REF")" >> "$GITHUB_OUTPUT"
-          echo "ref_branch=$(eval printf "%s" "$REF_BRANCH")" >> "$GITHUB_OUTPUT"
+          printf "base_ref_branch=%s\n" "$BASE_REF" >> "$GITHUB_OUTPUT"
+          printf "head_ref_branch=%s\n" "$HEAD_REF" >> "$GITHUB_OUTPUT"
+          printf "ref_branch=%s\n" "$REF_BRANCH" >> "$GITHUB_OUTPUT"
         else
           BASE_REF=$(printf "%q" "$GITHUB_EVENT_BASE_REF")
           BASE_REF=${BASE_REF/refs\/heads\/$INPUTS_STRIP_TAG_PREFIX/}
-          
+
           # Replace slashes with hyphens if enabled
           if [[ "$INPUTS_REPLACE_SLASHES" == "true" ]]; then
             BASE_REF=${BASE_REF//\//-}
           fi
-          
-          echo "base_ref_branch=$(eval printf "%s" "$BASE_REF")" >> "$GITHUB_OUTPUT"
+          printf "base_ref_branch=%s\n" "$BASE_REF" >> "$GITHUB_OUTPUT"
         fi
       shell: bash
     - id: current_branch
@@ -141,7 +140,7 @@ runs:
             TAG=${TAG//\//-}
           fi
 
-          echo "tag=$(eval printf "%s" "$TAG")" >> "$GITHUB_OUTPUT"
+          printf "tag=%s\n" "$TAG" >> "$GITHUB_OUTPUT"
           echo "is_tag=true" >> "$GITHUB_OUTPUT"
         else
           echo "is_tag=false" >> "$GITHUB_OUTPUT"
