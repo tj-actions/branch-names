@@ -1,5 +1,34 @@
 # Changelog
 
+# [9.0.1](https://github.com/tj-actions/branch-names/compare/v9.0.0...v9.0.1) - (2025-07-26)
+
+## <!-- 29 -->👷 CI/CD
+
+- **deps:** Bump codacy/codacy-analysis-cli-action from 4.4.5 to 4.4.7 ([#421](https://github.com/tj-actions/branch-names/issues/421)) ([386e117](https://github.com/tj-actions/branch-names/commit/386e117ea34339627a40843704a60a3bc9359234))  - (dependabot[bot])
+- **deps:** Bump tj-actions/git-cliff from 1.5.0 to 2.0.2 ([#422](https://github.com/tj-actions/branch-names/issues/422)) ([2114174](https://github.com/tj-actions/branch-names/commit/2114174008e541048c2313bfc2c296a484785f14))  - (dependabot[bot])
+
+# [9.0.0](https://github.com/tj-actions/branch-names/compare/v8.2.1...v9.0.0) - (2025-07-25)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#419](https://github.com/tj-actions/branch-names/issues/419))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([f904073](https://github.com/tj-actions/branch-names/commit/f904073f20285d3ff38d2dedb647c7e81ab9ccc6))  - (github-actions[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Update action.yml ([#418](https://github.com/tj-actions/branch-names/issues/418)) ([c817961](https://github.com/tj-actions/branch-names/commit/c81796132291bcac45a405bba3ff42c5c0c2a3e2))  - (Tonye Jack)
+
+## <!-- 8 -->🛡️ Security
+
+- Fix unsafe outputs ([#420](https://github.com/tj-actions/branch-names/issues/420)) ([e497ceb](https://github.com/tj-actions/branch-names/commit/e497ceb8ccd43fd9573cf2e375216625bc411d1f))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v8.2.0 -> v8.2.1 ([#417](https://github.com/tj-actions/branch-names/issues/417))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([46ae71d](https://github.com/tj-actions/branch-names/commit/46ae71df6d27dd78ff96d2aaf0a59411f9c19e4e))  - (github-actions[bot])
+
 # [8.2.1](https://github.com/tj-actions/branch-names/compare/v8.2.0...v8.2.1) - (2025-04-11)
 
 ## <!-- 1 -->🐛 Bug Fixes
@@ -29,9 +58,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v8.0.2 -> v8.1.0 ([#410](https://github.com/tj-actions/branch-names/issues/410))
-
- ([9601220](https://github.com/tj-actions/branch-names/commit/96012203a066021edaf47a9381953d843444eacf))  - (Tonye Jack)
+- Upgraded from v8.0.2 -> v8.1.0 ([#410](https://github.com/tj-actions/branch-names/issues/410)) ([9601220](https://github.com/tj-actions/branch-names/commit/96012203a066021edaf47a9381953d843444eacf))  - (Tonye Jack)
 
 # [8.1.0](https://github.com/tj-actions/branch-names/compare/v8.0.2...v8.1.0) - (2025-03-23)
 
@@ -41,9 +68,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md ([#408](https://github.com/tj-actions/branch-names/issues/408))
-
- ([d18e657](https://github.com/tj-actions/branch-names/commit/d18e657ed32f367301fdebeb9a88b7e5539f3052))  - (Tonye Jack)
+- Updated README.md ([#408](https://github.com/tj-actions/branch-names/issues/408)) ([d18e657](https://github.com/tj-actions/branch-names/commit/d18e657ed32f367301fdebeb9a88b7e5539f3052))  - (Tonye Jack)
 
 ## <!-- 7 -->⚙️ Miscellaneous Tasks
 
@@ -51,9 +76,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v8.0.1 -> v8.0.2 ([#407](https://github.com/tj-actions/branch-names/issues/407))
-
- ([86aaf17](https://github.com/tj-actions/branch-names/commit/86aaf170e74d8cad1e7d4f566f2e9bed6cf000af))  - (Tonye Jack)
+- Upgraded from v8.0.1 -> v8.0.2 ([#407](https://github.com/tj-actions/branch-names/issues/407)) ([86aaf17](https://github.com/tj-actions/branch-names/commit/86aaf170e74d8cad1e7d4f566f2e9bed6cf000af))  - (Tonye Jack)
 
 # [8.0.2](https://github.com/tj-actions/branch-names/compare/v8.0.1...v8.0.2) - (2025-03-15)
 
@@ -310,10 +333,8 @@ Signed-off-by: dependabot[bot] <support@github.com> ([b9529d4](https://github.co
 
 Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([82ee4e6](https://github.com/tj-actions/branch-names/commit/82ee4e60aba9b293e8766badf85cdc0500f23dc6))  - (tj-actions[bot])
 - Update README.md ([658be2f](https://github.com/tj-actions/branch-names/commit/658be2f7c0d9f99127d2513e1ded876915b3ac72))  - (Tonye Jack)
-- Updated README.md
- ([2e715d5](https://github.com/tj-actions/branch-names/commit/2e715d5bdbcec5bb68660db3db170d42477b9fbb))  - (repo-ranger[bot])
-- Updated README.md
- ([f24d748](https://github.com/tj-actions/branch-names/commit/f24d748f8b32e9e51d83b8c7c9a5d1cf5777ea9e))  - (jackton1)
+- Updated README.md ([2e715d5](https://github.com/tj-actions/branch-names/commit/2e715d5bdbcec5bb68660db3db170d42477b9fbb))  - (repo-ranger[bot])
+- Updated README.md ([f24d748](https://github.com/tj-actions/branch-names/commit/f24d748f8b32e9e51d83b8c7c9a5d1cf5777ea9e))  - (jackton1)
 
 ## <!-- 29 -->👷 CI/CD
 
@@ -509,8 +530,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([82ee4e6]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v8.0.0 -> v8.0.1
- ([ce93851](https://github.com/tj-actions/branch-names/commit/ce9385103d27dffec69fd7785036ceb8f68a7e51))  - (jackton1)
+- Upgraded from v8.0.0 -> v8.0.1 ([ce93851](https://github.com/tj-actions/branch-names/commit/ce9385103d27dffec69fd7785036ceb8f68a7e51))  - (jackton1)
 
 # [8.0.1](https://github.com/tj-actions/branch-names/compare/v8.0.0...v8.0.1) - (2024-02-07)
 
@@ -533,8 +553,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d7e1c12](https://github.co
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([331c645](https://github.com/tj-actions/branch-names/commit/331c645bc0d6a25b59d335c5998e0d6a84de5473))  - (jackton1)
+- Updated README.md ([331c645](https://github.com/tj-actions/branch-names/commit/331c645bc0d6a25b59d335c5998e0d6a84de5473))  - (jackton1)
 - Update README.md ([1dd881b](https://github.com/tj-actions/branch-names/commit/1dd881b93548225d6846bfb1e11db437ec69b3e8))  - (Tonye Jack)
 - Update README.md ([df61b49](https://github.com/tj-actions/branch-names/commit/df61b4971562e262705f8aedd34a353cc760121b))  - (Tonye Jack)
 
@@ -557,8 +576,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d7e1c12](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.7 -> v8
- ([cf62a9f](https://github.com/tj-actions/branch-names/commit/cf62a9f7613bf12dcd4940cbe365e47fd49a161e))  - (jackton1)
+- Upgraded from v7.0.7 -> v8 ([cf62a9f](https://github.com/tj-actions/branch-names/commit/cf62a9f7613bf12dcd4940cbe365e47fd49a161e))  - (jackton1)
 
 # [8.0.0](https://github.com/tj-actions/branch-names/compare/v7.0.7...v8.0.0) - (2023-12-05)
 
@@ -576,8 +594,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d7e1c12](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.6 -> v7.0.7
- ([f78faab](https://github.com/tj-actions/branch-names/commit/f78faabb0379ad0477ee82bf26324d6c8e6e6a05))  - (jackton1)
+- Upgraded from v7.0.6 -> v7.0.7 ([f78faab](https://github.com/tj-actions/branch-names/commit/f78faabb0379ad0477ee82bf26324d6c8e6e6a05))  - (jackton1)
 
 # [7.0.7](https://github.com/tj-actions/branch-names/compare/v7.0.6...v7.0.7) - (2023-12-03)
 
@@ -593,12 +610,10 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d7e1c12](https://github.co
 
 - Update action.yml ([d1dce85](https://github.com/tj-actions/branch-names/commit/d1dce85278f56712618c88f991af7bdaa2d1e1d7))  - (Tonye Jack)
 - Update action.yml ([6a7e022](https://github.com/tj-actions/branch-names/commit/6a7e02263c0eeb64d7ca5dc54a91e0064f54679b))  - (Tonye Jack)
-- Updated README.md
- ([43f1d99](https://github.com/tj-actions/branch-names/commit/43f1d995a17f4507d6549ab09250d44c5e0e2a43))  - (jackton1)
+- Updated README.md ([43f1d99](https://github.com/tj-actions/branch-names/commit/43f1d995a17f4507d6549ab09250d44c5e0e2a43))  - (jackton1)
 - Update README.md ([d2fdfdc](https://github.com/tj-actions/branch-names/commit/d2fdfdc07649eb8981e8bf1619b81b8d5047b310))  - (Tonye Jack)
 - Update README.md ([564ba51](https://github.com/tj-actions/branch-names/commit/564ba51f1b32b3303f151799871492f0b171ef42))  - (Tonye Jack)
-- Updated README.md
- ([af65b43](https://github.com/tj-actions/branch-names/commit/af65b43bdc8c0a8db39c03cd8923673eb7e52d90))  - (jackton1)
+- Updated README.md ([af65b43](https://github.com/tj-actions/branch-names/commit/af65b43bdc8c0a8db39c03cd8923673eb7e52d90))  - (jackton1)
 - Update update-readme.yml ([ba3c765](https://github.com/tj-actions/branch-names/commit/ba3c7653e7a0d1836dfa90780f2208f44c14277c))  - (Tonye Jack)
 - Updated README.md ([#266](https://github.com/tj-actions/branch-names/issues/266))
 
@@ -626,8 +641,7 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([61a1557](https://
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.5 -> v7.0.6
- ([f949501](https://github.com/tj-actions/branch-names/commit/f949501dd56f7e4055ad441276960789d534ec4a))  - (jackton1)
+- Upgraded from v7.0.5 -> v7.0.6 ([f949501](https://github.com/tj-actions/branch-names/commit/f949501dd56f7e4055ad441276960789d534ec4a))  - (jackton1)
 
 # [7.0.6](https://github.com/tj-actions/branch-names/compare/v7.0.5...v7.0.6) - (2023-11-01)
 
@@ -676,8 +690,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([8b43395](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.4 -> v7.0.5
- ([2afc72c](https://github.com/tj-actions/branch-names/commit/2afc72cf668bfb2e412bfaf70395ca3dbda72702))  - (jackton1)
+- Upgraded from v7.0.4 -> v7.0.5 ([2afc72c](https://github.com/tj-actions/branch-names/commit/2afc72cf668bfb2e412bfaf70395ca3dbda72702))  - (jackton1)
 
 # [7.0.5](https://github.com/tj-actions/branch-names/compare/v7.0.4...v7.0.5) - (2023-08-29)
 
@@ -692,8 +705,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([8b43395](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.3 -> v7.0.4
- ([790ddd8](https://github.com/tj-actions/branch-names/commit/790ddd8af0d6195dd3f1a0e7202a6c1654c4ebca))  - (jackton1)
+- Upgraded from v7.0.3 -> v7.0.4 ([790ddd8](https://github.com/tj-actions/branch-names/commit/790ddd8af0d6195dd3f1a0e7202a6c1654c4ebca))  - (jackton1)
 
 # [7.0.4](https://github.com/tj-actions/branch-names/compare/v7.0.3...v7.0.4) - (2023-08-26)
 
@@ -715,23 +727,19 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([77641da](https://
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.2 -> v7.0.3
- ([8f6b6b0](https://github.com/tj-actions/branch-names/commit/8f6b6b05c34bbb21ca9e2ff39379e924ba5abf8f))  - (jackton1)
+- Upgraded from v7.0.2 -> v7.0.3 ([8f6b6b0](https://github.com/tj-actions/branch-names/commit/8f6b6b05c34bbb21ca9e2ff39379e924ba5abf8f))  - (jackton1)
 
 # [7.0.3](https://github.com/tj-actions/branch-names/compare/v7.0.2...v7.0.3) - (2023-08-24)
 
 ## <!-- 1 -->🐛 Bug Fixes
 
-- Fixing typo ([#246](https://github.com/tj-actions/branch-names/issues/246))
-
- ([6e30a19](https://github.com/tj-actions/branch-names/commit/6e30a1961f751e1e2c2c40c7e97dad91e28b7748))  - (Ian Woodard)
+- Fixing typo ([#246](https://github.com/tj-actions/branch-names/issues/246)) ([6e30a19](https://github.com/tj-actions/branch-names/commit/6e30a1961f751e1e2c2c40c7e97dad91e28b7748))  - (Ian Woodard)
 
 ## <!-- 26 -->🔄 Update
 
 - Updated .github/FUNDING.yml ([5f94738](https://github.com/tj-actions/branch-names/commit/5f947380b9edf72a179d7d5bb6c4fad202b35789))  - (Tonye Jack)
 - Updated .github/FUNDING.yml ([120d68d](https://github.com/tj-actions/branch-names/commit/120d68d4a8df47936869ddc8ea41679ec6017c3a))  - (Tonye Jack)
-- Updated README.md
- ([83616e3](https://github.com/tj-actions/branch-names/commit/83616e36876837be2367377283569528c7d6117c))  - (jackton1)
+- Updated README.md ([83616e3](https://github.com/tj-actions/branch-names/commit/83616e36876837be2367377283569528c7d6117c))  - (jackton1)
 
 ## <!-- 3 -->📚 Documentation
 
@@ -748,8 +756,7 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([77641da](https://
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.1 -> v7.0.2
- ([a22501e](https://github.com/tj-actions/branch-names/commit/a22501ea9bcc88f6287598482d744040461a1c34))  - (jackton1)
+- Upgraded from v7.0.1 -> v7.0.2 ([a22501e](https://github.com/tj-actions/branch-names/commit/a22501ea9bcc88f6287598482d744040461a1c34))  - (jackton1)
 
 # [7.0.2](https://github.com/tj-actions/branch-names/compare/v7.0.1...v7.0.2) - (2023-07-05)
 
@@ -776,8 +783,7 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([77641da](https://
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v7.0.0 -> v7.0.1
- ([8b7f8ee](https://github.com/tj-actions/branch-names/commit/8b7f8ee18d1f519473989edae04c23380b579ece))  - (jackton1)
+- Upgraded from v7.0.0 -> v7.0.1 ([8b7f8ee](https://github.com/tj-actions/branch-names/commit/8b7f8ee18d1f519473989edae04c23380b579ece))  - (jackton1)
 
 # [7.0.1](https://github.com/tj-actions/branch-names/compare/v7.0.0...v7.0.1) - (2023-05-15)
 
@@ -794,8 +800,7 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([e6d6c8a](https://
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v6.4 -> v7
- ([d26e039](https://github.com/tj-actions/branch-names/commit/d26e039a33a3d940507e8b772ec90c2d46257631))  - (jackton1)
+- Upgraded from v6.4 -> v7 ([d26e039](https://github.com/tj-actions/branch-names/commit/d26e039a33a3d940507e8b772ec90c2d46257631))  - (jackton1)
 
 # [7.0.0](https://github.com/tj-actions/branch-names/compare/v6.5...v7.0.0) - (2023-05-15)
 
@@ -826,10 +831,8 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([1eb24dd](https://
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v6.4 -> v6.5
- ([9ea7463](https://github.com/tj-actions/branch-names/commit/9ea7463b1e1c6045702bfa35bfd9aba5afcc6335))  - (jackton1)
-- Upgraded from v6.4 -> v6.5
- ([118446d](https://github.com/tj-actions/branch-names/commit/118446dbc729ac91e7b237690015bba6827d2371))  - (jackton1)
+- Upgraded from v6.4 -> v6.5 ([9ea7463](https://github.com/tj-actions/branch-names/commit/9ea7463b1e1c6045702bfa35bfd9aba5afcc6335))  - (jackton1)
+- Upgraded from v6.4 -> v6.5 ([118446d](https://github.com/tj-actions/branch-names/commit/118446dbc729ac91e7b237690015bba6827d2371))  - (jackton1)
 
 # [6.5](https://github.com/tj-actions/branch-names/compare/v6.4...v6.5) - (2023-04-01)
 
@@ -862,15 +865,13 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d582bca](https://github.co
 - Update actions/checkout action to v3.4.0 ([d15513d](https://github.com/tj-actions/branch-names/commit/d15513d4d29e4c5387606fda56444325bf1d0d63))  - (renovate[bot])
 - Update peter-evans/create-pull-request action to v4.2.4 ([264046f](https://github.com/tj-actions/branch-names/commit/264046fabe55d20ffcef1d75e8cb9fc33cf6ac1f))  - (renovate[bot])
 - Update tj-actions/release-tagger action to v3 ([2fa767d](https://github.com/tj-actions/branch-names/commit/2fa767d57ccfe3131136e1513d1626f9fd589a98))  - (renovate[bot])
-- Updated README.md
- ([912426f](https://github.com/tj-actions/branch-names/commit/912426fd6002857a211c534ee1b8340a7a6c69f6))  - (jackton1)
+- Updated README.md ([912426f](https://github.com/tj-actions/branch-names/commit/912426fd6002857a211c534ee1b8340a7a6c69f6))  - (jackton1)
 - Update tj-actions/github-changelog-generator action to v1.18 ([01ae02b](https://github.com/tj-actions/branch-names/commit/01ae02bd05e0a4cdb980e692a8412c2a9947ed08))  - (renovate[bot])
 - Update update-readme.yml ([0a1d1b4](https://github.com/tj-actions/branch-names/commit/0a1d1b41347f743df042897111158dfc9f0ef18a))  - (Tonye Jack)
 - Update action.yml ([7fccbda](https://github.com/tj-actions/branch-names/commit/7fccbdaba254867b1ccb090cd723486de4400a87))  - (Tonye Jack)
 - Update codacy/codacy-analysis-cli-action action to v4.3.0 ([688b232](https://github.com/tj-actions/branch-names/commit/688b2321e6cc18e90f82408e2146fc6cdd5f47f2))  - (renovate[bot])
 - Update pascalgn/automerge-action action to v0.15.6 ([fa17af9](https://github.com/tj-actions/branch-names/commit/fa17af9a1e637537496eddcf1f70721ed3eae7b4))  - (renovate[bot])
-- Updated README.md
- ([3194a61](https://github.com/tj-actions/branch-names/commit/3194a61818f78f1b84b319c96b5f87aa6d2269fd))  - (jackton1)
+- Updated README.md ([3194a61](https://github.com/tj-actions/branch-names/commit/3194a61818f78f1b84b319c96b5f87aa6d2269fd))  - (jackton1)
 - Update README.md ([64a7d5f](https://github.com/tj-actions/branch-names/commit/64a7d5f186e38ff6f8883f9eb24bbaad2d9b1125))  - (Tonye Jack)
 - Updated .github/workflows/update-readme.yml ([a58fea0](https://github.com/tj-actions/branch-names/commit/a58fea07aa2574aa68cc9405029472f1cd4e38ea))  - (Tonye Jack)
 - Updated .github/workflows/update-readme.yml ([c42f04b](https://github.com/tj-actions/branch-names/commit/c42f04b23a0fc6185cd33a1fdac1fe0cefdb65ba))  - (Tonye Jack)
@@ -878,8 +879,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d582bca](https://github.co
 - Updated .github/workflows/update-readme.yml ([c3832dc](https://github.com/tj-actions/branch-names/commit/c3832dc226d1a84a33147d506643ccca45118265))  - (Tonye Jack)
 - Update actions/checkout action to v3.3.0 ([4f1725a](https://github.com/tj-actions/branch-names/commit/4f1725aa4332a547479513b82bb3cad05e844af2))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.7.3 ([ba307d2](https://github.com/tj-actions/branch-names/commit/ba307d220149578bb407431d86ce4e3e849012fe))  - (renovate[bot])
-- Updated README.md
- ([d2f6738](https://github.com/tj-actions/branch-names/commit/d2f673867589c4f40195d447efe973900cc86a1c))  - (jackton1)
+- Updated README.md ([d2f6738](https://github.com/tj-actions/branch-names/commit/d2f673867589c4f40195d447efe973900cc86a1c))  - (jackton1)
 - Updated .github/workflows/update-readme.yml ([c3deeec](https://github.com/tj-actions/branch-names/commit/c3deeec36a465aa7e5f6dcf748295d2228e8aa50))  - (Tonye Jack)
 - Update tj-actions/auto-doc action to v1.7.2 ([fcc3a61](https://github.com/tj-actions/branch-names/commit/fcc3a618f3d16ab28dd879ac81e407fba511e71d))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.7.1 ([157afbc](https://github.com/tj-actions/branch-names/commit/157afbc1b7d2525c48ab3000e8db864950f4ef8a))  - (renovate[bot])
@@ -895,8 +895,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([d582bca](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v6.3 -> v6.4
- ([e7f4386](https://github.com/tj-actions/branch-names/commit/e7f4386e9764294bd50f348247c90ee6eea4be55))  - (jackton1)
+- Upgraded from v6.3 -> v6.4 ([e7f4386](https://github.com/tj-actions/branch-names/commit/e7f4386e9764294bd50f348247c90ee6eea4be55))  - (jackton1)
 
 # [6.4](https://github.com/tj-actions/branch-names/compare/v6.3...v6.4) - (2022-12-19)
 
@@ -919,8 +918,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([f48100e](https://github.com/tj-actions/branch-names/commit/f48100e6bf9ac7e3b91413c96d25577c38c400c6))  - (jackton1)
+- Updated README.md ([f48100e](https://github.com/tj-actions/branch-names/commit/f48100e6bf9ac7e3b91413c96d25577c38c400c6))  - (jackton1)
 - Update README.md ([d1db4d2](https://github.com/tj-actions/branch-names/commit/d1db4d231e7e39ed8ba1df366e954d9b6540fc3e))  - (Tonye Jack)
 - Update tj-actions/auto-doc action to v1.6.0 ([990f206](https://github.com/tj-actions/branch-names/commit/990f206fa683ff77ab9a938dff60c707ca6e785d))  - (renovate[bot])
 - Update tj-actions/verify-changed-files action to v13 ([231653b](https://github.com/tj-actions/branch-names/commit/231653b109cc50cebac2756925586d29a133d8e6))  - (renovate[bot])
@@ -951,8 +949,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v6.2 -> v6.3
- ([3d4dc12](https://github.com/tj-actions/branch-names/commit/3d4dc12e73b1c3400d51e3958eb470f78dc2ac08))  - (jackton1)
+- Upgraded from v6.2 -> v6.3 ([3d4dc12](https://github.com/tj-actions/branch-names/commit/3d4dc12e73b1c3400d51e3958eb470f78dc2ac08))  - (jackton1)
 
 # [6.3](https://github.com/tj-actions/branch-names/compare/v6.2...v6.3) - (2022-11-12)
 
@@ -969,8 +966,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 - Update test.yml ([a43a88b](https://github.com/tj-actions/branch-names/commit/a43a88b85204eba313f56c58721fa7ae7058efac))  - (Tonye Jack)
 - Update README.md ([648767b](https://github.com/tj-actions/branch-names/commit/648767beaee49e82ba9a4aa5c11b3c439bf9f283))  - (Tonye Jack)
 - Update test.yml ([6ae332e](https://github.com/tj-actions/branch-names/commit/6ae332ea897425f4f8ea0c4ddb7d0207dec33231))  - (Tonye Jack)
-- Updated README.md
- ([228b00f](https://github.com/tj-actions/branch-names/commit/228b00f519facfd7c617022dba9fbaab928f3769))  - (jackton1)
+- Updated README.md ([228b00f](https://github.com/tj-actions/branch-names/commit/228b00f519facfd7c617022dba9fbaab928f3769))  - (jackton1)
 - Update tj-actions/auto-doc action to v1.4.3 ([566db7b](https://github.com/tj-actions/branch-names/commit/566db7b0b9d6d184943552417044672aef67d79b))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.4.2 ([634e94e](https://github.com/tj-actions/branch-names/commit/634e94e48ae88c3bcea94eaa191622ca9a035322))  - (renovate[bot])
 - Updated .github/ISSUE_TEMPLATE/bug_report.yaml ([4b5b6ae](https://github.com/tj-actions/branch-names/commit/4b5b6ae1f4e3f0c44ac6445ddc87ad5f38519f3f))  - (Tonye Jack)
@@ -996,8 +992,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v6.1 -> v6.2
- ([a5e5e08](https://github.com/tj-actions/branch-names/commit/a5e5e08a4bfc99695a2b2745389077d53e521e4f))  - (jackton1)
+- Upgraded from v6.1 -> v6.2 ([a5e5e08](https://github.com/tj-actions/branch-names/commit/a5e5e08a4bfc99695a2b2745389077d53e521e4f))  - (jackton1)
 
 # [6.2](https://github.com/tj-actions/branch-names/compare/v6.1...v6.2) - (2022-10-16)
 
@@ -1010,11 +1005,9 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 - Updated .github/workflows/greetings.yml ([bdf21ac](https://github.com/tj-actions/branch-names/commit/bdf21ace47614a03b8466b7e86391ae2f8324543))  - (Tonye Jack)
 - Update actions/checkout action to v3.1.0 ([f014e08](https://github.com/tj-actions/branch-names/commit/f014e08ed42ede8473c8c4c6542d877a9ad9e72f))  - (renovate[bot])
 - Update peter-evans/create-pull-request action to v4.1.3 ([6a72b39](https://github.com/tj-actions/branch-names/commit/6a72b39d1c1e5f1f7988c2d2d5696e4a4e0022b3))  - (renovate[bot])
-- Updated README.md
- ([93968fd](https://github.com/tj-actions/branch-names/commit/93968fdcdaed45b3a6958902b50ef09fb225242d))  - (jackton1)
+- Updated README.md ([93968fd](https://github.com/tj-actions/branch-names/commit/93968fdcdaed45b3a6958902b50ef09fb225242d))  - (jackton1)
 - Update action.yml ([b5fee66](https://github.com/tj-actions/branch-names/commit/b5fee667e4bcd3a993595eec9c2598a1bf73f98b))  - (Tonye Jack)
-- Updated README.md
- ([efa7568](https://github.com/tj-actions/branch-names/commit/efa7568738e55e75bda194425ac71cbf7ab0ff4c))  - (jackton1)
+- Updated README.md ([efa7568](https://github.com/tj-actions/branch-names/commit/efa7568738e55e75bda194425ac71cbf7ab0ff4c))  - (jackton1)
 
 ## <!-- 30 -->📝 Other
 
@@ -1025,8 +1018,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v5.6 -> v6.1
- ([d040a36](https://github.com/tj-actions/branch-names/commit/d040a36de2a7543760ef5dae1a6e867818231599))  - (jackton1)
+- Upgraded from v5.6 -> v6.1 ([d040a36](https://github.com/tj-actions/branch-names/commit/d040a36de2a7543760ef5dae1a6e867818231599))  - (jackton1)
 
 # [6.1](https://github.com/tj-actions/branch-names/compare/v5.6...v6.1) - (2022-09-22)
 
@@ -1053,8 +1045,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 - Updated .github/workflows/sync-release-version.yml ([f7a6f2e](https://github.com/tj-actions/branch-names/commit/f7a6f2ea2cb8c77361db8876dc678e1c2d094120))  - (Tonye Jack)
 - Update tj-actions/sync-release-version action to v13 ([1eba283](https://github.com/tj-actions/branch-names/commit/1eba28339d5f30069e248dc652b8d0b3b8e07eb9))  - (renovate[bot])
 - Update tj-actions/github-changelog-generator action to v1.15 ([07dc82a](https://github.com/tj-actions/branch-names/commit/07dc82afe3952b8b0521fef76b913f7de1520791))  - (renovate[bot])
-- Updated README.md
- ([8b3e6ca](https://github.com/tj-actions/branch-names/commit/8b3e6ca1d79649c9f814e6b2705fff041f0c64fb))  - (jackton1)
+- Updated README.md ([8b3e6ca](https://github.com/tj-actions/branch-names/commit/8b3e6ca1d79649c9f814e6b2705fff041f0c64fb))  - (jackton1)
 - Update action.yml ([0a8da59](https://github.com/tj-actions/branch-names/commit/0a8da5930a8c94f6a4ff3ecc3162b376ec95484a))  - (Tonye Jack)
 - Update test.yml ([cbb14ec](https://github.com/tj-actions/branch-names/commit/cbb14ec8b330f039f7dffdc2557d1bb7e1b74cb3))  - (Tonye Jack)
 
@@ -1067,10 +1058,8 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v5.6 -> v6
- ([9920a39](https://github.com/tj-actions/branch-names/commit/9920a39ca882c527e5d574bf9b7bf8b3ac31369a))  - (jackton1)
-- Upgraded from v5.5 -> v5.6
- ([a4ea8fa](https://github.com/tj-actions/branch-names/commit/a4ea8fa07e38b046a99eb5d0aa34af4c26397757))  - (jackton1)
+- Upgraded from v5.6 -> v6 ([9920a39](https://github.com/tj-actions/branch-names/commit/9920a39ca882c527e5d574bf9b7bf8b3ac31369a))  - (jackton1)
+- Upgraded from v5.5 -> v5.6 ([a4ea8fa](https://github.com/tj-actions/branch-names/commit/a4ea8fa07e38b046a99eb5d0aa34af4c26397757))  - (jackton1)
 
 # [5.6](https://github.com/tj-actions/branch-names/compare/v5.5...v5.6) - (2022-08-27)
 
@@ -1085,8 +1074,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v5.4 -> v5.5
- ([c46020f](https://github.com/tj-actions/branch-names/commit/c46020ff4707c21551c8989f930423435f8b51ea))  - (jackton1)
+- Upgraded from v5.4 -> v5.5 ([c46020f](https://github.com/tj-actions/branch-names/commit/c46020ff4707c21551c8989f930423435f8b51ea))  - (jackton1)
 
 # [5.5](https://github.com/tj-actions/branch-names/compare/v5.4...v5.5) - (2022-08-21)
 
@@ -1111,8 +1099,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v5.3 -> v5.4
- ([0726688](https://github.com/tj-actions/branch-names/commit/07266885f9b6eead1ad2024ebdacc25c6a7b2ae8))  - (jackton1)
+- Upgraded from v5.3 -> v5.4 ([0726688](https://github.com/tj-actions/branch-names/commit/07266885f9b6eead1ad2024ebdacc25c6a7b2ae8))  - (jackton1)
 
 # [5.4](https://github.com/tj-actions/branch-names/compare/v5.3...v5.4) - (2022-07-01)
 
@@ -1127,8 +1114,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([aacf738](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v5.2 -> v5.3
- ([8c8cf64](https://github.com/tj-actions/branch-names/commit/8c8cf64b105f26ed6470a26dbb470d3bfba3b02f))  - (jackton1)
+- Upgraded from v5.2 -> v5.3 ([8c8cf64](https://github.com/tj-actions/branch-names/commit/8c8cf64b105f26ed6470a26dbb470d3bfba3b02f))  - (jackton1)
 
 # [5.3](https://github.com/tj-actions/branch-names/compare/v5.2...v5.3) - (2022-06-22)
 
@@ -1166,48 +1152,30 @@ Signed-off-by: dependabot[bot] <support@github.com> ([472f6cb](https://github.co
 
 ## <!-- 26 -->🔄 Update
 
-- Update peter-evans/create-pull-request action to v4.0.4
- ([2d7c6e9](https://github.com/tj-actions/branch-names/commit/2d7c6e9658a01ed8edca674e7bd3fbc6baeb07aa))  - (Renovate Bot)
-- Update tj-actions/auto-doc action to v1.2.15
- ([219d84e](https://github.com/tj-actions/branch-names/commit/219d84e7fd594eed4a6448182aa9f6d33c69b081))  - (Renovate Bot)
-- Update pascalgn/automerge-action action to v0.15.3
- ([187e84c](https://github.com/tj-actions/branch-names/commit/187e84c5ec8df1398a9108c9aed2cc0b83af54ad))  - (Renovate Bot)
-- Update cirrus-actions/rebase action to v1.7
- ([974dd3a](https://github.com/tj-actions/branch-names/commit/974dd3ae32a0e8e125ccc85a844c097d48d5bec6))  - (Renovate Bot)
-- Update peter-evans/create-pull-request action to v4.0.3
- ([816787f](https://github.com/tj-actions/branch-names/commit/816787f44b74cdd5c86177d7e0de6111f94c7681))  - (Renovate Bot)
-- Update github/codeql-action action to v2
- ([98378af](https://github.com/tj-actions/branch-names/commit/98378af77fcc5127c29c2b5f054e0cc5e02f9c37))  - (Renovate Bot)
-- Update actions/checkout action to v3.0.2
- ([ffb0276](https://github.com/tj-actions/branch-names/commit/ffb027610d4015e0b9462962489c08d2f5a60670))  - (Renovate Bot)
-- Update cirrus-actions/rebase action to v1.6
- ([b1f8823](https://github.com/tj-actions/branch-names/commit/b1f88232c16951443061f80851bdb8fa2cb8e50f))  - (Renovate Bot)
-- Update actions/checkout action to v3.0.1
- ([3b15573](https://github.com/tj-actions/branch-names/commit/3b15573b12de21959abfe44e1fee37777589ed27))  - (Renovate Bot)
-- Update peter-evans/create-pull-request action to v4.0.2
- ([270fccc](https://github.com/tj-actions/branch-names/commit/270fccc104946cd3cb49297ecdfc54eccbfbac7a))  - (Renovate Bot)
-- Update peter-evans/create-pull-request action to v4.0.1
- ([13188a7](https://github.com/tj-actions/branch-names/commit/13188a77d3b1868faa28946b89a96dc75df976f0))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v4.0.4 ([2d7c6e9](https://github.com/tj-actions/branch-names/commit/2d7c6e9658a01ed8edca674e7bd3fbc6baeb07aa))  - (Renovate Bot)
+- Update tj-actions/auto-doc action to v1.2.15 ([219d84e](https://github.com/tj-actions/branch-names/commit/219d84e7fd594eed4a6448182aa9f6d33c69b081))  - (Renovate Bot)
+- Update pascalgn/automerge-action action to v0.15.3 ([187e84c](https://github.com/tj-actions/branch-names/commit/187e84c5ec8df1398a9108c9aed2cc0b83af54ad))  - (Renovate Bot)
+- Update cirrus-actions/rebase action to v1.7 ([974dd3a](https://github.com/tj-actions/branch-names/commit/974dd3ae32a0e8e125ccc85a844c097d48d5bec6))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v4.0.3 ([816787f](https://github.com/tj-actions/branch-names/commit/816787f44b74cdd5c86177d7e0de6111f94c7681))  - (Renovate Bot)
+- Update github/codeql-action action to v2 ([98378af](https://github.com/tj-actions/branch-names/commit/98378af77fcc5127c29c2b5f054e0cc5e02f9c37))  - (Renovate Bot)
+- Update actions/checkout action to v3.0.2 ([ffb0276](https://github.com/tj-actions/branch-names/commit/ffb027610d4015e0b9462962489c08d2f5a60670))  - (Renovate Bot)
+- Update cirrus-actions/rebase action to v1.6 ([b1f8823](https://github.com/tj-actions/branch-names/commit/b1f88232c16951443061f80851bdb8fa2cb8e50f))  - (Renovate Bot)
+- Update actions/checkout action to v3.0.1 ([3b15573](https://github.com/tj-actions/branch-names/commit/3b15573b12de21959abfe44e1fee37777589ed27))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v4.0.2 ([270fccc](https://github.com/tj-actions/branch-names/commit/270fccc104946cd3cb49297ecdfc54eccbfbac7a))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v4.0.1 ([13188a7](https://github.com/tj-actions/branch-names/commit/13188a77d3b1868faa28946b89a96dc75df976f0))  - (Renovate Bot)
 - Update README.md ([7f3ab6b](https://github.com/tj-actions/branch-names/commit/7f3ab6b1a7c6d2704d495d35d41011979ca0c65b))  - (Tonye Jack)
 - Update README.md ([bf9c803](https://github.com/tj-actions/branch-names/commit/bf9c80373ed931488b3f993b26aa54262531e1af))  - (Tonye Jack)
-- Update pascalgn/automerge-action action to v0.15.2
- ([28ca21f](https://github.com/tj-actions/branch-names/commit/28ca21f9e47672eb772e4fd5f914e4127c1dfe8b))  - (Renovate Bot)
-- Update pascalgn/automerge-action action to v0.14.4
- ([7e2629b](https://github.com/tj-actions/branch-names/commit/7e2629b80397d867a1408f16d0d308ac4e7580ca))  - (Renovate Bot)
-- Updated README.md
- ([27b1c79](https://github.com/tj-actions/branch-names/commit/27b1c7918b7a2eb7b50a2340a21d9aff4501d176))  - (jackton1)
+- Update pascalgn/automerge-action action to v0.15.2 ([28ca21f](https://github.com/tj-actions/branch-names/commit/28ca21f9e47672eb772e4fd5f914e4127c1dfe8b))  - (Renovate Bot)
+- Update pascalgn/automerge-action action to v0.14.4 ([7e2629b](https://github.com/tj-actions/branch-names/commit/7e2629b80397d867a1408f16d0d308ac4e7580ca))  - (Renovate Bot)
+- Updated README.md ([27b1c79](https://github.com/tj-actions/branch-names/commit/27b1c7918b7a2eb7b50a2340a21d9aff4501d176))  - (jackton1)
 - Update action.yml ([9ac6e44](https://github.com/tj-actions/branch-names/commit/9ac6e446ab648deb0c18c8a06425ce2382a65be8))  - (Tonye Jack)
-- Update peter-evans/create-pull-request action
- ([9eff6aa](https://github.com/tj-actions/branch-names/commit/9eff6aa5d181969ce529b0c6051d29eef452e947))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action ([9eff6aa](https://github.com/tj-actions/branch-names/commit/9eff6aa5d181969ce529b0c6051d29eef452e947))  - (Renovate Bot)
 - Update README.md ([f3d66a1](https://github.com/tj-actions/branch-names/commit/f3d66a1350eec1cc4dea6d72cc537142ec908feb))  - (Tonye Jack)
-- Updated README.md
- ([fb33cc7](https://github.com/tj-actions/branch-names/commit/fb33cc7aedafb634ed3487a7a5a7c0de83fcbc43))  - (jackton1)
+- Updated README.md ([fb33cc7](https://github.com/tj-actions/branch-names/commit/fb33cc7aedafb634ed3487a7a5a7c0de83fcbc43))  - (jackton1)
 - Update action.yml ([bae1998](https://github.com/tj-actions/branch-names/commit/bae199839fb8e1bc2f5c9016a13b852f80238c9f))  - (Tonye Jack)
-- Updated README.md
- ([ec7aeea](https://github.com/tj-actions/branch-names/commit/ec7aeeaf8097da8aa9e72e18d9c5c19495ae6d56))  - (jackton1)
+- Updated README.md ([ec7aeea](https://github.com/tj-actions/branch-names/commit/ec7aeeaf8097da8aa9e72e18d9c5c19495ae6d56))  - (jackton1)
 - Update action.yml ([333e45a](https://github.com/tj-actions/branch-names/commit/333e45a5f0084ca943068f480f5a15fffa7ecc8d))  - (Tonye Jack)
-- Updated README.md
- ([6de8a96](https://github.com/tj-actions/branch-names/commit/6de8a96658dbb7fe56df974c0ad1beb6f7521149))  - (jackton1)
+- Updated README.md ([6de8a96](https://github.com/tj-actions/branch-names/commit/6de8a96658dbb7fe56df974c0ad1beb6f7521149))  - (jackton1)
 - Update action.yml ([9dfb007](https://github.com/tj-actions/branch-names/commit/9dfb007996a2ee905384cfdc4e2da6ca46bbdb77))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -1220,8 +1188,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([472f6cb](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v5.1 -> v5.2
- ([76de264](https://github.com/tj-actions/branch-names/commit/76de264c865a18f6ae74e6a3e9c6287818889cdc))  - (jackton1)
+- Upgraded from v5.1 -> v5.2 ([76de264](https://github.com/tj-actions/branch-names/commit/76de264c865a18f6ae74e6a3e9c6287818889cdc))  - (jackton1)
 
 # [5.2](https://github.com/tj-actions/branch-names/compare/v5.1...v5.2) - (2022-03-22)
 
@@ -1249,55 +1216,38 @@ Signed-off-by: dependabot[bot] <support@github.com> ([4b89c81](https://github.co
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([180df11](https://github.com/tj-actions/branch-names/commit/180df11d20d92352f7e67188fba6873109b2252d))  - (jackton1)
+- Updated README.md ([180df11](https://github.com/tj-actions/branch-names/commit/180df11d20d92352f7e67188fba6873109b2252d))  - (jackton1)
 - Update action.yml ([626e059](https://github.com/tj-actions/branch-names/commit/626e059dc247a72ce9a085c7f51177c64db5fb02))  - (Tonye Jack)
 - Update update-readme.yml ([75a3264](https://github.com/tj-actions/branch-names/commit/75a3264ae946205d54dd1e408dbf768d47393686))  - (Tonye Jack)
 - Update action.yml ([2cb015d](https://github.com/tj-actions/branch-names/commit/2cb015dbf69065ffd7ac478ced0a57b6a0e87bd0))  - (Tonye Jack)
 - Update README.md ([5225f98](https://github.com/tj-actions/branch-names/commit/5225f989691603345b77bc1790958356a6ee0fbb))  - (Tonye Jack)
-- Updated README.md
- ([9eb547a](https://github.com/tj-actions/branch-names/commit/9eb547a602acc86e139366215cab728030db28a1))  - (jackton1)
+- Updated README.md ([9eb547a](https://github.com/tj-actions/branch-names/commit/9eb547a602acc86e139366215cab728030db28a1))  - (jackton1)
 - Update action.yml ([e81d539](https://github.com/tj-actions/branch-names/commit/e81d53916ce0655204b2d3dbaf275239e7836239))  - (Tonye Jack)
 - Update update-readme.yml ([13e4b73](https://github.com/tj-actions/branch-names/commit/13e4b732356f69e18e9ac63253047779e8e3c1c6))  - (Tonye Jack)
 - Update action.yml ([75f887e](https://github.com/tj-actions/branch-names/commit/75f887e27a27b2034078937bf6e5ed2d40d05031))  - (Tonye Jack)
 - Update test.yml ([2e11772](https://github.com/tj-actions/branch-names/commit/2e11772ece06e35dc79b736ef1782a2447050765))  - (Tonye Jack)
 - Update test.yml ([617f719](https://github.com/tj-actions/branch-names/commit/617f71997d954f7878c1645f45f386520cdd8e46))  - (Tonye Jack)
 - Update README.md ([ddd733f](https://github.com/tj-actions/branch-names/commit/ddd733ff5ab33b1d11fce1cd505bb4cbb70d4fba))  - (Tonye Jack)
-- Update tj-actions/github-changelog-generator action to v1.13
- ([12c4cfe](https://github.com/tj-actions/branch-names/commit/12c4cfe20cae0058342c66e3d60930a99d4723c0))  - (Renovate Bot)
-- Update tj-actions/verify-changed-files action to v9
- ([ddf3e58](https://github.com/tj-actions/branch-names/commit/ddf3e5834994867b824d12a0389612212976c8ce))  - (Renovate Bot)
-- Update codacy/codacy-analysis-cli-action action to v4.0.2
- ([f22aaf4](https://github.com/tj-actions/branch-names/commit/f22aaf41decfa9213e9ca5cd0200763ce1657e12))  - (Renovate Bot)
-- Update codacy/codacy-analysis-cli-action action to v4.0.1
- ([21495c4](https://github.com/tj-actions/branch-names/commit/21495c4dcbab138d7a7c86944fddb44f155fa938))  - (Renovate Bot)
-- Update actions/checkout action
- ([e923d4b](https://github.com/tj-actions/branch-names/commit/e923d4b1660a699f975b4822fdbd1d58676cc831))  - (Renovate Bot)
-- Update peter-evans/create-pull-request action to v3.14.0
- ([b2fe8e0](https://github.com/tj-actions/branch-names/commit/b2fe8e0317c3360ebe48560f78ccdcd8b276bb48))  - (Renovate Bot)
-- Update peter-evans/create-pull-request action to v3.13.0
- ([30e5fb0](https://github.com/tj-actions/branch-names/commit/30e5fb0ae08c178a798e97142c6758715b6ab297))  - (Renovate Bot)
-- Update tj-actions/github-changelog-generator action to v1.12
- ([6583ff7](https://github.com/tj-actions/branch-names/commit/6583ff7de9739def9bef81b43a1bf627710971db))  - (Renovate Bot)
-- Update tj-actions/sync-release-version action to v11
- ([0a38826](https://github.com/tj-actions/branch-names/commit/0a388268a47190807b869b7c20b4e8a981536a4f))  - (Renovate Bot)
+- Update tj-actions/github-changelog-generator action to v1.13 ([12c4cfe](https://github.com/tj-actions/branch-names/commit/12c4cfe20cae0058342c66e3d60930a99d4723c0))  - (Renovate Bot)
+- Update tj-actions/verify-changed-files action to v9 ([ddf3e58](https://github.com/tj-actions/branch-names/commit/ddf3e5834994867b824d12a0389612212976c8ce))  - (Renovate Bot)
+- Update codacy/codacy-analysis-cli-action action to v4.0.2 ([f22aaf4](https://github.com/tj-actions/branch-names/commit/f22aaf41decfa9213e9ca5cd0200763ce1657e12))  - (Renovate Bot)
+- Update codacy/codacy-analysis-cli-action action to v4.0.1 ([21495c4](https://github.com/tj-actions/branch-names/commit/21495c4dcbab138d7a7c86944fddb44f155fa938))  - (Renovate Bot)
+- Update actions/checkout action ([e923d4b](https://github.com/tj-actions/branch-names/commit/e923d4b1660a699f975b4822fdbd1d58676cc831))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v3.14.0 ([b2fe8e0](https://github.com/tj-actions/branch-names/commit/b2fe8e0317c3360ebe48560f78ccdcd8b276bb48))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v3.13.0 ([30e5fb0](https://github.com/tj-actions/branch-names/commit/30e5fb0ae08c178a798e97142c6758715b6ab297))  - (Renovate Bot)
+- Update tj-actions/github-changelog-generator action to v1.12 ([6583ff7](https://github.com/tj-actions/branch-names/commit/6583ff7de9739def9bef81b43a1bf627710971db))  - (Renovate Bot)
+- Update tj-actions/sync-release-version action to v11 ([0a38826](https://github.com/tj-actions/branch-names/commit/0a388268a47190807b869b7c20b4e8a981536a4f))  - (Renovate Bot)
 - Update README.md ([8dba023](https://github.com/tj-actions/branch-names/commit/8dba02380fc2e1d28ed3017ff4f16cea4bcda321))  - (Tonye Jack)
 - Update README.md ([c097bdd](https://github.com/tj-actions/branch-names/commit/c097bdda2dd3d464e09a6a0bf067b72e05a6de1a))  - (Tonye Jack)
 - Updated .github/workflows/greetings.yml ([d9ae8fd](https://github.com/tj-actions/branch-names/commit/d9ae8fd2567f9d146c402f747296009defccf62e))  - (Tonye Jack)
 - Updated .github/workflows/greetings.yml ([b090011](https://github.com/tj-actions/branch-names/commit/b090011659ca6758c851a24c84ffe2b4ceee2d5a))  - (Tonye Jack)
 - Update README.md ([22f7c01](https://github.com/tj-actions/branch-names/commit/22f7c011a6e29cc23a18e1da117e207e9a5b5f54))  - (Tonye Jack)
-- Update peter-evans/create-pull-request action to v3.12.1
- ([3b0b889](https://github.com/tj-actions/branch-names/commit/3b0b8890ff396ac62f2056279831c474e5624dfc))  - (Renovate Bot)
-- Update tj-actions/remark action to v2.3
- ([b9b1a6a](https://github.com/tj-actions/branch-names/commit/b9b1a6a56da63645789411388ee1a56d3d904c29))  - (Renovate Bot)
-- Update tj-actions/remark action to v2.2
- ([9e6719a](https://github.com/tj-actions/branch-names/commit/9e6719abf222dc773efb4dcd8edfe5d45a17754b))  - (Renovate Bot)
-- Update tj-actions/remark action to v2
- ([6862cd7](https://github.com/tj-actions/branch-names/commit/6862cd7888e3caac3ce9eb1ba7476f7b7e202bd9))  - (Renovate Bot)
-- Update tj-actions/github-changelog-generator action to v1.11
- ([b805511](https://github.com/tj-actions/branch-names/commit/b8055111f8588cd6d294f3efe0f307cb91c83c3f))  - (Renovate Bot)
-- Update tj-actions/github-changelog-generator action to v1.10
- ([e76f8d4](https://github.com/tj-actions/branch-names/commit/e76f8d4d38387bcbac414083665a50801adae1c4))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v3.12.1 ([3b0b889](https://github.com/tj-actions/branch-names/commit/3b0b8890ff396ac62f2056279831c474e5624dfc))  - (Renovate Bot)
+- Update tj-actions/remark action to v2.3 ([b9b1a6a](https://github.com/tj-actions/branch-names/commit/b9b1a6a56da63645789411388ee1a56d3d904c29))  - (Renovate Bot)
+- Update tj-actions/remark action to v2.2 ([9e6719a](https://github.com/tj-actions/branch-names/commit/9e6719abf222dc773efb4dcd8edfe5d45a17754b))  - (Renovate Bot)
+- Update tj-actions/remark action to v2 ([6862cd7](https://github.com/tj-actions/branch-names/commit/6862cd7888e3caac3ce9eb1ba7476f7b7e202bd9))  - (Renovate Bot)
+- Update tj-actions/github-changelog-generator action to v1.11 ([b805511](https://github.com/tj-actions/branch-names/commit/b8055111f8588cd6d294f3efe0f307cb91c83c3f))  - (Renovate Bot)
+- Update tj-actions/github-changelog-generator action to v1.10 ([e76f8d4](https://github.com/tj-actions/branch-names/commit/e76f8d4d38387bcbac414083665a50801adae1c4))  - (Renovate Bot)
 - Update test.yml ([b97d3ce](https://github.com/tj-actions/branch-names/commit/b97d3ced887f8a104aba3eebe6aefdd16ae02da2))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -1310,8 +1260,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([4b89c81](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v5 -> v5.1
- ([3726b99](https://github.com/tj-actions/branch-names/commit/3726b99468d7f7df96ae5597f816d93958b3c972))  - (jackton1)
+- Upgraded from v5 -> v5.1 ([3726b99](https://github.com/tj-actions/branch-names/commit/3726b99468d7f7df96ae5597f816d93958b3c972))  - (jackton1)
 
 # [5.1](https://github.com/tj-actions/branch-names/compare/v5...v5.1) - (2021-12-14)
 
@@ -1339,30 +1288,22 @@ Signed-off-by: dependabot[bot] <support@github.com> ([0f8f1e4](https://github.co
 
 ## <!-- 26 -->🔄 Update
 
-- Update peter-evans/create-pull-request action to v3.12.0
- ([b99758d](https://github.com/tj-actions/branch-names/commit/b99758d88d96a27ee98b444451c1602a4507d243))  - (Renovate Bot)
-- Updated README.md
- ([b45b3f4](https://github.com/tj-actions/branch-names/commit/b45b3f47f1aeebd205a2db8832ebbba92d0b1f0a))  - (jackton1)
+- Update peter-evans/create-pull-request action to v3.12.0 ([b99758d](https://github.com/tj-actions/branch-names/commit/b99758d88d96a27ee98b444451c1602a4507d243))  - (Renovate Bot)
+- Updated README.md ([b45b3f4](https://github.com/tj-actions/branch-names/commit/b45b3f47f1aeebd205a2db8832ebbba92d0b1f0a))  - (jackton1)
 - Update README.md ([222350c](https://github.com/tj-actions/branch-names/commit/222350cece0aa2a44cff2b18747a06d798b91d19))  - (Tonye Jack)
 - Update README.md ([c49dc98](https://github.com/tj-actions/branch-names/commit/c49dc98fffb6f66da2b7b5bd0d1a672d5604af7d))  - (Tonye Jack)
 - Updated .github/workflows/auto-merge.yml ([3244499](https://github.com/tj-actions/branch-names/commit/32444994142d4e320b9e6cc3c503fe4906b698e0))  - (Tonye Jack)
-- Update peter-evans/create-pull-request action to v3.11.0
- ([9d21856](https://github.com/tj-actions/branch-names/commit/9d218565768d563de80d109e0990f80805a7ea1d))  - (Renovate Bot)
-- Updated README.md
- ([251b571](https://github.com/tj-actions/branch-names/commit/251b571f7726db9db8ceaeceb88467e94ef3d8b2))  - (renovate[bot])
-- Update actions/checkout action to v2.4.0
- ([598610d](https://github.com/tj-actions/branch-names/commit/598610d3596fd7429cbdcd27e2a45a8fb59932b1))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v3.11.0 ([9d21856](https://github.com/tj-actions/branch-names/commit/9d218565768d563de80d109e0990f80805a7ea1d))  - (Renovate Bot)
+- Updated README.md ([251b571](https://github.com/tj-actions/branch-names/commit/251b571f7726db9db8ceaeceb88467e94ef3d8b2))  - (renovate[bot])
+- Update actions/checkout action to v2.4.0 ([598610d](https://github.com/tj-actions/branch-names/commit/598610d3596fd7429cbdcd27e2a45a8fb59932b1))  - (Renovate Bot)
 - Updated .github/ISSUE_TEMPLATE/feature_request.yaml ([209ff64](https://github.com/tj-actions/branch-names/commit/209ff64736ba62dc760e11db18c979545633bafd))  - (Tonye Jack)
 - Updated .github/ISSUE_TEMPLATE/bug_report.yaml ([253cf6a](https://github.com/tj-actions/branch-names/commit/253cf6adb8dfa8efef707f1d2bc6adf467f4af2f))  - (Tonye Jack)
 - Update renovate.json ([a770b30](https://github.com/tj-actions/branch-names/commit/a770b3035b2a37e7f09998184f41f94f02bed492))  - (Tonye Jack)
 - Updated renovate.json ([0d6b731](https://github.com/tj-actions/branch-names/commit/0d6b73113f87de0a15247b9c36b49a3f561d9213))  - (Tonye Jack)
 - Updated renovate.json ([aa880cc](https://github.com/tj-actions/branch-names/commit/aa880cc023d2af6f0f0c861bf7a5e38d524507e9))  - (Tonye Jack)
-- Update actions/checkout action to v2.3.5
- ([e2b1d34](https://github.com/tj-actions/branch-names/commit/e2b1d34704bf644345fe57449b9a1fb15e6a1950))  - (Renovate Bot)
-- Update tj-actions/verify-changed-files action to v8
- ([5defca2](https://github.com/tj-actions/branch-names/commit/5defca261eeac358b796c73875a8bc50712830e9))  - (Renovate Bot)
-- Updated README.md
- ([6508dcd](https://github.com/tj-actions/branch-names/commit/6508dcdec4cd79d21c6f848fec9fc0c768490bae))  - (jackton1)
+- Update actions/checkout action to v2.3.5 ([e2b1d34](https://github.com/tj-actions/branch-names/commit/e2b1d34704bf644345fe57449b9a1fb15e6a1950))  - (Renovate Bot)
+- Update tj-actions/verify-changed-files action to v8 ([5defca2](https://github.com/tj-actions/branch-names/commit/5defca261eeac358b796c73875a8bc50712830e9))  - (Renovate Bot)
+- Updated README.md ([6508dcd](https://github.com/tj-actions/branch-names/commit/6508dcdec4cd79d21c6f848fec9fc0c768490bae))  - (jackton1)
 - Update README.md ([d2c883f](https://github.com/tj-actions/branch-names/commit/d2c883f007a014c7ce3007d10a63d88142196474))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -1375,8 +1316,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([0f8f1e4](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.9 -> v5
- ([174fc8e](https://github.com/tj-actions/branch-names/commit/174fc8e1669db4a29d5bcb498a3481df39e34e97))  - (jackton1)
+- Upgraded from v4.9 -> v5 ([174fc8e](https://github.com/tj-actions/branch-names/commit/174fc8e1669db4a29d5bcb498a3481df39e34e97))  - (jackton1)
 
 # [5](https://github.com/tj-actions/branch-names/compare/v4.9...v5) - (2021-09-14)
 
@@ -1384,17 +1324,14 @@ Signed-off-by: dependabot[bot] <support@github.com> ([0f8f1e4](https://github.co
 
 - Update README.md ([6595bb9](https://github.com/tj-actions/branch-names/commit/6595bb97b30ccdc4bc1746a64f7826d2f8c756b6))  - (Tonye Jack)
 - Update README.md ([f016196](https://github.com/tj-actions/branch-names/commit/f016196e4a4e22cf11c88186a20247dea2dd2060))  - (Tonye Jack)
-- Update pascalgn/automerge-action action to v0.14.3
- ([fb5373b](https://github.com/tj-actions/branch-names/commit/fb5373bcf9f70e410a13944a6c8c7922d34ef51c))  - (Renovate Bot)
-- Updated README.md
- ([0bd39cd](https://github.com/tj-actions/branch-names/commit/0bd39cdb26f407a821dd740b229cc70fcc1229b0))  - (jackton1)
+- Update pascalgn/automerge-action action to v0.14.3 ([fb5373b](https://github.com/tj-actions/branch-names/commit/fb5373bcf9f70e410a13944a6c8c7922d34ef51c))  - (Renovate Bot)
+- Updated README.md ([0bd39cd](https://github.com/tj-actions/branch-names/commit/0bd39cdb26f407a821dd740b229cc70fcc1229b0))  - (jackton1)
 - Update README.md ([d2fb4ca](https://github.com/tj-actions/branch-names/commit/d2fb4cabad9554f75ea24551f804b3f512c23fcb))  - (Tonye Jack)
 - Update README.md ([a439502](https://github.com/tj-actions/branch-names/commit/a439502f587a3ad838a6dad4f044bf3b8576bac0))  - (Tonye Jack)
 - Update README.md ([8f2716c](https://github.com/tj-actions/branch-names/commit/8f2716c5d103724fd54c90a3100d5e66ad242464))  - (Tonye Jack)
 - Update README.md ([0e1a5f2](https://github.com/tj-actions/branch-names/commit/0e1a5f287c04df11f71184eb653059edca3d38cf))  - (Tonye Jack)
 - Update README.md ([6e6d0ab](https://github.com/tj-actions/branch-names/commit/6e6d0ab15b682cb6885a089a4afbe38816886c26))  - (Tonye Jack)
-- Update peter-evans/create-pull-request action to v3.10.1
- ([ec1356a](https://github.com/tj-actions/branch-names/commit/ec1356ad57d35422a65b87c622cbb5b397229ae4))  - (Renovate Bot)
+- Update peter-evans/create-pull-request action to v3.10.1 ([ec1356a](https://github.com/tj-actions/branch-names/commit/ec1356ad57d35422a65b87c622cbb5b397229ae4))  - (Renovate Bot)
 
 ## <!-- 30 -->📝 Other
 
@@ -1408,22 +1345,17 @@ Closes: #88 ([e953e6d](https://github.com/tj-actions/branch-names/commit/e953e6d
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.8 -> v4.9
- ([f10b5ee](https://github.com/tj-actions/branch-names/commit/f10b5ee3343dd2901b69a5e2c902f8cfb8982b76))  - (jackton1)
+- Upgraded from v4.8 -> v4.9 ([f10b5ee](https://github.com/tj-actions/branch-names/commit/f10b5ee3343dd2901b69a5e2c902f8cfb8982b76))  - (jackton1)
 
 # [4.9](https://github.com/tj-actions/branch-names/compare/v4.8...v4.9) - (2021-08-23)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([a3e92df](https://github.com/tj-actions/branch-names/commit/a3e92dfc8f1e6fb8352d1227d45c63238cd87883))  - (jackton1)
+- Updated README.md ([a3e92df](https://github.com/tj-actions/branch-names/commit/a3e92dfc8f1e6fb8352d1227d45c63238cd87883))  - (jackton1)
 - Update README.md ([8ad5a53](https://github.com/tj-actions/branch-names/commit/8ad5a539487f0b2c543b2ffd2e08fbb9507deecd))  - (Tonye Jack)
-- Update 'current_branch' output to strip tag prefix
- ([5ced4fd](https://github.com/tj-actions/branch-names/commit/5ced4fd6c2d26142a4419bf719aca62fa83af4b2))  - (Alejandro Loarca)
-- Update tj-actions/remark action to v1.7
- ([2840c25](https://github.com/tj-actions/branch-names/commit/2840c2557473ea8b743d9a8c78b42c7951b02dea))  - (Renovate Bot)
-- Updated README.md
- ([d5a16ec](https://github.com/tj-actions/branch-names/commit/d5a16ec60a6bcdaa6bf9f1df44d69cd84b5cf4cb))  - (jackton1)
+- Update 'current_branch' output to strip tag prefix ([5ced4fd](https://github.com/tj-actions/branch-names/commit/5ced4fd6c2d26142a4419bf719aca62fa83af4b2))  - (Alejandro Loarca)
+- Update tj-actions/remark action to v1.7 ([2840c25](https://github.com/tj-actions/branch-names/commit/2840c2557473ea8b743d9a8c78b42c7951b02dea))  - (Renovate Bot)
+- Updated README.md ([d5a16ec](https://github.com/tj-actions/branch-names/commit/d5a16ec60a6bcdaa6bf9f1df44d69cd84b5cf4cb))  - (jackton1)
 - Update README.md ([05c3461](https://github.com/tj-actions/branch-names/commit/05c34615d2868c77d73819acb7bdb22196198da2))  - (Tonye Jack)
 
 ## <!-- 3 -->📚 Documentation
@@ -1441,8 +1373,7 @@ Closes: #88 ([e953e6d](https://github.com/tj-actions/branch-names/commit/e953e6d
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.7 -> v4.8
- ([c4b7a51](https://github.com/tj-actions/branch-names/commit/c4b7a519d9fdff356da9494f8cc9ff350963b01c))  - (jackton1)
+- Upgraded from v4.7 -> v4.8 ([c4b7a51](https://github.com/tj-actions/branch-names/commit/c4b7a519d9fdff356da9494f8cc9ff350963b01c))  - (jackton1)
 
 # [4.8](https://github.com/tj-actions/branch-names/compare/v4.7...v4.8) - (2021-08-04)
 
@@ -1456,8 +1387,7 @@ Closes: #88 ([e953e6d](https://github.com/tj-actions/branch-names/commit/e953e6d
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.6 -> v4.7
- ([92b92e3](https://github.com/tj-actions/branch-names/commit/92b92e360ce2b3c492fd17856706c4ab40e7edb0))  - (jackton1)
+- Upgraded from v4.6 -> v4.7 ([92b92e3](https://github.com/tj-actions/branch-names/commit/92b92e360ce2b3c492fd17856706c4ab40e7edb0))  - (jackton1)
 
 # [4.7](https://github.com/tj-actions/branch-names/compare/v4.6...v4.7) - (2021-08-04)
 
@@ -1472,8 +1402,7 @@ Closes: #88 ([e953e6d](https://github.com/tj-actions/branch-names/commit/e953e6d
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.5 -> v4.6
- ([8a5ca22](https://github.com/tj-actions/branch-names/commit/8a5ca229054ff2a31012864993791bae7f5eb966))  - (jackton1)
+- Upgraded from v4.5 -> v4.6 ([8a5ca22](https://github.com/tj-actions/branch-names/commit/8a5ca229054ff2a31012864993791bae7f5eb966))  - (jackton1)
 
 # [4.6](https://github.com/tj-actions/branch-names/compare/v4.5...v4.6) - (2021-08-04)
 
@@ -1501,20 +1430,15 @@ Closes: #88 ([e953e6d](https://github.com/tj-actions/branch-names/commit/e953e6d
 - Update action.yml ([65c32fc](https://github.com/tj-actions/branch-names/commit/65c32fcd52476de5454adb413beb6e30042c477b))  - (Tonye Jack)
 - Update action.yml ([32ed4d7](https://github.com/tj-actions/branch-names/commit/32ed4d7bf2b5f133bc4ea57ef6ac76dbf10d21f8))  - (Tonye Jack)
 - Updated .github/ISSUE_TEMPLATE/bug_report.yaml ([78cadc1](https://github.com/tj-actions/branch-names/commit/78cadc118e2f38529f9a84ecca4959479ba9301b))  - (Tonye Jack)
-- Update codacy/codacy-analysis-cli-action action to v4
- ([4a651f7](https://github.com/tj-actions/branch-names/commit/4a651f7f2eace762771281aaf0b26897fee84142))  - (Renovate Bot)
-- Update codacy/codacy-analysis-cli-action action to v3
- ([56d6234](https://github.com/tj-actions/branch-names/commit/56d62346b913b4ea433598bd6467fa18af0bfc0a))  - (Renovate Bot)
+- Update codacy/codacy-analysis-cli-action action to v4 ([4a651f7](https://github.com/tj-actions/branch-names/commit/4a651f7f2eace762771281aaf0b26897fee84142))  - (Renovate Bot)
+- Update codacy/codacy-analysis-cli-action action to v3 ([56d6234](https://github.com/tj-actions/branch-names/commit/56d62346b913b4ea433598bd6467fa18af0bfc0a))  - (Renovate Bot)
 - Updated .github/workflows/codacy-analysis.yml ([1d142f0](https://github.com/tj-actions/branch-names/commit/1d142f018bcc1ad9009f77819a329c14ee06604c))  - (Tonye Jack)
 - Update README.md ([34a3674](https://github.com/tj-actions/branch-names/commit/34a3674a67746ec31bb7e626d48e692ef4a40efa))  - (Tonye Jack)
-- Updated README.md
- ([572fe46](https://github.com/tj-actions/branch-names/commit/572fe465fd0512d702aec172e9c45834fcafbac6))  - (jackton1)
+- Updated README.md ([572fe46](https://github.com/tj-actions/branch-names/commit/572fe465fd0512d702aec172e9c45834fcafbac6))  - (jackton1)
 - Update README.md ([8312ff3](https://github.com/tj-actions/branch-names/commit/8312ff3cb7749d7c08174f37b114ab4da16fcc98))  - (Tonye Jack)
 - Update README.md ([1d221bb](https://github.com/tj-actions/branch-names/commit/1d221bb9b9d13002090d675016e1c2540f9ec407))  - (Tonye Jack)
-- Updated README.md
- ([fb0b29a](https://github.com/tj-actions/branch-names/commit/fb0b29a48fe68184e2cb44bff033a423d108d3c3))  - (jackton1)
-- Updated README.md
- ([a093cd6](https://github.com/tj-actions/branch-names/commit/a093cd653f3dc0cd9767d68dfbfd01c1abddac08))  - (jackton1)
+- Updated README.md ([fb0b29a](https://github.com/tj-actions/branch-names/commit/fb0b29a48fe68184e2cb44bff033a423d108d3c3))  - (jackton1)
+- Updated README.md ([a093cd6](https://github.com/tj-actions/branch-names/commit/a093cd653f3dc0cd9767d68dfbfd01c1abddac08))  - (jackton1)
 - Update README.md ([22406a5](https://github.com/tj-actions/branch-names/commit/22406a5f5e512fe964c1e67d580ea266989631bf))  - (Tonye Jack)
 - Update README.md ([6eb68d6](https://github.com/tj-actions/branch-names/commit/6eb68d6d75dcaffa86d7bbc1fba9da28df6ee53a))  - (Tonye Jack)
 - Updated .github/ISSUE_TEMPLATE/bug_report.yaml ([962fee1](https://github.com/tj-actions/branch-names/commit/962fee1fb68fd34ee5ed9db700e53e57ca499b3a))  - (Tonye Jack)
@@ -1537,8 +1461,7 @@ Fixes: #43 ([12119e4](https://github.com/tj-actions/branch-names/commit/12119e48
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.4 -> v4.5
- ([fe29155](https://github.com/tj-actions/branch-names/commit/fe291558bcc8bac199358b1d57d5cdddb06e0f2b))  - (jackton1)
+- Upgraded from v4.4 -> v4.5 ([fe29155](https://github.com/tj-actions/branch-names/commit/fe291558bcc8bac199358b1d57d5cdddb06e0f2b))  - (jackton1)
 
 # [4.5](https://github.com/tj-actions/branch-names/compare/v4.4...v4.5) - (2021-07-01)
 
@@ -1552,8 +1475,7 @@ Fixes: #43 ([12119e4](https://github.com/tj-actions/branch-names/commit/12119e48
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.3 -> v4.4
- ([11322fc](https://github.com/tj-actions/branch-names/commit/11322fca9117d1a0df70dcadc880df9c0b42204c))  - (jackton1)
+- Upgraded from v4.3 -> v4.4 ([11322fc](https://github.com/tj-actions/branch-names/commit/11322fca9117d1a0df70dcadc880df9c0b42204c))  - (jackton1)
 
 # [4.4](https://github.com/tj-actions/branch-names/compare/v4.3...v4.4) - (2021-07-01)
 
@@ -1563,29 +1485,23 @@ Fixes: #43 ([12119e4](https://github.com/tj-actions/branch-names/commit/12119e48
 - Update README.md ([2323263](https://github.com/tj-actions/branch-names/commit/2323263ff89fa894e357668e93f886b5e87cc0c8))  - (Tonye Jack)
 - Update README.md ([a6349ed](https://github.com/tj-actions/branch-names/commit/a6349ed7044386de3365466e2615917c626af13d))  - (Tonye Jack)
 - Update README.md ([02867b4](https://github.com/tj-actions/branch-names/commit/02867b47765c8d8a559ae68d591301ac2bbb2e5f))  - (Tonye Jack)
-- Update tj-actions/verify-changed-files action to v7
- ([10eaff4](https://github.com/tj-actions/branch-names/commit/10eaff409cea8902b1b4241a54c52114b2d5ac9b))  - (Renovate Bot)
-- Updated README.md
- ([536fb94](https://github.com/tj-actions/branch-names/commit/536fb9435c709d65871b668c6ad5452134b0fefc))  - (jackton1)
+- Update tj-actions/verify-changed-files action to v7 ([10eaff4](https://github.com/tj-actions/branch-names/commit/10eaff409cea8902b1b4241a54c52114b2d5ac9b))  - (Renovate Bot)
+- Updated README.md ([536fb94](https://github.com/tj-actions/branch-names/commit/536fb9435c709d65871b668c6ad5452134b0fefc))  - (jackton1)
 - Update README.md ([1d114f5](https://github.com/tj-actions/branch-names/commit/1d114f52ce994a1a1dcaa81fc095f013143ac399))  - (Tonye Jack)
 - Update README.md ([4900f29](https://github.com/tj-actions/branch-names/commit/4900f29fbdb50d3c6064a8e0e08f05051d3eaf68))  - (Tonye Jack)
 - Update README.md ([c1248d0](https://github.com/tj-actions/branch-names/commit/c1248d0ca92b8609aefbe53f168532cb61a8fcf5))  - (Tonye Jack)
 - Updated .github/workflows/update-readme.yml ([7c06893](https://github.com/tj-actions/branch-names/commit/7c06893062e24bb36f9cbe615737ae638fe5148b))  - (Tonye Jack)
 - Update README.md ([42c7e25](https://github.com/tj-actions/branch-names/commit/42c7e256cd1691ef16ea9e413dc941aefb9bbb81))  - (Tonye Jack)
-- Updated README.md
- ([ccc9594](https://github.com/tj-actions/branch-names/commit/ccc9594279a428cd36547b09d612d00c970d6a41))  - (jackton1)
+- Updated README.md ([ccc9594](https://github.com/tj-actions/branch-names/commit/ccc9594279a428cd36547b09d612d00c970d6a41))  - (jackton1)
 - Update README.md ([7d7b706](https://github.com/tj-actions/branch-names/commit/7d7b706f44144c2bf3702e02eae637676e4766d2))  - (Tonye Jack)
 - Update README.md ([1dca174](https://github.com/tj-actions/branch-names/commit/1dca174b241af7b0ae43e0fe612a172d11e09f48))  - (Tonye Jack)
 - Update README.md ([b2f7d2f](https://github.com/tj-actions/branch-names/commit/b2f7d2f3c54ac0faf2ce715521edc9fd724a6b12))  - (Tonye Jack)
-- Updated README.md
- ([53128ab](https://github.com/tj-actions/branch-names/commit/53128ab92f6fc7bcc78bcc1a750a952e7259365c))  - (jackton1)
-- Updated README.md
- ([8c5d04c](https://github.com/tj-actions/branch-names/commit/8c5d04cd56ee520cf93828e8cd28d5293028b3a4))  - (jackton1)
+- Updated README.md ([53128ab](https://github.com/tj-actions/branch-names/commit/53128ab92f6fc7bcc78bcc1a750a952e7259365c))  - (jackton1)
+- Updated README.md ([8c5d04c](https://github.com/tj-actions/branch-names/commit/8c5d04cd56ee520cf93828e8cd28d5293028b3a4))  - (jackton1)
 - Update action.yml ([340dacc](https://github.com/tj-actions/branch-names/commit/340dacc06c6136cd56fa07392e7c2f2fa920eb01))  - (Tonye Jack)
 - Update README.md ([220d0f2](https://github.com/tj-actions/branch-names/commit/220d0f26b7c14df5427a14e48205bfcbcd50b904))  - (Tonye Jack)
 - Update README.md ([64a68dc](https://github.com/tj-actions/branch-names/commit/64a68dc774937f55caf0103b4bca8392246b348f))  - (Tonye Jack)
-- Update tj-actions/sync-release-version action to v8.7
- ([9bc993e](https://github.com/tj-actions/branch-names/commit/9bc993e811a79177b3efc4d9379efcd138dd715f))  - (Renovate Bot)
+- Update tj-actions/sync-release-version action to v8.7 ([9bc993e](https://github.com/tj-actions/branch-names/commit/9bc993e811a79177b3efc4d9379efcd138dd715f))  - (Renovate Bot)
 - Updated .github/workflows/auto-merge.yml ([3b89090](https://github.com/tj-actions/branch-names/commit/3b890904a85c5888cc32769e806716414b82c4f9))  - (Tonye Jack)
 - Updated .github/workflows/auto-merge.yml ([c24a35d](https://github.com/tj-actions/branch-names/commit/c24a35db3d664bab73915f204f9f2fbb967cc945))  - (Tonye Jack)
 - Updated .github/workflows/auto-approve.yml ([0d429b0](https://github.com/tj-actions/branch-names/commit/0d429b0086158138a1d2033ffb1633f617b1685a))  - (Tonye Jack)
@@ -1603,8 +1519,7 @@ Fixes: #43 ([12119e4](https://github.com/tj-actions/branch-names/commit/12119e48
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4 -> v4.3
- ([26d836b](https://github.com/tj-actions/branch-names/commit/26d836b90c795a5b9b73e96c6f28f85433d481cc))  - (jackton1)
+- Upgraded from v4 -> v4.3 ([26d836b](https://github.com/tj-actions/branch-names/commit/26d836b90c795a5b9b73e96c6f28f85433d481cc))  - (jackton1)
 
 # [4.3](https://github.com/tj-actions/branch-names/compare/v4.2...v4.3) - (2021-05-27)
 
@@ -1614,13 +1529,11 @@ Fixes: #43 ([12119e4](https://github.com/tj-actions/branch-names/commit/12119e48
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([b7da9be](https://github.com/tj-actions/branch-names/commit/b7da9be31b67a32492533360e372055a0c82928c))  - (jackton1)
+- Updated README.md ([b7da9be](https://github.com/tj-actions/branch-names/commit/b7da9be31b67a32492533360e372055a0c82928c))  - (jackton1)
 - Update test.yml ([57ad138](https://github.com/tj-actions/branch-names/commit/57ad1381679c826803bcfa4223c486934753a0de))  - (Tonye Jack)
 - Update action.yml ([f0af0e4](https://github.com/tj-actions/branch-names/commit/f0af0e4de59252a11ebe6639820ee9d5d7b0a659))  - (Tonye Jack)
 - Update README.md ([6f85513](https://github.com/tj-actions/branch-names/commit/6f855130742f93fcddf818cb716dca2ccc82ddb6))  - (Tonye Jack)
-- Update pascalgn/automerge-action action to v0.14.2
- ([83d2546](https://github.com/tj-actions/branch-names/commit/83d2546e094b19842c565a14f82810daf9df7b13))  - (Renovate Bot)
+- Update pascalgn/automerge-action action to v0.14.2 ([83d2546](https://github.com/tj-actions/branch-names/commit/83d2546e094b19842c565a14f82810daf9df7b13))  - (Renovate Bot)
 
 ## <!-- 30 -->📝 Other
 
@@ -1632,8 +1545,7 @@ Fixes: #43 ([12119e4](https://github.com/tj-actions/branch-names/commit/12119e48
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4.1 -> v4.2
- ([58eb8e8](https://github.com/tj-actions/branch-names/commit/58eb8e87cf267400eb18116379c541d65dcd63d3))  - (jackton1)
+- Upgraded from v4.1 -> v4.2 ([58eb8e8](https://github.com/tj-actions/branch-names/commit/58eb8e87cf267400eb18116379c541d65dcd63d3))  - (jackton1)
 
 # [4.2](https://github.com/tj-actions/branch-names/compare/v4.1...v4.2) - (2021-05-25)
 
@@ -1658,8 +1570,7 @@ Resolves: #50 ([a9ebb75](https://github.com/tj-actions/branch-names/commit/a9ebb
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v4 -> v4.1
- ([2b80518](https://github.com/tj-actions/branch-names/commit/2b805184b90d81a73723d4a62d8c5782a6530ac2))  - (jackton1)
+- Upgraded from v4 -> v4.1 ([2b80518](https://github.com/tj-actions/branch-names/commit/2b805184b90d81a73723d4a62d8c5782a6530ac2))  - (jackton1)
 
 # [4.1](https://github.com/tj-actions/branch-names/compare/v3.6...v4.1) - (2021-05-24)
 
@@ -1710,20 +1621,16 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 ## <!-- 26 -->🔄 Update
 
 - Update README.md ([e42da51](https://github.com/tj-actions/branch-names/commit/e42da51ef71ceba25562a05952d435c2d6cb6fbd))  - (Tonye Jack)
-- Update cirrus-actions/rebase action to v1.5
- ([2eee738](https://github.com/tj-actions/branch-names/commit/2eee738676d594e93d38c7c3125ec25204ad1f6c))  - (Renovate Bot)
+- Update cirrus-actions/rebase action to v1.5 ([2eee738](https://github.com/tj-actions/branch-names/commit/2eee738676d594e93d38c7c3125ec25204ad1f6c))  - (Renovate Bot)
 - Updated .github/workflows/auto-merge.yml ([aa5d3c6](https://github.com/tj-actions/branch-names/commit/aa5d3c6ca925fa2236e12af028f98d5a7053bab5))  - (Tonye Jack)
 - Updated .github/workflows/auto-merge.yml ([636880d](https://github.com/tj-actions/branch-names/commit/636880db6704136973528e634a708c8d7150b366))  - (Tonye Jack)
 - Updated .github/workflows/auto-merge.yml ([250b2c7](https://github.com/tj-actions/branch-names/commit/250b2c70c9e4f0c1b633a5a5e228dbf7970f8135))  - (Tonye Jack)
 - Updated .github/workflows/auto-merge.yml ([0d8916f](https://github.com/tj-actions/branch-names/commit/0d8916fb0c4e7dab659cf417c14135fcf205ac0a))  - (Tonye Jack)
-- Update tj-actions/sync-release-version action to v8.6
- ([92c378b](https://github.com/tj-actions/branch-names/commit/92c378b826d773c63215af2a1da1ff727670450d))  - (Renovate Bot)
-- Update tj-actions/github-changelog-generator action to v1.8
- ([acff746](https://github.com/tj-actions/branch-names/commit/acff746cfe814b3954382bf17c88ab1dc4122d74))  - (Renovate Bot)
+- Update tj-actions/sync-release-version action to v8.6 ([92c378b](https://github.com/tj-actions/branch-names/commit/92c378b826d773c63215af2a1da1ff727670450d))  - (Renovate Bot)
+- Update tj-actions/github-changelog-generator action to v1.8 ([acff746](https://github.com/tj-actions/branch-names/commit/acff746cfe814b3954382bf17c88ab1dc4122d74))  - (Renovate Bot)
 - Updated .github/workflows/auto-approve.yml ([71a854d](https://github.com/tj-actions/branch-names/commit/71a854d2735a7c90c2cc96c3ba951725522f727d))  - (Tonye Jack)
 - Updated renovate.json ([fc2955d](https://github.com/tj-actions/branch-names/commit/fc2955dd61e637c51fe5fd782293cde3c81c6b18))  - (Tonye Jack)
-- Update tj-actions/github-changelog-generator action to v1.6
- ([9f7eca8](https://github.com/tj-actions/branch-names/commit/9f7eca84b02949db2ca7d83305b03975c9a269d3))  - (Renovate Bot)
+- Update tj-actions/github-changelog-generator action to v1.6 ([9f7eca8](https://github.com/tj-actions/branch-names/commit/9f7eca84b02949db2ca7d83305b03975c9a269d3))  - (Renovate Bot)
 - Update action.yml ([8f0fb44](https://github.com/tj-actions/branch-names/commit/8f0fb44e37a1ee00d05d1da0388ac117ae9d1726))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -1738,10 +1645,8 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 ## <!-- 9 -->⬆️ Upgrades
 
 - Upgrade to GitHub-native Dependabot ([e8cf784](https://github.com/tj-actions/branch-names/commit/e8cf7842114e3764decea23fedf2ac05c403adfb))  - (dependabot-preview[bot])
-- Upgraded from v3.6 -> v4
- ([504f338](https://github.com/tj-actions/branch-names/commit/504f338ea8c29d6c2f57757e5d1918525071f8d0))  - (jackton1)
-- Upgraded from v3.5 -> v3.6
- ([c5d763e](https://github.com/tj-actions/branch-names/commit/c5d763e5b01a166b87963cf15a0e1b3dc8a92030))  - (jackton1)
+- Upgraded from v3.6 -> v4 ([504f338](https://github.com/tj-actions/branch-names/commit/504f338ea8c29d6c2f57757e5d1918525071f8d0))  - (jackton1)
+- Upgraded from v3.5 -> v3.6 ([c5d763e](https://github.com/tj-actions/branch-names/commit/c5d763e5b01a166b87963cf15a0e1b3dc8a92030))  - (jackton1)
 
 # [3.6](https://github.com/tj-actions/branch-names/compare/v3.5...v3.6) - (2021-04-25)
 
@@ -1757,8 +1662,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v3.3 -> v3.4
- ([cedb820](https://github.com/tj-actions/branch-names/commit/cedb820571690433c300ceea983cefaefa0e7cbe))  - (jackton1)
+- Upgraded from v3.3 -> v3.4 ([cedb820](https://github.com/tj-actions/branch-names/commit/cedb820571690433c300ceea983cefaefa0e7cbe))  - (jackton1)
 
 # [3.5](https://github.com/tj-actions/branch-names/compare/v3.4...v3.5) - (2021-04-25)
 
@@ -1779,8 +1683,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v3.2 -> v3.3
- ([dc0e9c2](https://github.com/tj-actions/branch-names/commit/dc0e9c2851e128151b09964275d7c538e96a52e9))  - (jackton1)
+- Upgraded from v3.2 -> v3.3 ([dc0e9c2](https://github.com/tj-actions/branch-names/commit/dc0e9c2851e128151b09964275d7c538e96a52e9))  - (jackton1)
 
 # [3.3](https://github.com/tj-actions/branch-names/compare/v3.2...v3.3) - (2021-04-25)
 
@@ -1800,8 +1703,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v3.1 -> v3.2
- ([14bab64](https://github.com/tj-actions/branch-names/commit/14bab64a11b3de9d8ab2d7d7ba0a551a8aef3dae))  - (jackton1)
+- Upgraded from v3.1 -> v3.2 ([14bab64](https://github.com/tj-actions/branch-names/commit/14bab64a11b3de9d8ab2d7d7ba0a551a8aef3dae))  - (jackton1)
 
 # [3.2](https://github.com/tj-actions/branch-names/compare/v3.1...v3.2) - (2021-04-25)
 
@@ -1824,10 +1726,8 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v3 -> v3.1
- ([1bd8ecd](https://github.com/tj-actions/branch-names/commit/1bd8ecd8284083ea155c38996b119b3a8059ad99))  - (jackton1)
-- Upgraded from v2.2 -> v3
- ([d6a3f7a](https://github.com/tj-actions/branch-names/commit/d6a3f7aeb301fc1d7d36e2848af9b0a05e5f4552))  - (jackton1)
+- Upgraded from v3 -> v3.1 ([1bd8ecd](https://github.com/tj-actions/branch-names/commit/1bd8ecd8284083ea155c38996b119b3a8059ad99))  - (jackton1)
+- Upgraded from v2.2 -> v3 ([d6a3f7a](https://github.com/tj-actions/branch-names/commit/d6a3f7aeb301fc1d7d36e2848af9b0a05e5f4552))  - (jackton1)
 
 # [3.1](https://github.com/tj-actions/branch-names/compare/v3...v3.1) - (2021-04-24)
 
@@ -1846,8 +1746,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 - Added .github/ISSUE_TEMPLATE/feature_request.md ([1d3da85](https://github.com/tj-actions/branch-names/commit/1d3da85be4a48d079bd829b4402476df4e942e7c))  - (Tonye Jack)
 - Added .github/ISSUE_TEMPLATE/bug_report.md ([d44e56e](https://github.com/tj-actions/branch-names/commit/d44e56ea11aa063cafd8a8b00c3964dc79d045b9))  - (Tonye Jack)
 - Added .github/auto-approve.yml ([83b7611](https://github.com/tj-actions/branch-names/commit/83b7611c90705cde5f1dff2520c50f7575856265))  - (Tonye Jack)
-- Add renovate.json
- ([8be0535](https://github.com/tj-actions/branch-names/commit/8be0535acb36a05ea0794881d136b3102586cb49))  - (Renovate Bot)
+- Add renovate.json ([8be0535](https://github.com/tj-actions/branch-names/commit/8be0535acb36a05ea0794881d136b3102586cb49))  - (Renovate Bot)
 - Added .github/workflows/auto-approve.yml ([c398d2e](https://github.com/tj-actions/branch-names/commit/c398d2e19feb541bcd07d1bf3e3cf81cb1f4b3f4))  - (Tonye Jack)
 - Create FUNDING.yml ([2a0ddae](https://github.com/tj-actions/branch-names/commit/2a0ddae18382b98f82507876762784fb73437575))  - (Tonye Jack)
 
@@ -1889,8 +1788,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1 -> v2.2
- ([cece0f8](https://github.com/tj-actions/branch-names/commit/cece0f80f906fbb70489eddc1fbf2f06a5d26bac))  - (jackton1)
+- Upgraded from v2.1 -> v2.2 ([cece0f8](https://github.com/tj-actions/branch-names/commit/cece0f80f906fbb70489eddc1fbf2f06a5d26bac))  - (jackton1)
 
 # [2.2](https://github.com/tj-actions/branch-names/compare/v2.1...v2.2) - (2021-02-14)
 
@@ -1920,8 +1818,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2 -> v2.1
- ([96afe22](https://github.com/tj-actions/branch-names/commit/96afe22ccf72c7cb161e6e363ded9fbf9528c381))  - (jackton1)
+- Upgraded from v2 -> v2.1 ([96afe22](https://github.com/tj-actions/branch-names/commit/96afe22ccf72c7cb161e6e363ded9fbf9528c381))  - (jackton1)
 
 # [2.1](https://github.com/tj-actions/branch-names/compare/v2...v2.1) - (2021-02-08)
 
@@ -1987,18 +1884,15 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 
 ## <!-- 1 -->🐛 Bug Fixes
 
-- Fixed args.
- ([744038b](https://github.com/tj-actions/branch-names/commit/744038b35ca69a2208e2ba892a0bb7b02a7a7f46))  - (Tonye Jack)
+- Fixed args. ([744038b](https://github.com/tj-actions/branch-names/commit/744038b35ca69a2208e2ba892a0bb7b02a7a7f46))  - (Tonye Jack)
 
 ## <!-- 14 -->🎉 Initial Commit
 
-- Initial commit.
- ([c5308c6](https://github.com/tj-actions/branch-names/commit/c5308c6d98ef23ee7f672f6fc3aa92acd7ad611d))  - (Tonye Jack)
+- Initial commit. ([c5308c6](https://github.com/tj-actions/branch-names/commit/c5308c6d98ef23ee7f672f6fc3aa92acd7ad611d))  - (Tonye Jack)
 
 ## <!-- 17 -->➖ Remove
 
-- Removed shellcheck.
- ([2b6e715](https://github.com/tj-actions/branch-names/commit/2b6e7155267ab1862780ce6fdbb97c9d5367db82))  - (Tonye Jack)
+- Removed shellcheck. ([2b6e715](https://github.com/tj-actions/branch-names/commit/2b6e7155267ab1862780ce6fdbb97c9d5367db82))  - (Tonye Jack)
 
 ## <!-- 26 -->🔄 Update
 
@@ -2011,30 +1905,21 @@ Signed-off-by: dependabot[bot] <support@github.com> ([ce1768f](https://github.co
 - Update test.yml ([2d01164](https://github.com/tj-actions/branch-names/commit/2d011647da05d079b0c6b8928012a66fe6d1328f))  - (Tonye Jack)
 - Update action.yml ([504fe51](https://github.com/tj-actions/branch-names/commit/504fe51393eb76cd775c3fa449f70d56763e9f2f))  - (Tonye Jack)
 - Update README.md ([5df11eb](https://github.com/tj-actions/branch-names/commit/5df11eb7b02f4e5d3306a9d30dd96ec41a2cd85f))  - (Tonye Jack)
-- Update test.
- ([7cc8adc](https://github.com/tj-actions/branch-names/commit/7cc8adc4b4eaae6b556522195ba8eea93331767b))  - (Tonye Jack)
-- Updated steps.
- ([127dec7](https://github.com/tj-actions/branch-names/commit/127dec783ac6106c6b64feca8f6c0ceed540c801))  - (Tonye Jack)
-- Updated to use a composite action
- ([c05e12b](https://github.com/tj-actions/branch-names/commit/c05e12be63f6d1b669198182e584a5e12ba62de2))  - (Tonye Jack)
+- Update test. ([7cc8adc](https://github.com/tj-actions/branch-names/commit/7cc8adc4b4eaae6b556522195ba8eea93331767b))  - (Tonye Jack)
+- Updated steps. ([127dec7](https://github.com/tj-actions/branch-names/commit/127dec783ac6106c6b64feca8f6c0ceed540c801))  - (Tonye Jack)
+- Updated to use a composite action ([c05e12b](https://github.com/tj-actions/branch-names/commit/c05e12be63f6d1b669198182e584a5e12ba62de2))  - (Tonye Jack)
 - Update README.md ([42e9e49](https://github.com/tj-actions/branch-names/commit/42e9e494b34ef33d38514cf0704849a82368b817))  - (Tonye Jack)
 - Update README.md ([21ad94a](https://github.com/tj-actions/branch-names/commit/21ad94a83ccd63dab2b28a06e8c6de7c93e3ee6a))  - (Tonye Jack)
-- Update test.
- ([298b831](https://github.com/tj-actions/branch-names/commit/298b83165084eb42b6d5ce835f18ae86f8fd825f))  - (Tonye Jack)
+- Update test. ([298b831](https://github.com/tj-actions/branch-names/commit/298b83165084eb42b6d5ce835f18ae86f8fd825f))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
 - PR [#1](https://github.com/tj-actions/branch-names/pull/1): ([325ee91](https://github.com/tj-actions/branch-names/commit/325ee91404db19ee2ebfe08795ad7818c938111a))  - (Tonye Jack)
 - Merge branch 'main' into feature/test ([2eb20a0](https://github.com/tj-actions/branch-names/commit/2eb20a080b5ffc9820255e56bdbde5bab90816c8))  - (Tonye Jack)
-- Switch to use inputs.
- ([6f69b01](https://github.com/tj-actions/branch-names/commit/6f69b01735a7473a96c280acc7060dc9690bff30))  - (Tonye Jack)
-- Switch to use inputs.
- ([4047222](https://github.com/tj-actions/branch-names/commit/4047222df10c4bf99ea98f2521d07fb236e402d7))  - (Tonye Jack)
-- Switch to use inputs.
- ([0da4ec2](https://github.com/tj-actions/branch-names/commit/0da4ec27fc8f292ee1bcffa89ef381057deee241))  - (Tonye Jack)
-- Merge branch 'main' of https://github.com/tj-actions/branch-name into main
- ([304b15f](https://github.com/tj-actions/branch-names/commit/304b15fc3958a5a38cb249d4c2a5b75584f77ca5))  - (Tonye Jack)
-- Switch to use inputs.
- ([2900d3d](https://github.com/tj-actions/branch-names/commit/2900d3df9a1f1e02d7dacb6124b9cea399f897fb))  - (Tonye Jack)
+- Switch to use inputs. ([6f69b01](https://github.com/tj-actions/branch-names/commit/6f69b01735a7473a96c280acc7060dc9690bff30))  - (Tonye Jack)
+- Switch to use inputs. ([4047222](https://github.com/tj-actions/branch-names/commit/4047222df10c4bf99ea98f2521d07fb236e402d7))  - (Tonye Jack)
+- Switch to use inputs. ([0da4ec2](https://github.com/tj-actions/branch-names/commit/0da4ec27fc8f292ee1bcffa89ef381057deee241))  - (Tonye Jack)
+- Merge branch 'main' of https://github.com/tj-actions/branch-name into main ([304b15f](https://github.com/tj-actions/branch-names/commit/304b15fc3958a5a38cb249d4c2a5b75584f77ca5))  - (Tonye Jack)
+- Switch to use inputs. ([2900d3d](https://github.com/tj-actions/branch-names/commit/2900d3df9a1f1e02d7dacb6124b9cea399f897fb))  - (Tonye Jack)
 
 <!-- generated by git-cliff -->
