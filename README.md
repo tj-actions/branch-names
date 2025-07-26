@@ -90,7 +90,7 @@ Support this project with a :star:
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
 ```yaml
-- uses: tj-actions/branch-names@v8
+- uses: tj-actions/branch-names@v9
   id: branch-names
   with:
     # Replace forward slashes with hyphens 
