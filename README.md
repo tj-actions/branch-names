@@ -15,7 +15,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Get a branch or tag name without the `/ref/*` prefix.
+Get a branch or tag name without the `/ref/*` prefix .
 
 ## Table of Contents
 
