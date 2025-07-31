@@ -1,5 +1,23 @@
 # Changelog
 
+# [9.0.2](https://github.com/tj-actions/branch-names/compare/v9.0.1...v9.0.2) - (2025-07-31)
+
+## <!-- 26 -->🔄 Update
+
+- Update update-readme.yml ([5250492](https://github.com/tj-actions/branch-names/commit/5250492686b253f06fa55861556d1027b067aeb5))  - (Tonye Jack)
+- Update update-readme.yml ([a2bc495](https://github.com/tj-actions/branch-names/commit/a2bc4958de72a5590a03c317bcb11581ae7866e7))  - (Tonye Jack)
+- Update README.md ([169ddc1](https://github.com/tj-actions/branch-names/commit/169ddc10b28b8cbc75996ee56c1dbf4448ca6f06))  - (Tonye Jack)
+- Update README.md ([4d35052](https://github.com/tj-actions/branch-names/commit/4d35052be347a49c829b8a8e9855f40f14a00be6))  - (Tonye Jack)
+- Updated README.md ([#423](https://github.com/tj-actions/branch-names/issues/423))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([6be34a8](https://github.com/tj-actions/branch-names/commit/6be34a848cdd6067dda01ded8bd9b0853bbe3b23))  - (github-actions[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v9.0.0 -> v9.0.1 ([#424](https://github.com/tj-actions/branch-names/issues/424))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([c0714e7](https://github.com/tj-actions/branch-names/commit/c0714e7ecc0a7baec34a69b87df070fa6a823e7f))  - (github-actions[bot])
+
 # [9.0.1](https://github.com/tj-actions/branch-names/compare/v9.0.0...v9.0.1) - (2025-07-26)
 
 ## <!-- 29 -->👷 CI/CD
